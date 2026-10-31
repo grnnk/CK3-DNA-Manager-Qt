@@ -1,0 +1,121 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 25,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "windows-base",
+      "displayName": "Windows / MinGW (base)",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_PREFIX_PATH": "$env{QT_ROOT}",
+        "CMAKE_CXX_COMPILER": "$env{MINGW_ROOT}/bin/g++.exe",
+        "CMAKE_RC_COMPILER": "$env{MINGW_ROOT}/bin/windres.exe",
+        "BUILD_TESTING": "ON",
+        "BUILD_SCREENSHOTS": "OFF"
+      }
+    },
+    {
+      "name": "debug",
+      "displayName": "Debug",
+      "inherits": "windows-base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "release",
+      "displayName": "Release",
+      "inherits": "windows-base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "make-debug",
+      "displayName": "Debug (MinGW Makefiles)",
+      "inherits": "windows-base",
+      "generator": "MinGW Makefiles",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_MAKE_PROGRAM": "$env{MINGW_ROOT}/bin/mingw32-make.exe"
+      }
+    },
+    {
+      "name": "make-release",
+      "displayName": "Release (MinGW Makefiles)",
+      "inherits": "windows-base",
+      "generator": "MinGW Makefiles",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_MAKE_PROGRAM": "$env{MINGW_ROOT}/bin/mingw32-make.exe"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "debug",
+      "configurePreset": "debug"
+    },
+    {
+      "name": "release",
+      "configurePreset": "release"
+    },
+    {
+      "name": "make-debug",
+      "configurePreset": "make-debug"
+    },
+    {
+      "name": "make-release",
+      "configurePreset": "make-release"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "debug",
+      "configurePreset": "debug",
+      "environment": {
+        "PATH": "$env{QT_ROOT}/bin;$env{MINGW_ROOT}/bin;$penv{PATH}"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "release",
+      "configurePreset": "release",
+      "environment": {
+        "PATH": "$env{QT_ROOT}/bin;$env{MINGW_ROOT}/bin;$penv{PATH}"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "make-debug",
+      "configurePreset": "make-debug",
+      "environment": {
+        "PATH": "$env{QT_ROOT}/bin;$env{MINGW_ROOT}/bin;$penv{PATH}"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "make-release",
+      "configurePreset": "make-release",
+      "environment": {
+        "PATH": "$env{QT_ROOT}/bin;$env{MINGW_ROOT}/bin;$penv{PATH}"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    }
+  ]
+}

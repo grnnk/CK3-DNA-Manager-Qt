@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>theme.qss</file>
+        <file alias="data/genes.json">genes.json</file>
+        <file alias="data/legacy_genes.json">legacy_genes.json</file>
+        <file alias="i18n/translations.json">i18n/translations.json</file>
+        <file alias="icons/app.png">icons/app.png</file>
+        <file alias="icons/app.ico">icons/app.ico</file>
+        <file alias="icons/add.svg">icons/add.svg</file>
+        <file alias="icons/chevron.svg">icons/chevron.svg</file>
+        <file alias="icons/copy.svg">icons/copy.svg</file>
+        <file alias="icons/delete.svg">icons/delete.svg</file>
+        <file alias="icons/duplicate.svg">icons/duplicate.svg</file>
+        <file alias="icons/edit.svg">icons/edit.svg</file>
+        <file alias="icons/export.svg">icons/export.svg</file>
+        <file alias="icons/folder.svg">icons/folder.svg</file>
+        <file alias="icons/image.svg">icons/image.svg</file>
+        <file alias="icons/import.svg">icons/import.svg</file>
+        <file alias="icons/info.svg">icons/info.svg</file>
+        <file alias="icons/paste.svg">icons/paste.svg</file>
+        <file alias="icons/save.svg">icons/save.svg</file>
+        <file alias="icons/search.svg">icons/search.svg</file>
+    </qresource>
+</RCC>
