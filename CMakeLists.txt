@@ -64,17 +64,30 @@ add_library(ck3ui STATIC
 target_link_libraries(ck3ui PUBLIC ck3core Qt6::Widgets Qt6::Svg)
 target_compile_definitions(ck3ui PUBLIC QT_NO_CAST_FROM_ASCII)
 
-qt_add_executable(CK3DnaManager WIN32
+set(APP_SOURCES
     src/main.cpp
     resources/resources.qrc
-    resources/app.rc
 )
+if(WIN32)
+    list(APPEND APP_SOURCES resources/app.rc)
+endif()
+
+qt_add_executable(CK3DnaManager ${APP_SOURCES})
 
 target_link_libraries(CK3DnaManager PRIVATE ck3ui)
-set_target_properties(CK3DnaManager PROPERTIES
-    WIN32_EXECUTABLE TRUE
-    OUTPUT_NAME "CK3 DNA Manager Qt"
-)
+
+if(WIN32)
+    set_target_properties(CK3DnaManager PROPERTIES
+        WIN32_EXECUTABLE TRUE
+        OUTPUT_NAME "CK3 DNA Manager Qt"
+    )
+else()
+    # A space-free binary name follows the conventions on Linux and macOS and
+    # keeps the desktop entry and packaging scripts simple.
+    set_target_properties(CK3DnaManager PROPERTIES
+        OUTPUT_NAME "ck3-dna-manager-qt"
+    )
+endif()
 
 include(CTest)
 if(BUILD_TESTING)
@@ -95,7 +108,27 @@ if(BUILD_SCREENSHOTS)
     target_link_libraries(ck3_screenshots PRIVATE ck3ui Qt6::Widgets)
 endif()
 
-install(TARGETS CK3DnaManager
-    BUNDLE DESTINATION .
-    RUNTIME DESTINATION .
-)
+if(WIN32)
+    install(TARGETS CK3DnaManager
+        BUNDLE DESTINATION .
+        RUNTIME DESTINATION .
+    )
+elseif(APPLE)
+    install(TARGETS CK3DnaManager
+        BUNDLE DESTINATION .
+        RUNTIME DESTINATION .
+    )
+else()
+    include(GNUInstallDirs)
+    install(TARGETS CK3DnaManager
+        RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+    )
+    install(FILES resources/app.desktop
+        DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/applications
+        RENAME ck3-dna-manager-qt.desktop
+    )
+    install(FILES resources/icons/app.png
+        DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/icons/hicolor/256x256/apps
+        RENAME ck3-dna-manager-qt.png
+    )
+endif()

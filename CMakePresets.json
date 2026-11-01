@@ -10,6 +10,11 @@
       "name": "windows-base",
       "displayName": "Windows / MinGW (base)",
       "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/build/${presetName}",
       "cacheVariables": {
@@ -56,30 +61,143 @@
         "CMAKE_BUILD_TYPE": "Release",
         "CMAKE_MAKE_PROGRAM": "$env{MINGW_ROOT}/bin/mingw32-make.exe"
       }
+    },
+    {
+      "name": "linux-base",
+      "displayName": "Linux / Unix (base)",
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      },
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_PREFIX_PATH": "$env{QT_ROOT}",
+        "BUILD_TESTING": "ON",
+        "BUILD_SCREENSHOTS": "OFF"
+      }
+    },
+    {
+      "name": "linux-debug",
+      "displayName": "Linux Debug",
+      "inherits": "linux-base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "linux-release",
+      "displayName": "Linux Release",
+      "inherits": "linux-base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "linux-make-debug",
+      "displayName": "Linux Debug (Unix Makefiles)",
+      "inherits": "linux-base",
+      "generator": "Unix Makefiles",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "linux-make-release",
+      "displayName": "Linux Release (Unix Makefiles)",
+      "inherits": "linux-base",
+      "generator": "Unix Makefiles",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
     }
   ],
   "buildPresets": [
     {
       "name": "debug",
-      "configurePreset": "debug"
+      "configurePreset": "debug",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
     },
     {
       "name": "release",
-      "configurePreset": "release"
+      "configurePreset": "release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
     },
     {
       "name": "make-debug",
-      "configurePreset": "make-debug"
+      "configurePreset": "make-debug",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
     },
     {
       "name": "make-release",
-      "configurePreset": "make-release"
+      "configurePreset": "make-release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "linux-debug",
+      "configurePreset": "linux-debug",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      }
+    },
+    {
+      "name": "linux-release",
+      "configurePreset": "linux-release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      }
+    },
+    {
+      "name": "linux-make-debug",
+      "configurePreset": "linux-make-debug",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      }
+    },
+    {
+      "name": "linux-make-release",
+      "configurePreset": "linux-make-release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      }
     }
   ],
   "testPresets": [
     {
       "name": "debug",
       "configurePreset": "debug",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
       "environment": {
         "PATH": "$env{QT_ROOT}/bin;$env{MINGW_ROOT}/bin;$penv{PATH}"
       },
@@ -90,6 +208,11 @@
     {
       "name": "release",
       "configurePreset": "release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
       "environment": {
         "PATH": "$env{QT_ROOT}/bin;$env{MINGW_ROOT}/bin;$penv{PATH}"
       },
@@ -100,6 +223,11 @@
     {
       "name": "make-debug",
       "configurePreset": "make-debug",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
       "environment": {
         "PATH": "$env{QT_ROOT}/bin;$env{MINGW_ROOT}/bin;$penv{PATH}"
       },
@@ -110,8 +238,61 @@
     {
       "name": "make-release",
       "configurePreset": "make-release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
       "environment": {
         "PATH": "$env{QT_ROOT}/bin;$env{MINGW_ROOT}/bin;$penv{PATH}"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "linux-debug",
+      "configurePreset": "linux-debug",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "linux-release",
+      "configurePreset": "linux-release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "linux-make-debug",
+      "configurePreset": "linux-make-debug",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      },
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "linux-make-release",
+      "configurePreset": "linux-make-release",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
       },
       "output": {
         "outputOnFailure": true

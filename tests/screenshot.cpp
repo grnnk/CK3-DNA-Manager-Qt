@@ -390,8 +390,8 @@ int main(int argc, char *argv[])
     }
 
     QString directory = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
-#ifdef Q_OS_WIN
-    // MainWindow keeps a single %APPDATA%\CK3 DNA Manager Qt folder.
+#if defined(Q_OS_WIN) || defined(Q_OS_LINUX)
+    // MainWindow keeps a single folder below the organization directory.
     if (!directory.isEmpty())
         directory = QFileInfo(directory).dir().absolutePath();
 #endif

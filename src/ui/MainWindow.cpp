@@ -1747,10 +1747,11 @@ QJsonObject MainWindow::entryToJson(const EntryRecord &entry) const
 
 QString MainWindow::dataDirectory() const
 {
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_LINUX)
     // QStandardPaths nests <application> inside <organization>. Both use the
     // product name here, so take the parent to keep a single, clean folder:
-    // %APPDATA%\CK3 DNA Manager Qt
+    // Windows: %APPDATA%\CK3 DNA Manager Qt
+    // Linux:   ~/.local/share/CK3 DNA Manager Qt
     const QString appData =
         QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
     QString directory = appData.isEmpty() ? QString() : QFileInfo(appData).dir().absolutePath();

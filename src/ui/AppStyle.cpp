@@ -3,6 +3,7 @@
 #include <QApplication>
 #include <QColor>
 #include <QFont>
+#include <QFontDatabase>
 #include <QPalette>
 #include <QStyleFactory>
 
@@ -34,7 +35,13 @@ void applyAppStyle(QApplication &application)
                      QColor(QStringLiteral("#6c6152")));
     application.setPalette(palette);
 
+#ifdef Q_OS_WIN
     QFont font(QStringLiteral("Segoe UI"));
+#else
+    // Use the platform's default UI font on Linux and macOS instead of a font
+    // that may not be installed.
+    QFont font = QFontDatabase::systemFont(QFontDatabase::GeneralFont);
+#endif
     font.setPointSizeF(9.5);
     font.setStyleStrategy(QFont::PreferAntialias);
     application.setFont(font);

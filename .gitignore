@@ -3,6 +3,8 @@
 /build-*/
 /dist/
 /*.zip
+/*.tar.gz
+/*.AppImage
 
 # CMake / IDE user files
 CMakeUserPresets.json

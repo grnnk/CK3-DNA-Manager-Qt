@@ -185,8 +185,13 @@ QImage loadImage(const QString &path, QString *error)
         *error = QStringLiteral("Cannot load image \"%1\": %2")
                      .arg(path, reader.errorString());
         if (path.endsWith(QStringLiteral(".webp"), Qt::CaseInsensitive)) {
+#ifdef Q_OS_WIN
             *error += QStringLiteral(" WebP support requires the Qt Image Formats plugin "
                                      "or the Microsoft WebP Image Extensions.");
+#else
+            *error += QStringLiteral(" WebP support requires the Qt Image Formats plugin "
+                                     "(for example qt6-image-formats-plugins).");
+#endif
         }
     }
     return {};

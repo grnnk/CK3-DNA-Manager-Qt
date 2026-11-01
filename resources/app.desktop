@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=CK3 DNA Manager Qt
+GenericName=DNA Library Manager
+Comment=Store, edit and convert Crusader Kings III DNA codes
+Exec=ck3-dna-manager-qt
+Icon=ck3-dna-manager-qt
+Terminal=false
+Categories=Utility;Game;
+Keywords=CK3;Crusader Kings;DNA;Portrait;
+StartupNotify=true
