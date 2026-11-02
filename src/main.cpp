@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     QApplication application(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("CK3 DNA Manager Qt"));
     QCoreApplication::setApplicationName(QStringLiteral("CK3 DNA Manager Qt"));
-    QCoreApplication::setApplicationVersion(QStringLiteral("1.0.0"));
+    QCoreApplication::setApplicationVersion(QStringLiteral(CK3DNA_VERSION));
     QApplication::setApplicationDisplayName(QStringLiteral("CK3 DNA Manager Qt"));
 
     migrateLegacyData();

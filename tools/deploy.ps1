@@ -10,7 +10,7 @@
     .\tools\deploy.ps1 -Config Release -Generator "MinGW Makefiles"
 
 .EXAMPLE
-    .\tools\deploy.ps1 -Config Release -Zip -Version 1.0.0
+    .\tools\deploy.ps1 -Config Release -Zip -Version 1.0.1
 
 .EXAMPLE
     .\tools\deploy.ps1 -Config Release -SkipBuild
@@ -27,7 +27,7 @@ param(
     [string]$MingwPath,
     [string]$BuildDir,
     [string]$DistDir = 'dist',
-    [string]$Version = '1.0.0',
+    [string]$Version = '1.0.1',
 
     [switch]$SkipBuild,
     [switch]$SkipTests,
@@ -115,11 +115,16 @@ if (Test-Path -LiteralPath $DistDir) {
 New-Item -ItemType Directory -Path $DistDir | Out-Null
 
 Copy-Item -LiteralPath $ExePath -Destination $DistDir
-foreach ($document in @('README.md', 'LICENSE')) {
-    $source = Join-Path $ProjectRoot $document
-    if (Test-Path -LiteralPath $source) {
-        Copy-Item -LiteralPath $source -Destination $DistDir
-    }
+
+$PackageReadme = Join-Path $ProjectRoot 'docs\PACKAGE_README.md'
+if (-not (Test-Path -LiteralPath $PackageReadme)) {
+    throw "Package README was not found: $PackageReadme"
+}
+Copy-Item -LiteralPath $PackageReadme -Destination (Join-Path $DistDir 'README.md')
+
+$License = Join-Path $ProjectRoot 'LICENSE'
+if (Test-Path -LiteralPath $License) {
+    Copy-Item -LiteralPath $License -Destination $DistDir
 }
 
 $deployMode = if ($Config -eq 'Debug') { '--debug' } else { '--release' }

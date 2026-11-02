@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(CK3DnaManagerQt VERSION 1.0.0 LANGUAGES CXX)
+project(CK3DnaManagerQt VERSION 1.0.1 LANGUAGES CXX)
 
 if(WIN32)
     enable_language(RC)
@@ -75,6 +75,7 @@ endif()
 qt_add_executable(CK3DnaManager ${APP_SOURCES})
 
 target_link_libraries(CK3DnaManager PRIVATE ck3ui)
+target_compile_definitions(CK3DnaManager PRIVATE CK3DNA_VERSION="${PROJECT_VERSION}")
 
 if(WIN32)
     set_target_properties(CK3DnaManager PROPERTIES

@@ -3,8 +3,8 @@
 101 ICON "icons/app.ico"
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,0
- PRODUCTVERSION 1,0,0,0
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
  FILEFLAGSMASK 0x3fL
  FILEFLAGS 0x0L
  FILEOS 0x40004L
@@ -17,12 +17,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "CK3 DNA Manager Qt"
             VALUE "FileDescription", "CK3 DNA Manager Qt"
-            VALUE "FileVersion", "1.0.0"
+            VALUE "FileVersion", "1.0.1"
             VALUE "InternalName", "CK3DnaManagerQt"
             VALUE "LegalCopyright", "CK3 DNA Manager Qt contributors"
             VALUE "OriginalFilename", "CK3 DNA Manager Qt.exe"
             VALUE "ProductName", "CK3 DNA Manager Qt"
-            VALUE "ProductVersion", "1.0.0"
+            VALUE "ProductVersion", "1.0.1"
         END
     END
     BLOCK "VarFileInfo"

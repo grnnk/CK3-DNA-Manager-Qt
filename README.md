@@ -19,6 +19,64 @@ Get the latest Windows and Linux builds from the
 
 No installer, account, cloud service or telemetry is required.
 
+## Web version
+
+A static browser build lives in [`web/`](web/) and is published to
+[GitHub Pages](https://grnnk.github.io/CK3-DNA-Manager-Qt/). It mirrors the Qt
+interface and the DNA/Ruler Designer codec, but stores its library in the
+browser instead of SQLite.
+
+- **No runtime build step.** Plain HTML, CSS and ES modules; GitHub Pages
+  serves the `web/` folder directly. A generated `standalone.bundle.js` also
+  lets `index.html` run when opened directly from disk.
+- **Local-first.** Entries, settings and portraits live in `localStorage`
+  under the `ck3dna.v1.*` namespace.
+- **Same JSON format.** Import and export use the desktop app's
+  `ck3-dna-manager-qt` schema, so libraries move both ways.
+- **Read-only `.db` import.** Chromium-based browsers can import the desktop
+  `dna.db` through a bundled `sql.js` reader. The desktop database is never
+  modified.
+- **Optional folder sync.** In browsers with the File System Access API
+  (Chrome/Edge), connect the desktop data folder. The web app reads
+  `web-sync/library.json`, or imports `dna.db` once when that file is absent,
+  and writes later changes to `web-sync/library.json`. The folder handle is
+  remembered in IndexedDB; the browser may ask for permission again after a
+  restart.
+
+Browser storage is per origin and per browser. Clearing site data, using a
+private window, or switching browsers starts from an empty library, so export
+JSON backups regularly. Safari and Firefox can use localStorage, JSON
+import/export and `.db` import, but not direct folder sync.
+
+To run the web build locally, either open `web/index.html` directly or serve
+the folder over HTTP:
+
+```bash
+cd web
+python -m http.server 8765
+```
+
+Then open <http://127.0.0.1:8765/>. Opening `index.html` from disk uses the
+generated `standalone.bundle.js`, which embeds the gene catalog, translations
+and SQLite WASM so `file://` restrictions do not block the app. The HTTP build
+loads the source modules directly.
+
+After changing files under `web/js` or `web/assets`, regenerate the standalone
+bundle:
+
+```bash
+node web/tools/build-standalone.mjs
+```
+
+Codec and import tests run with Node:
+
+```bash
+node --test web/tests/codec.test.mjs web/tests/import.test.mjs web/tests/folder-store.test.mjs
+```
+
+The Pages deployment workflow is
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml).
+
 ![Overview](screenshots/overview.png)
 
 ## User guide
@@ -254,18 +312,18 @@ images above. It uses a temporary test data directory.
 **Windows**
 
 ```powershell
-.\tools\deploy.ps1 -Config Release -Zip -Version 1.0.0
+.\tools\deploy.ps1 -Config Release -Zip -Version 1.0.1
 ```
 
 This creates a self-contained `dist` folder with Qt deployed and writes
-`CK3-DNA-Manager-1.0.0-win64.zip` to the project root. Use `-SkipBuild` or
+`CK3-DNA-Manager-1.0.1-win64.zip` to the project root. Use `-SkipBuild` or
 `-SkipTests` to reuse an existing build.
 
 **Linux**
 
 ```bash
-./tools/deploy.sh --config Release --tar --version 1.0.0
-./tools/deploy.sh --config Release --appimage --tar --version 1.0.0
+./tools/deploy.sh --config Release --tar --version 1.0.1
+./tools/deploy.sh --config Release --appimage --tar --version 1.0.1
 ```
 
 - `--tar` alone creates a portable folder and tarball that use the system Qt.
@@ -275,6 +333,16 @@ This creates a self-contained `dist` folder with Qt deployed and writes
 AppImage packaging requires `linuxdeploy` and `linuxdeploy-plugin-qt` on
 `PATH`; both must be executable. Archives are written to the project root, and
 the bundled AppDir is kept at `dist/appimage-release/AppDir`.
+
+Packaged builds use [`docs/PACKAGE_README.md`](docs/PACKAGE_README.md) as their
+`README.md`. That short guide covers running the app and locating its data; the
+full repository README and screenshot links are not copied into packages.
+
+### Releases
+
+Windows and Linux packages are built by GitHub Actions when a `v*` tag is
+pushed. See [`docs/RELEASING.md`](docs/RELEASING.md) for the release checklist,
+manual build runs and GitHub Pages setup.
 
 ### Project layout
 
@@ -300,6 +368,13 @@ tools/
   deploy.sh             Linux staging, AppImage and tarball deployment
   build_gene_catalog.py
   build_legacy_catalog.js
+docs/
+  RELEASING.md          release checklist, manual builds and Pages setup
+  PACKAGE_README.md     short README copied into packaged builds
+.github/workflows/
+  pages.yml             GitHub Pages deployment for web/
+  release.yml           tagged Windows/Linux builds and GitHub Releases
+web/                    static browser build published to GitHub Pages
 ```
 
 ### Regenerating the catalogs

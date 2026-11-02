@@ -9,8 +9,8 @@
 # Examples:
 #   ./tools/deploy.sh
 #   ./tools/deploy.sh --config Debug
-#   ./tools/deploy.sh --config Release --tar --version 1.0.0
-#   ./tools/deploy.sh --config Release --appimage --tar --version 1.0.0
+#   ./tools/deploy.sh --config Release --tar --version 1.0.1
+#   ./tools/deploy.sh --config Release --appimage --tar --version 1.0.1
 #   ./tools/deploy.sh --config Release --skip-build
 
 set -euo pipefail
@@ -23,7 +23,7 @@ GENERATOR=""
 QT_PATH="${QT_ROOT:-}"
 BUILD_DIR=""
 DIST_DIR=""
-VERSION="1.0.0"
+VERSION="1.0.1"
 SKIP_BUILD=0
 SKIP_TESTS=0
 INSTALL_DEPS=0
@@ -41,7 +41,7 @@ Options:
   -q, --qt-path <path>      Qt installation prefix (default: $QT_ROOT or system Qt)
   -b, --build-dir <path>    Build directory (default: build/linux-<config>)
   -d, --dist-dir <path>     Staging directory (default: dist/linux-<config>)
-      --version <version>   Version used in the archive name (default: 1.0.0)
+      --version <version>   Version used in the archive name (default: 1.0.1)
       --install-deps        Install the Qt 6 development packages before building
       --skip-build          Reuse an existing build
       --skip-tests          Do not run the test suite while building
@@ -191,11 +191,14 @@ fi
 mkdir -p -- "$DIST_ABS"
 
 cp -- "$EXE_PATH" "$DIST_ABS/"
-for document in README.md LICENSE; do
-    if [[ -f "$PROJECT_ROOT/$document" ]]; then
-        cp -- "$PROJECT_ROOT/$document" "$DIST_ABS/"
-    fi
-done
+
+PACKAGE_README="$PROJECT_ROOT/docs/PACKAGE_README.md"
+[[ -f "$PACKAGE_README" ]] || fail "package README not found: $PACKAGE_README"
+cp -- "$PACKAGE_README" "$DIST_ABS/README.md"
+if [[ -f "$PROJECT_ROOT/LICENSE" ]]; then
+    cp -- "$PROJECT_ROOT/LICENSE" "$DIST_ABS/"
+fi
+
 cp -- "$PROJECT_ROOT/resources/app.desktop" "$DIST_ABS/ck3-dna-manager-qt.desktop"
 cp -- "$PROJECT_ROOT/resources/icons/app.png" "$DIST_ABS/ck3-dna-manager-qt.png"
 
@@ -255,6 +258,10 @@ if [[ "$CREATE_APPIMAGE" -eq 1 ]]; then
         "$APPDIR_ABS/usr/share/applications/ck3-dna-manager-qt.desktop"
     cp -- "$PROJECT_ROOT/resources/icons/app.png" \
         "$APPDIR_ABS/usr/share/icons/hicolor/256x256/apps/ck3-dna-manager-qt.png"
+    cp -- "$PACKAGE_README" "$APPDIR_ABS/README.md"
+    if [[ -f "$PROJECT_ROOT/LICENSE" ]]; then
+        cp -- "$PROJECT_ROOT/LICENSE" "$APPDIR_ABS/"
+    fi
 
     appimage_work="$PROJECT_ROOT/build/appimage-$config_lower"
     rm -rf -- "$appimage_work"
