@@ -95,8 +95,9 @@ The Pages deployment workflow is
   from the clipboard with `Ctrl+V`. Thumbnails are generated automatically.
 - **Library tools.** Names, notes, favourites, live search, sorting, duplicate,
   delete, single-entry export and full-library export.
-- **Ten languages.** English, German, French, Chinese, Russian, Spanish,
-  Portuguese, Polish, Japanese and Korean, switchable at runtime.
+- **Thirteen languages.** English, German, French, Chinese, Russian, Spanish,
+  Portuguese, Polish, Japanese, Korean, Italian, Swedish and Turkish,
+  switchable at runtime.
 - **Keyboard-friendly.** See the shortcut table below.
 
 ### Screenshots

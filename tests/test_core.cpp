@@ -902,7 +902,8 @@ void TestCore::translationsAreComplete()
         QStringLiteral("en"), QStringLiteral("de"), QStringLiteral("fr"),
         QStringLiteral("zh"), QStringLiteral("ru"), QStringLiteral("es"),
         QStringLiteral("pt"), QStringLiteral("pl"), QStringLiteral("ja"),
-        QStringLiteral("ko"),
+        QStringLiteral("ko"), QStringLiteral("it"), QStringLiteral("sv"),
+        QStringLiteral("tr"),
     };
     QCOMPARE(i18n.availableLanguages(), expected);
 
