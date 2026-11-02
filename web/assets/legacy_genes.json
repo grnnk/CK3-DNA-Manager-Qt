@@ -1,0 +1,1769 @@
+{
+  "version": 1,
+  "source": "CK3_DNA_Manager (Electron) js/gene_index.js",
+  "base64GeneCount": 104,
+  "genes": [
+    {
+      "key": "hair_color",
+      "kind": "color"
+    },
+    {
+      "key": "skin_color",
+      "kind": "color"
+    },
+    {
+      "key": "eye_color",
+      "kind": "color"
+    },
+    {
+      "key": "gene_chin_forward",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "chin_forward_neg",
+          "index": 0
+        },
+        {
+          "id": "chin_forward_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_chin_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "chin_height_neg",
+          "index": 0
+        },
+        {
+          "id": "chin_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_chin_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "chin_width_neg",
+          "index": 0
+        },
+        {
+          "id": "chin_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_angle",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_angle_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_angle_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_depth",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_depth_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_depth_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_height_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_distance",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_distance_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_distance_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_shut",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_shut_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_shut_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_angle",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_angle_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_angle_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_brow_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_brow_height_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_brow_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_roundness",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_roundness_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_roundness_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_width_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_height_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_head_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "head_height_neg",
+          "index": 0
+        },
+        {
+          "id": "head_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_head_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "head_width_neg",
+          "index": 0
+        },
+        {
+          "id": "head_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_head_profile",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "head_profile_neg",
+          "index": 0
+        },
+        {
+          "id": "head_profile_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_head_top_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "head_top_height_neg",
+          "index": 0
+        },
+        {
+          "id": "head_top_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_head_top_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "head_top_width_neg",
+          "index": 0
+        },
+        {
+          "id": "head_top_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_jaw_angle",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "jaw_angle_neg",
+          "index": 0
+        },
+        {
+          "id": "jaw_angle_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_jaw_forward",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "jaw_forward_neg",
+          "index": 0
+        },
+        {
+          "id": "jaw_forward_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_jaw_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "jaw_height_neg",
+          "index": 0
+        },
+        {
+          "id": "jaw_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_jaw_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "jaw_width_neg",
+          "index": 0
+        },
+        {
+          "id": "jaw_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_corner_depth",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_corner_depth_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_corner_depth_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_corner_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_corner_height_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_corner_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_forward",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_forward_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_forward_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_height_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_width_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_upper_lip_size",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_upper_lip_size_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_upper_lip_size_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_lower_lip_size",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_lower_lip_size_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_lower_lip_size_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_open",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_open_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_open_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_neck_length",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "neck_length_neg",
+          "index": 0
+        },
+        {
+          "id": "neck_length_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_neck_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "neck_width_neg",
+          "index": 0
+        },
+        {
+          "id": "neck_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_cheek_forward",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "cheek_forward_neg",
+          "index": 0
+        },
+        {
+          "id": "cheek_forward_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_cheek_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "cheek_height_neg",
+          "index": 0
+        },
+        {
+          "id": "cheek_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_cheek_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "cheek_width_neg",
+          "index": 0
+        },
+        {
+          "id": "cheek_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_angle",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "ear_angle_neg",
+          "index": 0
+        },
+        {
+          "id": "ear_angle_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_inner_shape",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "ear_inner_shape_pos",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_bend",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "ear_lower_bend_pos",
+          "index": 0
+        },
+        {
+          "id": "ear_upper_bend_pos",
+          "index": 1
+        },
+        {
+          "id": "ear_both_bend_pos",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_outward",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "ear_outward_neg",
+          "index": 0
+        },
+        {
+          "id": "ear_outward_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_size",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "ear_size_neg",
+          "index": 0
+        },
+        {
+          "id": "ear_size_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_eye_corner_depth",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_corner_depth_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_corner_depth_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_eye_fold_shape",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_fold_shape_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_fold_shape_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_eye_size",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_size_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_size_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_eye_upper_lid_size",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_upper_lid_size_neg",
+          "index": 0
+        },
+        {
+          "id": "eye_upper_lid_size_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_curve",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_brow_curve_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_brow_curve_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_forward",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_brow_forward_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_brow_forward_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_inner_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_brow_inner_height_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_brow_inner_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_outer_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_brow_outer_height_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_brow_outer_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_brow_width_neg",
+          "index": 0
+        },
+        {
+          "id": "forehead_brow_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_jaw_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "jaw_def_neg",
+          "index": 0
+        },
+        {
+          "id": "jaw_def_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_lower_lip_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_lower_lip_def_pos",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_lower_lip_full",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_lower_lip_full_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_lower_lip_full_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_lower_lip_pad",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_lower_lip_pad_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_lower_lip_pad_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_lower_lip_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_lower_lip_width_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_lower_lip_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_philtrum_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_philtrum_def_pos",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_philtrum_shape",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_philtrum_shape_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_philtrum_shape_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_philtrum_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_philtrum_width_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_philtrum_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_upper_lip_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_upper_lip_def_pos",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_upper_lip_full",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_upper_lip_full_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_upper_lip_full_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_upper_lip_profile",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_upper_lip_profile_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_upper_lip_profile_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_upper_lip_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "mouth_upper_lip_width_neg",
+          "index": 0
+        },
+        {
+          "id": "mouth_upper_lip_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_forward",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_forward_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_forward_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_height_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_length",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_length_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_length_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_nostril_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_nostril_height_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_nostril_height_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_nostril_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_nostril_width_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_nostril_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_profile",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_profile_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_profile_pos",
+          "index": 1
+        },
+        {
+          "id": "nose_profile_hawk",
+          "index": 2
+        },
+        {
+          "id": "nose_profile_hawk_pos",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_ridge_angle",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_ridge_angle_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_ridge_angle_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_ridge_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_ridge_width_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_ridge_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_size",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_size_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_size_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_tip_angle",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_tip_angle_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_tip_angle_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_tip_forward",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_tip_forward_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_tip_forward_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_tip_width",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_tip_width_neg",
+          "index": 0
+        },
+        {
+          "id": "nose_tip_width_pos",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "face_detail_cheek_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "cheek_def_01",
+          "index": 0
+        },
+        {
+          "id": "cheek_def_02",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "face_detail_cheek_fat",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "cheek_fat_01_pos",
+          "index": 0
+        },
+        {
+          "id": "cheek_fat_02_pos",
+          "index": 1
+        },
+        {
+          "id": "cheek_fat_03_pos",
+          "index": 2
+        },
+        {
+          "id": "cheek_fat_04_pos",
+          "index": 3
+        },
+        {
+          "id": "cheek_fat_01_neg",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "key": "face_detail_chin_cleft",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "chin_cleft",
+          "index": 0
+        },
+        {
+          "id": "chin_dimple",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "face_detail_chin_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "chin_def",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "face_detail_eye_lower_lid_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_lower_lid_def",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "face_detail_eye_socket",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_socket_01",
+          "index": 0
+        },
+        {
+          "id": "eye_socket_02",
+          "index": 1
+        },
+        {
+          "id": "eye_socket_03",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "key": "face_detail_nasolabial",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nasolabial_01",
+          "index": 0
+        },
+        {
+          "id": "nasolabial_02",
+          "index": 1
+        },
+        {
+          "id": "nasolabial_03",
+          "index": 2
+        },
+        {
+          "id": "nasolabial_04",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "key": "face_detail_nose_ridge_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_ridge_def_pos",
+          "index": 0
+        },
+        {
+          "id": "nose_ridge_def_neg",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "face_detail_nose_tip_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "nose_tip_def",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "face_detail_temple_def",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "temple_def",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "key": "expression_brow_wrinkles",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "brow_wrinkles_01",
+          "index": 0
+        },
+        {
+          "id": "brow_wrinkles_02",
+          "index": 1
+        },
+        {
+          "id": "brow_wrinkles_03",
+          "index": 2
+        },
+        {
+          "id": "brow_wrinkles_04",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "key": "expression_eye_wrinkles",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "eye_wrinkles_01",
+          "index": 0
+        },
+        {
+          "id": "eye_wrinkles_02",
+          "index": 1
+        },
+        {
+          "id": "eye_wrinkles_03",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "key": "expression_forehead_wrinkles",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "forehead_wrinkles_01",
+          "index": 0
+        },
+        {
+          "id": "forehead_wrinkles_02",
+          "index": 1
+        },
+        {
+          "id": "forehead_wrinkles_03",
+          "index": 2
+        }
+      ]
+    },
+    {
+      "key": "expression_other",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "cheek_wrinkles_left_01",
+          "index": 0
+        },
+        {
+          "id": "cheek_wrinkles_right_01",
+          "index": 1
+        },
+        {
+          "id": "cheek_wrinkles_both_01",
+          "index": 2
+        },
+        {
+          "id": "nose_wrinkles_01",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "key": "complexion",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "complexion_1",
+          "index": 0
+        },
+        {
+          "id": "complexion_2",
+          "index": 1
+        },
+        {
+          "id": "complexion_3",
+          "index": 2
+        },
+        {
+          "id": "complexion_4",
+          "index": 3
+        },
+        {
+          "id": "complexion_5",
+          "index": 4
+        },
+        {
+          "id": "complexion_6",
+          "index": 5
+        },
+        {
+          "id": "complexion_7",
+          "index": 6
+        },
+        {
+          "id": "complexion_beauty_1",
+          "index": 7
+        },
+        {
+          "id": "complexion_ugly_1",
+          "index": 8
+        },
+        {
+          "id": "complexion_no_face",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "key": "gene_height",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "full_height",
+          "index": 0
+        },
+        {
+          "id": "normal_height",
+          "index": 1
+        },
+        {
+          "id": "dwarf_height",
+          "index": 2
+        },
+        {
+          "id": "giant_height",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_body_type",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "body_average",
+          "index": 0
+        },
+        {
+          "id": "body_fat_head_fat_low",
+          "index": 1
+        },
+        {
+          "id": "body_fat_head_fat_medium",
+          "index": 2
+        },
+        {
+          "id": "body_fat_head_fat_full",
+          "index": 3
+        },
+        {
+          "id": "no_portrait",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_body_shape",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "body_shape_average_clothed",
+          "index": 0
+        },
+        {
+          "id": "body_shape_average",
+          "index": 1
+        },
+        {
+          "id": "body_shape_apple_half",
+          "index": 2
+        },
+        {
+          "id": "body_shape_apple_full",
+          "index": 3
+        },
+        {
+          "id": "body_shape_hourglass_half",
+          "index": 4
+        },
+        {
+          "id": "body_shape_hourglass_full",
+          "index": 5
+        },
+        {
+          "id": "body_shape_pear_half",
+          "index": 6
+        },
+        {
+          "id": "body_shape_pear_full",
+          "index": 7
+        },
+        {
+          "id": "body_shape_rectangle_half",
+          "index": 8
+        },
+        {
+          "id": "body_shape_rectangle_full",
+          "index": 9
+        },
+        {
+          "id": "body_shape_triangle_half",
+          "index": 10
+        },
+        {
+          "id": "body_shape_triangle_full",
+          "index": 11
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_bust",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "bust_clothes",
+          "index": 0
+        },
+        {
+          "id": "bust_default",
+          "index": 1
+        },
+        {
+          "id": "bust_shape_1_half",
+          "index": 2
+        },
+        {
+          "id": "bust_shape_1_full",
+          "index": 3
+        },
+        {
+          "id": "bust_shape_2_half",
+          "index": 4
+        },
+        {
+          "id": "bust_shape_2_full",
+          "index": 5
+        },
+        {
+          "id": "bust_shape_3_half",
+          "index": 6
+        },
+        {
+          "id": "bust_shape_3_full",
+          "index": 7
+        },
+        {
+          "id": "bust_shape_4_half",
+          "index": 8
+        },
+        {
+          "id": "bust_shape_4_full",
+          "index": 9
+        }
+      ]
+    },
+    {
+      "key": "gene_age",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "old_1",
+          "index": 0
+        },
+        {
+          "id": "old_2",
+          "index": 1
+        },
+        {
+          "id": "old_3",
+          "index": 2
+        },
+        {
+          "id": "old_4",
+          "index": 3
+        },
+        {
+          "id": "old_beauty_1",
+          "index": 4
+        },
+        {
+          "id": "no_aging",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "key": "gene_eyebrows_shape",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "no_eyebrows",
+          "index": 0
+        },
+        {
+          "id": "avg_spacing_avg_thickness",
+          "index": 1
+        },
+        {
+          "id": "avg_spacing_high_thickness",
+          "index": 2
+        },
+        {
+          "id": "avg_spacing_low_thickness",
+          "index": 3
+        },
+        {
+          "id": "avg_spacing_lower_thickness",
+          "index": 4
+        },
+        {
+          "id": "far_spacing_avg_thickness",
+          "index": 5
+        },
+        {
+          "id": "far_spacing_high_thickness",
+          "index": 6
+        },
+        {
+          "id": "far_spacing_low_thickness",
+          "index": 7
+        },
+        {
+          "id": "far_spacing_lower_thickness",
+          "index": 8
+        },
+        {
+          "id": "close_spacing_avg_thickness",
+          "index": 9
+        },
+        {
+          "id": "close_spacing_high_thickness",
+          "index": 10
+        },
+        {
+          "id": "close_spacing_low_thickness",
+          "index": 11
+        },
+        {
+          "id": "close_spacing_lower_thickness",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "key": "gene_eyebrows_fullness",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "no_eyebrows",
+          "index": 0
+        },
+        {
+          "id": "layer_2_avg_thickness",
+          "index": 1
+        },
+        {
+          "id": "layer_2_high_thickness",
+          "index": 2
+        },
+        {
+          "id": "layer_2_low_thickness",
+          "index": 3
+        },
+        {
+          "id": "layer_2_lower_thickness",
+          "index": 4
+        }
+      ]
+    },
+    {
+      "key": "gene_body_hair",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "body_hair_sparse",
+          "index": 0
+        },
+        {
+          "id": "body_hair_avg",
+          "index": 1
+        },
+        {
+          "id": "body_hair_dense",
+          "index": 2
+        },
+        {
+          "id": "body_hair_sparse_low_stubble",
+          "index": 3
+        },
+        {
+          "id": "body_hair_avg_low_stubble",
+          "index": 4
+        },
+        {
+          "id": "body_hair_dense_low_stubble",
+          "index": 5
+        }
+      ]
+    },
+    {
+      "key": "hairstyles",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "all_hairstyles",
+          "index": 0
+        },
+        {
+          "id": "no_hairstyles",
+          "index": 1
+        },
+        {
+          "id": "western_hairstyles",
+          "index": 2
+        },
+        {
+          "id": "mena_hairstyles",
+          "index": 3
+        },
+        {
+          "id": "byzantine_hairstyles",
+          "index": 4
+        },
+        {
+          "id": "sub_saharan_hairstyles",
+          "index": 5
+        },
+        {
+          "id": "rtt_hairstyles",
+          "index": 6
+        },
+        {
+          "id": "indian_hairstyles",
+          "index": 7
+        },
+        {
+          "id": "northern_hairstyles",
+          "index": 8
+        },
+        {
+          "id": "steppe_hairstyles",
+          "index": 9
+        },
+        {
+          "id": "catholic_devoted_hairstyles",
+          "index": 10
+        },
+        {
+          "id": "western_baby_hairstyles",
+          "index": 11
+        },
+        {
+          "id": "sub_saharan_baby_hairstyles",
+          "index": 12
+        }
+      ]
+    },
+    {
+      "key": "beards",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "no_beard",
+          "index": 0
+        },
+        {
+          "id": "all_beards",
+          "index": 1
+        },
+        {
+          "id": "western_beards",
+          "index": 2
+        },
+        {
+          "id": "rtt_beards",
+          "index": 3
+        },
+        {
+          "id": "mena_beards",
+          "index": 4
+        },
+        {
+          "id": "northern_beards",
+          "index": 5
+        },
+        {
+          "id": "steppe_beards",
+          "index": 6
+        },
+        {
+          "id": "sub_saharan_beards",
+          "index": 7
+        },
+        {
+          "id": "indian_beards",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "key": "eye_accessory",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "normal_eyes",
+          "index": 0
+        },
+        {
+          "id": "normal_eyes_no_shadow",
+          "index": 1
+        },
+        {
+          "id": "normal_eyes_dark_iris",
+          "index": 2
+        },
+        {
+          "id": "normal_eyes_asian",
+          "index": 3
+        },
+        {
+          "id": "bloodshot_eyes",
+          "index": 4
+        },
+        {
+          "id": "blind_eyes",
+          "index": 5
+        },
+        {
+          "id": "no_eyes",
+          "index": 6
+        }
+      ]
+    },
+    {
+      "key": "teeth_accessory",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "normal_teeth",
+          "index": 0
+        },
+        {
+          "id": "no_teeth",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "key": "eyelashes_accessory",
+      "kind": "enum",
+      "options": [
+        {
+          "id": "no_eyelashes",
+          "index": 0
+        },
+        {
+          "id": "normal_eyelashes",
+          "index": 1
+        },
+        {
+          "id": "asian_eyelashes",
+          "index": 2
+        }
+      ]
+    }
+  ]
+}

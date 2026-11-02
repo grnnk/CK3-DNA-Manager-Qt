@@ -1,0 +1,3192 @@
+{
+  "version": 1,
+  "source": "Crusader Kings III 1.20.1.2 (Crozier)",
+  "base64GeneCount": 104,
+  "accessorySuffixCount": 3,
+  "categoryOrder": [
+    "colors",
+    "face",
+    "eyes",
+    "nose",
+    "mouth",
+    "ears",
+    "head_neck",
+    "body",
+    "hair",
+    "details",
+    "accessories",
+    "ruler"
+  ],
+  "genes": [
+    {
+      "key": "hair_color",
+      "name": "Hair Color",
+      "category": "colors",
+      "kind": "color",
+      "inBase64": true,
+      "base64Index": 0,
+      "options": []
+    },
+    {
+      "key": "skin_color",
+      "name": "Skin Color",
+      "category": "colors",
+      "kind": "color",
+      "inBase64": true,
+      "base64Index": 1,
+      "options": []
+    },
+    {
+      "key": "eye_color",
+      "name": "Eye Color",
+      "category": "colors",
+      "kind": "color",
+      "inBase64": true,
+      "base64Index": 2,
+      "options": []
+    },
+    {
+      "key": "gene_chin_forward",
+      "name": "Chin Forward",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 3,
+      "options": [
+        {
+          "id": "chin_forward_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "chin_forward_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_chin_height",
+      "name": "Chin Height",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 4,
+      "options": [
+        {
+          "id": "chin_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "chin_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_chin_width",
+      "name": "Chin Width",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 5,
+      "options": [
+        {
+          "id": "chin_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "chin_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_angle",
+      "name": "Eye Angle",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 6,
+      "options": [
+        {
+          "id": "eye_angle_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_angle_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_depth",
+      "name": "Eye Depth",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 7,
+      "options": [
+        {
+          "id": "eye_depth_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_depth_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_height",
+      "name": "Eye Height",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 8,
+      "options": [
+        {
+          "id": "eye_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_distance",
+      "name": "Eye Distance",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 9,
+      "options": [
+        {
+          "id": "eye_distance_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_distance_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_eye_shut",
+      "name": "Eye Shut",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 10,
+      "options": [
+        {
+          "id": "eye_shut_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_shut_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_angle",
+      "name": "Forehead Angle",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 11,
+      "options": [
+        {
+          "id": "forehead_angle_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_angle_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_brow_height",
+      "name": "Forehead Brow Height",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 12,
+      "options": [
+        {
+          "id": "forehead_brow_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_brow_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_roundness",
+      "name": "Forehead Roundness",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 13,
+      "options": [
+        {
+          "id": "forehead_roundness_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_roundness_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_width",
+      "name": "Forehead Width",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 14,
+      "options": [
+        {
+          "id": "forehead_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_forehead_height",
+      "name": "Forehead Height",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 15,
+      "options": [
+        {
+          "id": "forehead_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_head_height",
+      "name": "Head Height",
+      "category": "head_neck",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 16,
+      "options": [
+        {
+          "id": "head_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "head_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_head_width",
+      "name": "Head Width",
+      "category": "head_neck",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 17,
+      "options": [
+        {
+          "id": "head_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "head_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_head_profile",
+      "name": "Head Profile",
+      "category": "head_neck",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 18,
+      "options": [
+        {
+          "id": "head_profile_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "head_profile_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_head_top_height",
+      "name": "Head Top Height",
+      "category": "head_neck",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 19,
+      "options": [
+        {
+          "id": "head_top_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "head_top_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_head_top_width",
+      "name": "Head Top Width",
+      "category": "head_neck",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 20,
+      "options": [
+        {
+          "id": "head_top_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "head_top_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_jaw_angle",
+      "name": "Jaw Angle",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 21,
+      "options": [
+        {
+          "id": "jaw_angle_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "jaw_angle_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_jaw_forward",
+      "name": "Jaw Forward",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 22,
+      "options": [
+        {
+          "id": "jaw_forward_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "jaw_forward_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_jaw_height",
+      "name": "Jaw Height",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 23,
+      "options": [
+        {
+          "id": "jaw_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "jaw_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_jaw_width",
+      "name": "Jaw Width",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 24,
+      "options": [
+        {
+          "id": "jaw_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "jaw_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_corner_depth",
+      "name": "Mouth Corner Depth",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 25,
+      "options": [
+        {
+          "id": "mouth_corner_depth_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_corner_depth_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_corner_height",
+      "name": "Mouth Corner Height",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 26,
+      "options": [
+        {
+          "id": "mouth_corner_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_corner_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_forward",
+      "name": "Mouth Forward",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 27,
+      "options": [
+        {
+          "id": "mouth_forward_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_forward_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_height",
+      "name": "Mouth Height",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 28,
+      "options": [
+        {
+          "id": "mouth_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_width",
+      "name": "Mouth Width",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 29,
+      "options": [
+        {
+          "id": "mouth_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_upper_lip_size",
+      "name": "Mouth Upper Lip Size",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 30,
+      "options": [
+        {
+          "id": "mouth_upper_lip_size_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_upper_lip_size_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_lower_lip_size",
+      "name": "Mouth Lower Lip Size",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 31,
+      "options": [
+        {
+          "id": "mouth_lower_lip_size_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_lower_lip_size_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_mouth_open",
+      "name": "Mouth Open",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 32,
+      "options": [
+        {
+          "id": "mouth_open_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_open_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_neck_length",
+      "name": "Neck Length",
+      "category": "head_neck",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 33,
+      "options": [
+        {
+          "id": "neck_length_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "neck_length_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_neck_width",
+      "name": "Neck Width",
+      "category": "head_neck",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 34,
+      "options": [
+        {
+          "id": "neck_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "neck_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_cheek_forward",
+      "name": "Cheek Forward",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 35,
+      "options": [
+        {
+          "id": "cheek_forward_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "cheek_forward_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_cheek_height",
+      "name": "Cheek Height",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 36,
+      "options": [
+        {
+          "id": "cheek_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "cheek_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_cheek_width",
+      "name": "Cheek Width",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 37,
+      "options": [
+        {
+          "id": "cheek_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "cheek_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_angle",
+      "name": "Ear Angle",
+      "category": "ears",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 38,
+      "options": [
+        {
+          "id": "ear_angle_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "ear_angle_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_inner_shape",
+      "name": "Ear Inner Shape",
+      "category": "ears",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 39,
+      "options": [
+        {
+          "id": "ear_inner_shape_pos",
+          "index": 0,
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_bend",
+      "name": "Ear Bend",
+      "category": "ears",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 40,
+      "options": [
+        {
+          "id": "ear_lower_bend_pos",
+          "index": 0,
+          "label": "Lower Bend Positive"
+        },
+        {
+          "id": "ear_upper_bend_pos",
+          "index": 1,
+          "label": "Upper Bend Positive"
+        },
+        {
+          "id": "ear_both_bend_pos",
+          "index": 2,
+          "label": "Both Bend Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_outward",
+      "name": "Ear Outward",
+      "category": "ears",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 41,
+      "options": [
+        {
+          "id": "ear_outward_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "ear_outward_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_ear_size",
+      "name": "Ear Size",
+      "category": "ears",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 42,
+      "options": [
+        {
+          "id": "ear_size_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "ear_size_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_eye_corner_depth",
+      "name": "Eye Corner Depth",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 43,
+      "options": [
+        {
+          "id": "eye_corner_depth_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_corner_depth_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_eye_fold_shape",
+      "name": "Eye Fold Shape",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 44,
+      "options": [
+        {
+          "id": "eye_fold_shape_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_fold_shape_pos",
+          "index": 1,
+          "label": "Positive"
+        },
+        {
+          "id": "eye_fold_shape_02_neg",
+          "index": 2,
+          "label": "Type 2 Negative"
+        },
+        {
+          "id": "eye_fold_shape_02_pos",
+          "index": 3,
+          "label": "Type 2 Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_eye_size",
+      "name": "Eye Size",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 45,
+      "options": [
+        {
+          "id": "eye_size_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_size_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_eye_upper_lid_size",
+      "name": "Eye Upper Lid Size",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 46,
+      "options": [
+        {
+          "id": "eye_upper_lid_size_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "eye_upper_lid_size_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_curve",
+      "name": "Forehead Brow Curve",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 47,
+      "options": [
+        {
+          "id": "forehead_brow_curve_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_brow_curve_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_forward",
+      "name": "Forehead Brow Forward",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 48,
+      "options": [
+        {
+          "id": "forehead_brow_forward_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_brow_forward_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_inner_height",
+      "name": "Forehead Brow Inner Height",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 49,
+      "options": [
+        {
+          "id": "forehead_brow_inner_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_brow_inner_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_outer_height",
+      "name": "Forehead Brow Outer Height",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 50,
+      "options": [
+        {
+          "id": "forehead_brow_outer_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_brow_outer_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_forehead_brow_width",
+      "name": "Forehead Brow Width",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 51,
+      "options": [
+        {
+          "id": "forehead_brow_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "forehead_brow_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_jaw_def",
+      "name": "Jaw Definition",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 52,
+      "options": [
+        {
+          "id": "jaw_def_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "jaw_def_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_lower_lip_def",
+      "name": "Mouth Lower Lip Definition",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 53,
+      "options": [
+        {
+          "id": "mouth_lower_lip_def_pos",
+          "index": 0,
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_lower_lip_full",
+      "name": "Mouth Lower Lip Full",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 54,
+      "options": [
+        {
+          "id": "mouth_lower_lip_full_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_lower_lip_full_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_lower_lip_pad",
+      "name": "Mouth Lower Lip Pad",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 55,
+      "options": [
+        {
+          "id": "mouth_lower_lip_pad_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_lower_lip_pad_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_lower_lip_width",
+      "name": "Mouth Lower Lip Width",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 56,
+      "options": [
+        {
+          "id": "mouth_lower_lip_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_lower_lip_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_philtrum_def",
+      "name": "Mouth Philtrum Definition",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 57,
+      "options": [
+        {
+          "id": "mouth_philtrum_def_pos",
+          "index": 0,
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_philtrum_shape",
+      "name": "Mouth Philtrum Shape",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 58,
+      "options": [
+        {
+          "id": "mouth_philtrum_shape_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_philtrum_shape_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_philtrum_width",
+      "name": "Mouth Philtrum Width",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 59,
+      "options": [
+        {
+          "id": "mouth_philtrum_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_philtrum_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_upper_lip_def",
+      "name": "Mouth Upper Lip Definition",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 60,
+      "options": [
+        {
+          "id": "mouth_upper_lip_def_pos",
+          "index": 0,
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_upper_lip_full",
+      "name": "Mouth Upper Lip Full",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 61,
+      "options": [
+        {
+          "id": "mouth_upper_lip_full_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_upper_lip_full_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_upper_lip_profile",
+      "name": "Mouth Upper Lip Profile",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 62,
+      "options": [
+        {
+          "id": "mouth_upper_lip_profile_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_upper_lip_profile_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_mouth_upper_lip_width",
+      "name": "Mouth Upper Lip Width",
+      "category": "mouth",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 63,
+      "options": [
+        {
+          "id": "mouth_upper_lip_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "mouth_upper_lip_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_forward",
+      "name": "Nose Forward",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 64,
+      "options": [
+        {
+          "id": "nose_forward_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_forward_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_height",
+      "name": "Nose Height",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 65,
+      "options": [
+        {
+          "id": "nose_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_length",
+      "name": "Nose Length",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 66,
+      "options": [
+        {
+          "id": "nose_length_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_length_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_nostril_height",
+      "name": "Nose Nostril Height",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 67,
+      "options": [
+        {
+          "id": "nose_nostril_height_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_nostril_height_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_nostril_width",
+      "name": "Nose Nostril Width",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 68,
+      "options": [
+        {
+          "id": "nose_nostril_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_nostril_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_profile",
+      "name": "Nose Profile",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 69,
+      "options": [
+        {
+          "id": "nose_profile_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_profile_pos",
+          "index": 1,
+          "label": "Positive"
+        },
+        {
+          "id": "nose_profile_hawk",
+          "index": 2,
+          "label": "Hawk"
+        },
+        {
+          "id": "nose_profile_hawk_pos",
+          "index": 3,
+          "label": "Hawk Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_ridge_angle",
+      "name": "Nose Ridge Angle",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 70,
+      "options": [
+        {
+          "id": "nose_ridge_angle_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_ridge_angle_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_ridge_width",
+      "name": "Nose Ridge Width",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 71,
+      "options": [
+        {
+          "id": "nose_ridge_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_ridge_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_size",
+      "name": "Nose Size",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 72,
+      "options": [
+        {
+          "id": "nose_size_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_size_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_tip_angle",
+      "name": "Nose Tip Angle",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 73,
+      "options": [
+        {
+          "id": "nose_tip_angle_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_tip_angle_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_tip_forward",
+      "name": "Nose Tip Forward",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 74,
+      "options": [
+        {
+          "id": "nose_tip_forward_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_tip_forward_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_nose_tip_width",
+      "name": "Nose Tip Width",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 75,
+      "options": [
+        {
+          "id": "nose_tip_width_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "nose_tip_width_pos",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_cheek_def",
+      "name": "Cheek Definition",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 76,
+      "options": [
+        {
+          "id": "cheek_def_01",
+          "index": 0,
+          "label": "Type 1"
+        },
+        {
+          "id": "cheek_def_02",
+          "index": 1,
+          "label": "Type 2"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_cheek_fat",
+      "name": "Cheek Fat",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 77,
+      "options": [
+        {
+          "id": "cheek_fat_01_pos",
+          "index": 0,
+          "label": "1 Positive"
+        },
+        {
+          "id": "cheek_fat_02_pos",
+          "index": 1,
+          "label": "2 Positive"
+        },
+        {
+          "id": "cheek_fat_03_pos",
+          "index": 2,
+          "label": "3 Positive"
+        },
+        {
+          "id": "cheek_fat_04_pos",
+          "index": 3,
+          "label": "4 Positive"
+        },
+        {
+          "id": "cheek_fat_01_neg",
+          "index": 4,
+          "label": "1 Negative"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_chin_cleft",
+      "name": "Chin Cleft",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 78,
+      "options": [
+        {
+          "id": "chin_cleft",
+          "index": 0,
+          "label": "Cleft"
+        },
+        {
+          "id": "chin_dimple",
+          "index": 1,
+          "label": "Dimple"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_chin_def",
+      "name": "Chin Definition",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 79,
+      "options": [
+        {
+          "id": "chin_def_neg",
+          "index": 0,
+          "label": "Negative"
+        },
+        {
+          "id": "chin_def",
+          "index": 1,
+          "label": "Positive"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_eye_lower_lid_def",
+      "name": "Lower Eyelid Definition",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 80,
+      "options": [
+        {
+          "id": "eye_lower_lid_def",
+          "index": 0,
+          "label": "Default"
+        },
+        {
+          "id": "eye_lower_lid_def_02",
+          "index": 1,
+          "label": "Type 2"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_eye_socket",
+      "name": "Eye Socket Detail",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 81,
+      "options": [
+        {
+          "id": "eye_socket_01",
+          "index": 0,
+          "label": "Type 1"
+        },
+        {
+          "id": "eye_socket_02",
+          "index": 1,
+          "label": "Type 2"
+        },
+        {
+          "id": "eye_socket_03",
+          "index": 2,
+          "label": "Type 3"
+        },
+        {
+          "id": "eye_socket_color_01",
+          "index": 3,
+          "label": "Color 1"
+        },
+        {
+          "id": "eye_socket_color_02",
+          "index": 4,
+          "label": "Color 2"
+        },
+        {
+          "id": "eye_socket_color_03",
+          "index": 5,
+          "label": "Color 3"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_nasolabial",
+      "name": "Nasolabial Detail",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 82,
+      "options": [
+        {
+          "id": "nasolabial_01",
+          "index": 0,
+          "label": "Type 1"
+        },
+        {
+          "id": "nasolabial_02",
+          "index": 1,
+          "label": "Type 2"
+        },
+        {
+          "id": "nasolabial_03",
+          "index": 2,
+          "label": "Type 3"
+        },
+        {
+          "id": "nasolabial_04",
+          "index": 3,
+          "label": "Type 4"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_nose_ridge_def",
+      "name": "Nose Ridge Definition",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 83,
+      "options": [
+        {
+          "id": "nose_ridge_def_pos",
+          "index": 0,
+          "label": "Positive"
+        },
+        {
+          "id": "nose_ridge_def_neg",
+          "index": 1,
+          "label": "Negative"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_nose_tip_def",
+      "name": "Nose Tip Definition",
+      "category": "nose",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 84,
+      "options": [
+        {
+          "id": "nose_tip_def",
+          "index": 0,
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "key": "face_detail_temple_def",
+      "name": "Temple Definition",
+      "category": "face",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 85,
+      "options": [
+        {
+          "id": "temple_def",
+          "index": 0,
+          "label": "Default"
+        }
+      ]
+    },
+    {
+      "key": "expression_brow_wrinkles",
+      "name": "Brow Wrinkles",
+      "category": "details",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 86,
+      "options": [
+        {
+          "id": "brow_wrinkles_01",
+          "index": 0,
+          "label": "Type 1"
+        },
+        {
+          "id": "brow_wrinkles_02",
+          "index": 1,
+          "label": "Type 2"
+        },
+        {
+          "id": "brow_wrinkles_03",
+          "index": 2,
+          "label": "Type 3"
+        },
+        {
+          "id": "brow_wrinkles_04",
+          "index": 3,
+          "label": "Type 4"
+        }
+      ]
+    },
+    {
+      "key": "expression_eye_wrinkles",
+      "name": "Eye Wrinkles",
+      "category": "details",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 87,
+      "options": [
+        {
+          "id": "eye_wrinkles_01",
+          "index": 0,
+          "label": "Type 1"
+        },
+        {
+          "id": "eye_wrinkles_02",
+          "index": 1,
+          "label": "Type 2"
+        },
+        {
+          "id": "eye_wrinkles_03",
+          "index": 2,
+          "label": "Type 3"
+        }
+      ]
+    },
+    {
+      "key": "expression_forehead_wrinkles",
+      "name": "Forehead Wrinkles",
+      "category": "details",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 88,
+      "options": [
+        {
+          "id": "forehead_wrinkles_01",
+          "index": 0,
+          "label": "Type 1"
+        },
+        {
+          "id": "forehead_wrinkles_02",
+          "index": 1,
+          "label": "Type 2"
+        },
+        {
+          "id": "forehead_wrinkles_03",
+          "index": 2,
+          "label": "Type 3"
+        }
+      ]
+    },
+    {
+      "key": "expression_other",
+      "name": "Other Wrinkles",
+      "category": "details",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 89,
+      "options": [
+        {
+          "id": "cheek_wrinkles_left_01",
+          "index": 0,
+          "label": "Cheek Wrinkles Left 1"
+        },
+        {
+          "id": "cheek_wrinkles_right_01",
+          "index": 1,
+          "label": "Cheek Wrinkles Right 1"
+        },
+        {
+          "id": "cheek_wrinkles_both_01",
+          "index": 2,
+          "label": "Cheek Wrinkles Both 1"
+        },
+        {
+          "id": "nose_wrinkles_01",
+          "index": 3,
+          "label": "Nose Wrinkles 1"
+        }
+      ]
+    },
+    {
+      "key": "complexion",
+      "name": "Complexion",
+      "category": "details",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 90,
+      "options": [
+        {
+          "id": "complexion_1",
+          "index": 0,
+          "label": "1"
+        },
+        {
+          "id": "complexion_2",
+          "index": 1,
+          "label": "2"
+        },
+        {
+          "id": "complexion_3",
+          "index": 2,
+          "label": "3"
+        },
+        {
+          "id": "complexion_4",
+          "index": 3,
+          "label": "4"
+        },
+        {
+          "id": "complexion_5",
+          "index": 4,
+          "label": "5"
+        },
+        {
+          "id": "complexion_6",
+          "index": 5,
+          "label": "6"
+        },
+        {
+          "id": "complexion_7",
+          "index": 6,
+          "label": "7"
+        },
+        {
+          "id": "complexion_smooth_1",
+          "index": 7,
+          "label": "Smooth 1"
+        },
+        {
+          "id": "complexion_beauty_1",
+          "index": 8,
+          "label": "Beauty 1"
+        },
+        {
+          "id": "complexion_ugly_1",
+          "index": 9,
+          "label": "Ugly 1"
+        },
+        {
+          "id": "complexion_no_face",
+          "index": 10,
+          "label": "No Face"
+        }
+      ]
+    },
+    {
+      "key": "gene_height",
+      "name": "Height",
+      "category": "body",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 91,
+      "options": [
+        {
+          "id": "full_height",
+          "index": 0,
+          "label": "Full Height"
+        },
+        {
+          "id": "normal_height",
+          "index": 1,
+          "label": "Normal Height"
+        },
+        {
+          "id": "dwarf_height",
+          "index": 2,
+          "label": "Dwarf Height"
+        },
+        {
+          "id": "giant_height",
+          "index": 3,
+          "label": "Giant Height"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_body_type",
+      "name": "Body Type",
+      "category": "body",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 92,
+      "options": [
+        {
+          "id": "body_average",
+          "index": 0,
+          "label": "Body Average"
+        },
+        {
+          "id": "body_fat_head_fat_low",
+          "index": 1,
+          "label": "Body Fat Head Fat Low"
+        },
+        {
+          "id": "body_fat_head_fat_medium",
+          "index": 2,
+          "label": "Body Fat Head Fat Medium"
+        },
+        {
+          "id": "body_fat_head_fat_full",
+          "index": 3,
+          "label": "Body Fat Head Fat Full"
+        },
+        {
+          "id": "no_portrait",
+          "index": 4,
+          "label": "No Portrait"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_body_shape",
+      "name": "Body Shape",
+      "category": "body",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 93,
+      "options": [
+        {
+          "id": "body_shape_average_clothed",
+          "index": 0,
+          "label": "Average Clothed"
+        },
+        {
+          "id": "body_shape_average",
+          "index": 1,
+          "label": "Average"
+        },
+        {
+          "id": "body_shape_apple_half",
+          "index": 2,
+          "label": "Apple Half"
+        },
+        {
+          "id": "body_shape_apple_full",
+          "index": 3,
+          "label": "Apple Full"
+        },
+        {
+          "id": "body_shape_hourglass_half",
+          "index": 4,
+          "label": "Hourglass Half"
+        },
+        {
+          "id": "body_shape_hourglass_full",
+          "index": 5,
+          "label": "Hourglass Full"
+        },
+        {
+          "id": "body_shape_pear_half",
+          "index": 6,
+          "label": "Pear Half"
+        },
+        {
+          "id": "body_shape_pear_full",
+          "index": 7,
+          "label": "Pear Full"
+        },
+        {
+          "id": "body_shape_rectangle_half",
+          "index": 8,
+          "label": "Rectangle Half"
+        },
+        {
+          "id": "body_shape_rectangle_full",
+          "index": 9,
+          "label": "Rectangle Full"
+        },
+        {
+          "id": "body_shape_triangle_half",
+          "index": 10,
+          "label": "Triangle Half"
+        },
+        {
+          "id": "body_shape_triangle_full",
+          "index": 11,
+          "label": "Triangle Full"
+        }
+      ]
+    },
+    {
+      "key": "gene_bs_bust",
+      "name": "Bust",
+      "category": "body",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 94,
+      "options": [
+        {
+          "id": "bust_clothes",
+          "index": 0,
+          "label": "Clothes"
+        },
+        {
+          "id": "bust_clothes_light",
+          "index": 1,
+          "label": "Clothes Light"
+        },
+        {
+          "id": "bust_default",
+          "index": 2,
+          "label": "Default"
+        },
+        {
+          "id": "bust_shape_1_half",
+          "index": 3,
+          "label": "Shape 1 Half"
+        },
+        {
+          "id": "bust_shape_1_full",
+          "index": 4,
+          "label": "Shape 1 Full"
+        },
+        {
+          "id": "bust_shape_2_half",
+          "index": 5,
+          "label": "Shape 2 Half"
+        },
+        {
+          "id": "bust_shape_2_full",
+          "index": 6,
+          "label": "Shape 2 Full"
+        },
+        {
+          "id": "bust_shape_3_half",
+          "index": 7,
+          "label": "Shape 3 Half"
+        },
+        {
+          "id": "bust_shape_3_full",
+          "index": 8,
+          "label": "Shape 3 Full"
+        },
+        {
+          "id": "bust_shape_4_half",
+          "index": 9,
+          "label": "Shape 4 Half"
+        },
+        {
+          "id": "bust_shape_4_full",
+          "index": 10,
+          "label": "Shape 4 Full"
+        }
+      ]
+    },
+    {
+      "key": "gene_age",
+      "name": "Aging",
+      "category": "details",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 95,
+      "options": [
+        {
+          "id": "old_1",
+          "index": 0,
+          "label": "Old 1"
+        },
+        {
+          "id": "old_2",
+          "index": 1,
+          "label": "Old 2"
+        },
+        {
+          "id": "old_3",
+          "index": 2,
+          "label": "Old 3"
+        },
+        {
+          "id": "old_4",
+          "index": 3,
+          "label": "Old 4"
+        },
+        {
+          "id": "old_beauty_1",
+          "index": 4,
+          "label": "Old Beauty 1"
+        },
+        {
+          "id": "no_aging",
+          "index": 5,
+          "label": "No Aging"
+        }
+      ]
+    },
+    {
+      "key": "gene_eyebrows_shape",
+      "name": "Eyebrow Shape",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 96,
+      "options": [
+        {
+          "id": "no_eyebrows",
+          "index": 0,
+          "label": "No Eyebrow"
+        },
+        {
+          "id": "avg_spacing_avg_thickness",
+          "index": 1,
+          "label": "Avg Spacing Avg Thickness"
+        },
+        {
+          "id": "avg_spacing_high_thickness",
+          "index": 2,
+          "label": "Avg Spacing High Thickness"
+        },
+        {
+          "id": "avg_spacing_low_thickness",
+          "index": 3,
+          "label": "Avg Spacing Low Thickness"
+        },
+        {
+          "id": "avg_spacing_lower_thickness",
+          "index": 4,
+          "label": "Avg Spacing Lower Thickness"
+        },
+        {
+          "id": "far_spacing_avg_thickness",
+          "index": 5,
+          "label": "Far Spacing Avg Thickness"
+        },
+        {
+          "id": "far_spacing_high_thickness",
+          "index": 6,
+          "label": "Far Spacing High Thickness"
+        },
+        {
+          "id": "far_spacing_low_thickness",
+          "index": 7,
+          "label": "Far Spacing Low Thickness"
+        },
+        {
+          "id": "far_spacing_lower_thickness",
+          "index": 8,
+          "label": "Far Spacing Lower Thickness"
+        },
+        {
+          "id": "close_spacing_avg_thickness",
+          "index": 9,
+          "label": "Close Spacing Avg Thickness"
+        },
+        {
+          "id": "close_spacing_high_thickness",
+          "index": 10,
+          "label": "Close Spacing High Thickness"
+        },
+        {
+          "id": "close_spacing_low_thickness",
+          "index": 11,
+          "label": "Close Spacing Low Thickness"
+        },
+        {
+          "id": "close_spacing_lower_thickness",
+          "index": 12,
+          "label": "Close Spacing Lower Thickness"
+        }
+      ]
+    },
+    {
+      "key": "gene_eyebrows_fullness",
+      "name": "Eyebrow Fullness",
+      "category": "eyes",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 97,
+      "options": [
+        {
+          "id": "no_eyebrows",
+          "index": 0,
+          "label": "No Eyebrow"
+        },
+        {
+          "id": "layer_2_avg_thickness",
+          "index": 1,
+          "label": "Layer 2 Avg Thickness"
+        },
+        {
+          "id": "layer_2_high_thickness",
+          "index": 2,
+          "label": "Layer 2 High Thickness"
+        },
+        {
+          "id": "layer_2_low_thickness",
+          "index": 3,
+          "label": "Layer 2 Low Thickness"
+        },
+        {
+          "id": "layer_2_lower_thickness",
+          "index": 4,
+          "label": "Layer 2 Lower Thickness"
+        }
+      ]
+    },
+    {
+      "key": "gene_body_hair",
+      "name": "Body Hair",
+      "category": "body",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 98,
+      "options": [
+        {
+          "id": "body_hair_sparse",
+          "index": 0,
+          "label": "Sparse"
+        },
+        {
+          "id": "body_hair_avg",
+          "index": 1,
+          "label": "Avg"
+        },
+        {
+          "id": "body_hair_dense",
+          "index": 2,
+          "label": "Dense"
+        },
+        {
+          "id": "body_hair_sparse_low_stubble",
+          "index": 3,
+          "label": "Sparse Low Stubble"
+        },
+        {
+          "id": "body_hair_avg_low_stubble",
+          "index": 4,
+          "label": "Avg Low Stubble"
+        },
+        {
+          "id": "body_hair_dense_low_stubble",
+          "index": 5,
+          "label": "Dense Low Stubble"
+        },
+        {
+          "id": "body_hair_sparse_lower_stubble",
+          "index": 6,
+          "label": "Sparse Lower Stubble"
+        },
+        {
+          "id": "body_hair_avg_lower_stubble",
+          "index": 7,
+          "label": "Avg Lower Stubble"
+        },
+        {
+          "id": "body_hair_dense_lower_stubble",
+          "index": 8,
+          "label": "Dense Lower Stubble"
+        }
+      ]
+    },
+    {
+      "key": "gene_hair_type",
+      "name": "Hair Type",
+      "category": "hair",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 99,
+      "options": [
+        {
+          "id": "hair_straight",
+          "index": 0,
+          "label": "Straight"
+        },
+        {
+          "id": "hair_wavy",
+          "index": 1,
+          "label": "Wavy"
+        },
+        {
+          "id": "hair_curly",
+          "index": 2,
+          "label": "Curly"
+        },
+        {
+          "id": "hair_afro",
+          "index": 3,
+          "label": "Afro"
+        },
+        {
+          "id": "hair_straight_thin_beard",
+          "index": 4,
+          "label": "Straight Thin Beard"
+        }
+      ]
+    },
+    {
+      "key": "gene_baldness",
+      "name": "Baldness",
+      "category": "hair",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 100,
+      "options": [
+        {
+          "id": "no_baldness",
+          "index": 0,
+          "label": "No Baldness"
+        },
+        {
+          "id": "male_pattern_baldness",
+          "index": 1,
+          "label": "Male Pattern Baldness"
+        }
+      ]
+    },
+    {
+      "key": "eye_accessory",
+      "name": "Eye Accessory",
+      "category": "accessories",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 101,
+      "options": [
+        {
+          "id": "no_eyes",
+          "index": 0,
+          "label": "No Eyes"
+        },
+        {
+          "id": "normal_eyes",
+          "index": 1,
+          "label": "Normal Eyes"
+        },
+        {
+          "id": "normal_eyes_no_shadow",
+          "index": 2,
+          "label": "Normal Eyes (No Shadow)"
+        },
+        {
+          "id": "normal_eyes_dark_iris",
+          "index": 3,
+          "label": "Normal Eyes (Dark Iris)"
+        },
+        {
+          "id": "normal_eyes_asian",
+          "index": 4,
+          "label": "Normal Eyes (Asian)"
+        },
+        {
+          "id": "bloodshot_eyes",
+          "index": 5,
+          "label": "Bloodshot Eyes"
+        },
+        {
+          "id": "blind_eyes",
+          "index": 6,
+          "label": "Blind Eyes"
+        }
+      ]
+    },
+    {
+      "key": "teeth_accessory",
+      "name": "Teeth",
+      "category": "accessories",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 102,
+      "options": [
+        {
+          "id": "no_teeth",
+          "index": 0,
+          "label": "No Teeth"
+        },
+        {
+          "id": "normal_teeth",
+          "index": 1,
+          "label": "Normal Teeth"
+        },
+        {
+          "id": "ohaguro_teeth",
+          "index": 2,
+          "label": "Ohaguro Teeth"
+        }
+      ]
+    },
+    {
+      "key": "eyelashes_accessory",
+      "name": "Eyelashes",
+      "category": "accessories",
+      "kind": "enum",
+      "inBase64": true,
+      "base64Index": 103,
+      "options": [
+        {
+          "id": "no_eyelashes",
+          "index": 0,
+          "label": "No Eyelashes"
+        },
+        {
+          "id": "normal_eyelashes",
+          "index": 1,
+          "label": "Normal Eyelashes"
+        },
+        {
+          "id": "asian_eyelashes",
+          "index": 2,
+          "label": "Asian Eyelashes"
+        }
+      ]
+    },
+    {
+      "key": "beards",
+      "name": "Beard Style",
+      "category": "ruler",
+      "kind": "enum",
+      "inBase64": false,
+      "options": [
+        {
+          "id": "no_beard",
+          "index": 0,
+          "label": "No Beard"
+        },
+        {
+          "id": "all_beards",
+          "index": 1,
+          "label": "All Beards"
+        },
+        {
+          "id": "western_beards_straight",
+          "index": 2,
+          "label": "Western Beards Straight"
+        },
+        {
+          "id": "western_beards_curly",
+          "index": 3,
+          "label": "Western Beards Curly"
+        },
+        {
+          "id": "mena_beards_straight",
+          "index": 4,
+          "label": "Mena Beards Straight"
+        },
+        {
+          "id": "mena_beards_curly",
+          "index": 5,
+          "label": "Mena Beards Curly"
+        },
+        {
+          "id": "northern_beards_straight",
+          "index": 6,
+          "label": "Northern Beards Straight"
+        },
+        {
+          "id": "northern_beards_curly",
+          "index": 7,
+          "label": "Northern Beards Curly"
+        },
+        {
+          "id": "steppe_beards_straight",
+          "index": 8,
+          "label": "Steppe Beards Straight"
+        },
+        {
+          "id": "steppe_beards_curly",
+          "index": 9,
+          "label": "Steppe Beards Curly"
+        },
+        {
+          "id": "sub_saharan_beards_afro",
+          "index": 10,
+          "label": "Sub Saharan Beards Afro"
+        },
+        {
+          "id": "indian_beards_straight",
+          "index": 11,
+          "label": "Indian Beards Straight"
+        },
+        {
+          "id": "indian_beards_curly",
+          "index": 12,
+          "label": "Indian Beards Curly"
+        },
+        {
+          "id": "rtt_beards",
+          "index": 13,
+          "label": "Rtt Beards"
+        },
+        {
+          "id": "fp1_beards_straight",
+          "index": 14,
+          "label": "Fp1 Beards Straight"
+        },
+        {
+          "id": "fp1_beards_curly",
+          "index": 15,
+          "label": "Fp1 Beards Curly"
+        },
+        {
+          "id": "fp2_beards_straight",
+          "index": 16,
+          "label": "Fp2 Beards Straight"
+        },
+        {
+          "id": "fp2_beards_curly",
+          "index": 17,
+          "label": "Fp2 Beards Curly"
+        },
+        {
+          "id": "sp2_beards_straight",
+          "index": 18,
+          "label": "Sp2 Beards Straight"
+        },
+        {
+          "id": "ep2_beards",
+          "index": 19,
+          "label": "Ep2 Beards"
+        },
+        {
+          "id": "scripted_character_beards_01",
+          "index": 20,
+          "label": "Scripted Character Beards 1"
+        },
+        {
+          "id": "thin_beards_straight",
+          "index": 21,
+          "label": "Thin Beards Straight"
+        },
+        {
+          "id": "orthodox_beards",
+          "index": 22,
+          "label": "Orthodox Beards"
+        },
+        {
+          "id": "scripted_character_beards_02",
+          "index": 23,
+          "label": "Scripted Character Beards 2"
+        },
+        {
+          "id": "scripted_character_beards_03",
+          "index": 24,
+          "label": "Scripted Character Beards 3"
+        },
+        {
+          "id": "fp3_iranian_beards_straight",
+          "index": 25,
+          "label": "Fp3 Iranian Beards Straight"
+        },
+        {
+          "id": "fp3_iranian_beards_curly",
+          "index": 26,
+          "label": "Fp3 Iranian Beards Curly"
+        },
+        {
+          "id": "fp3_turkic_beards_straight",
+          "index": 27,
+          "label": "Fp3 Turkic Beards Straight"
+        },
+        {
+          "id": "fp3_turkic_beards_curly",
+          "index": 28,
+          "label": "Fp3 Turkic Beards Curly"
+        },
+        {
+          "id": "scripted_character_beards_04",
+          "index": 29,
+          "label": "Scripted Character Beards 4"
+        },
+        {
+          "id": "sp3_beards_straight",
+          "index": 30,
+          "label": "Sp3 Beards Straight"
+        },
+        {
+          "id": "byzantine_beards_straight",
+          "index": 31,
+          "label": "Byzantine Beards Straight"
+        },
+        {
+          "id": "byzantine_beards_curly",
+          "index": 32,
+          "label": "Byzantine Beards Curly"
+        },
+        {
+          "id": "ep3_beards_straight",
+          "index": 33,
+          "label": "Ep3 Beards Straight"
+        },
+        {
+          "id": "ep3_beards_curly",
+          "index": 34,
+          "label": "Ep3 Beards Curly"
+        },
+        {
+          "id": "sp4_mena_beards",
+          "index": 35,
+          "label": "Sp4 Mena Beards"
+        },
+        {
+          "id": "sp4_rus_beards",
+          "index": 36,
+          "label": "Sp4 Rus Beards"
+        },
+        {
+          "id": "mpo_mongol_beards",
+          "index": 37,
+          "label": "Mpo Mongol Beards"
+        },
+        {
+          "id": "tgp_japanese_beards",
+          "index": 38,
+          "label": "Tgp Japanese Beards"
+        },
+        {
+          "id": "tgp_chinese_beards",
+          "index": 39,
+          "label": "Tgp Chinese Beards"
+        },
+        {
+          "id": "tgp_sea_beards",
+          "index": 40,
+          "label": "Tgp Sea Beards"
+        },
+        {
+          "id": "tgp_ainu_beards",
+          "index": 41,
+          "label": "Tgp Ainu Beards"
+        },
+        {
+          "id": "cp7_emishi_ainu_beards_straight",
+          "index": 42,
+          "label": "Cp7 Emishi Ainu Beards Straight"
+        },
+        {
+          "id": "cp7_emishi_ainu_beards_wavy",
+          "index": 43,
+          "label": "Cp7 Emishi Ainu Beards Wavy"
+        },
+        {
+          "id": "cp7_emishi_ainu_beards_curly",
+          "index": 44,
+          "label": "Cp7 Emishi Ainu Beards Curly"
+        },
+        {
+          "id": "sp5_western_beards",
+          "index": 45,
+          "label": "Sp5 Western Beards"
+        },
+        {
+          "id": "orthodox_beards_straight",
+          "index": 46,
+          "label": "Orthodox Beards Straight"
+        },
+        {
+          "id": "orthodox_beards_curly",
+          "index": 47,
+          "label": "Orthodox Beards Curly"
+        },
+        {
+          "id": "pam_western_beards",
+          "index": 48,
+          "label": "Pam Western Beards"
+        },
+        {
+          "id": "legacy_dna_beards",
+          "index": 100,
+          "label": "Legacy Dna Beards"
+        }
+      ]
+    },
+    {
+      "key": "hairstyles",
+      "name": "Hairstyle Group",
+      "category": "ruler",
+      "kind": "enum",
+      "inBase64": false,
+      "options": [
+        {
+          "id": "all_hairstyles",
+          "index": 0,
+          "label": "All Hairstyles"
+        },
+        {
+          "id": "no_hairstyles",
+          "index": 1,
+          "label": "No Hairstyles"
+        },
+        {
+          "id": "western_hairstyles_straight",
+          "index": 2,
+          "label": "Western Hairstyles Straight"
+        },
+        {
+          "id": "western_hairstyles_wavy",
+          "index": 3,
+          "label": "Western Hairstyles Wavy"
+        },
+        {
+          "id": "western_hairstyles_curly",
+          "index": 4,
+          "label": "Western Hairstyles Curly"
+        },
+        {
+          "id": "western_hairstyles_afro",
+          "index": 5,
+          "label": "Western Hairstyles Afro"
+        },
+        {
+          "id": "mena_hairstyles_straight",
+          "index": 6,
+          "label": "Mena Hairstyles Straight"
+        },
+        {
+          "id": "mena_hairstyles_wavy",
+          "index": 7,
+          "label": "Mena Hairstyles Wavy"
+        },
+        {
+          "id": "mena_hairstyles_curly",
+          "index": 8,
+          "label": "Mena Hairstyles Curly"
+        },
+        {
+          "id": "mena_hairstyles_afro",
+          "index": 9,
+          "label": "Mena Hairstyles Afro"
+        },
+        {
+          "id": "byzantine_hairstyles_straight",
+          "index": 10,
+          "label": "Byzantine Hairstyles Straight"
+        },
+        {
+          "id": "byzantine_hairstyles_wavy",
+          "index": 11,
+          "label": "Byzantine Hairstyles Wavy"
+        },
+        {
+          "id": "byzantine_hairstyles_curly",
+          "index": 12,
+          "label": "Byzantine Hairstyles Curly"
+        },
+        {
+          "id": "byzantine_hairstyles_afro",
+          "index": 13,
+          "label": "Byzantine Hairstyles Afro"
+        },
+        {
+          "id": "sub_saharan_hairstyles_straight",
+          "index": 14,
+          "label": "Sub Saharan Hairstyles Straight"
+        },
+        {
+          "id": "sub_saharan_hairstyles_wavy",
+          "index": 15,
+          "label": "Sub Saharan Hairstyles Wavy"
+        },
+        {
+          "id": "sub_saharan_hairstyles_curly",
+          "index": 16,
+          "label": "Sub Saharan Hairstyles Curly"
+        },
+        {
+          "id": "sub_saharan_hairstyles_afro",
+          "index": 17,
+          "label": "Sub Saharan Hairstyles Afro"
+        },
+        {
+          "id": "indian_hairstyles_straight",
+          "index": 18,
+          "label": "Indian Hairstyles Straight"
+        },
+        {
+          "id": "indian_hairstyles_wavy",
+          "index": 19,
+          "label": "Indian Hairstyles Wavy"
+        },
+        {
+          "id": "indian_hairstyles_curly",
+          "index": 20,
+          "label": "Indian Hairstyles Curly"
+        },
+        {
+          "id": "indian_hairstyles_afro",
+          "index": 21,
+          "label": "Indian Hairstyles Afro"
+        },
+        {
+          "id": "northern_hairstyles_straight",
+          "index": 22,
+          "label": "Northern Hairstyles Straight"
+        },
+        {
+          "id": "northern_hairstyles_wavy",
+          "index": 23,
+          "label": "Northern Hairstyles Wavy"
+        },
+        {
+          "id": "northern_hairstyles_curly",
+          "index": 24,
+          "label": "Northern Hairstyles Curly"
+        },
+        {
+          "id": "northern_hairstyles_afro",
+          "index": 25,
+          "label": "Northern Hairstyles Afro"
+        },
+        {
+          "id": "steppe_hairstyles_straight",
+          "index": 26,
+          "label": "Steppe Hairstyles Straight"
+        },
+        {
+          "id": "steppe_hairstyles_wavy",
+          "index": 27,
+          "label": "Steppe Hairstyles Wavy"
+        },
+        {
+          "id": "steppe_hairstyles_curly",
+          "index": 28,
+          "label": "Steppe Hairstyles Curly"
+        },
+        {
+          "id": "steppe_hairstyles_afro",
+          "index": 29,
+          "label": "Steppe Hairstyles Afro"
+        },
+        {
+          "id": "catholic_devoted_hairstyles",
+          "index": 30,
+          "label": "Catholic Devoted Hairstyles"
+        },
+        {
+          "id": "western_baby_hairstyles",
+          "index": 31,
+          "label": "Western Baby Hairstyles"
+        },
+        {
+          "id": "sub_saharan_baby_hairstyles",
+          "index": 32,
+          "label": "Sub Saharan Baby Hairstyles"
+        },
+        {
+          "id": "rtt_hairstyles",
+          "index": 33,
+          "label": "Rtt Hairstyles"
+        },
+        {
+          "id": "fp1_hairstyles_straight",
+          "index": 34,
+          "label": "Fp1 Hairstyles Straight"
+        },
+        {
+          "id": "fp1_hairstyles_wavy",
+          "index": 35,
+          "label": "Fp1 Hairstyles Wavy"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_muslim_straight",
+          "index": 36,
+          "label": "Fp2 Hairstyles Iberian Muslim Straight"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_muslim_wavy",
+          "index": 37,
+          "label": "Fp2 Hairstyles Iberian Muslim Wavy"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_muslim_curly",
+          "index": 38,
+          "label": "Fp2 Hairstyles Iberian Muslim Curly"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_christian_straight",
+          "index": 39,
+          "label": "Fp2 Hairstyles Iberian Christian Straight"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_christian_wavy",
+          "index": 40,
+          "label": "Fp2 Hairstyles Iberian Christian Wavy"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_christian_curly",
+          "index": 41,
+          "label": "Fp2 Hairstyles Iberian Christian Curly"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_muslim_straight_common",
+          "index": 42,
+          "label": "Fp2 Hairstyles Iberian Muslim Straight Common"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_muslim_wavy_common",
+          "index": 43,
+          "label": "Fp2 Hairstyles Iberian Muslim Wavy Common"
+        },
+        {
+          "id": "fp2_hairstyles_iberian_muslim_curly_common",
+          "index": 44,
+          "label": "Fp2 Hairstyles Iberian Muslim Curly Common"
+        },
+        {
+          "id": "fp3_hairstyles_iranian_straight",
+          "index": 45,
+          "label": "Fp3 Hairstyles Iranian Straight"
+        },
+        {
+          "id": "fp3_hairstyles_iranian_wavy",
+          "index": 46,
+          "label": "Fp3 Hairstyles Iranian Wavy"
+        },
+        {
+          "id": "fp3_hairstyles_iranian_straight_common",
+          "index": 47,
+          "label": "Fp3 Hairstyles Iranian Straight Common"
+        },
+        {
+          "id": "fp3_hairstyles_iranian_wavy_common",
+          "index": 48,
+          "label": "Fp3 Hairstyles Iranian Wavy Common"
+        },
+        {
+          "id": "fp3_hairstyles_turkic_straight",
+          "index": 49,
+          "label": "Fp3 Hairstyles Turkic Straight"
+        },
+        {
+          "id": "fp3_hairstyles_turkic_wavy",
+          "index": 50,
+          "label": "Fp3 Hairstyles Turkic Wavy"
+        },
+        {
+          "id": "fp3_hairstyles_turkic_straight_common",
+          "index": 51,
+          "label": "Fp3 Hairstyles Turkic Straight Common"
+        },
+        {
+          "id": "fp3_hairstyles_turkic_wavy_common",
+          "index": 52,
+          "label": "Fp3 Hairstyles Turkic Wavy Common"
+        },
+        {
+          "id": "ep2_hairstyles_western",
+          "index": 53,
+          "label": "Ep2 Hairstyles Western"
+        },
+        {
+          "id": "ep2_hairstyles_western_common",
+          "index": 54,
+          "label": "Ep2 Hairstyles Western Common"
+        },
+        {
+          "id": "sp3_hairstyles",
+          "index": 55,
+          "label": "Sp3 Hairstyles"
+        },
+        {
+          "id": "fp4_bald_hairstyles",
+          "index": 56,
+          "label": "Fp4 Bald Hairstyles"
+        },
+        {
+          "id": "scripted_character_hairstyles_01",
+          "index": 57,
+          "label": "Scripted Character Hairstyles 1"
+        },
+        {
+          "id": "scripted_character_hairstyles_02",
+          "index": 58,
+          "label": "Scripted Character Hairstyles 2"
+        },
+        {
+          "id": "special_hairstyles",
+          "index": 59,
+          "label": "Special Hairstyles"
+        },
+        {
+          "id": "scripted_character_hairstyles_03",
+          "index": 60,
+          "label": "Scripted Character Hairstyles 3"
+        },
+        {
+          "id": "scripted_character_hairstyles_04",
+          "index": 61,
+          "label": "Scripted Character Hairstyles 4"
+        },
+        {
+          "id": "scripted_character_hairstyles_05",
+          "index": 62,
+          "label": "Scripted Character Hairstyles 5"
+        },
+        {
+          "id": "ep3_byzantine_hairstyle",
+          "index": 63,
+          "label": "Ep3 Byzantine Hairstyle"
+        },
+        {
+          "id": "ep3_byzantine_hairstyles_wavy",
+          "index": 64,
+          "label": "Ep3 Byzantine Hairstyles Wavy"
+        },
+        {
+          "id": "ep3_byzantine_hairstyles_curly",
+          "index": 65,
+          "label": "Ep3 Byzantine Hairstyles Curly"
+        },
+        {
+          "id": "ep3_byzantine_hairstyles_straight",
+          "index": 66,
+          "label": "Ep3 Byzantine Hairstyles Straight"
+        },
+        {
+          "id": "ep3_byzantine_hairstyles_wavy_common",
+          "index": 67,
+          "label": "Ep3 Byzantine Hairstyles Wavy Common"
+        },
+        {
+          "id": "ep3_byzantine_hairstyles_curly_common",
+          "index": 68,
+          "label": "Ep3 Byzantine Hairstyles Curly Common"
+        },
+        {
+          "id": "ep3_byzantine_hairstyles_straight_common",
+          "index": 69,
+          "label": "Ep3 Byzantine Hairstyles Straight Common"
+        },
+        {
+          "id": "sp4_western_hairstyles",
+          "index": 70,
+          "label": "Sp4 Western Hairstyles"
+        },
+        {
+          "id": "sp4_mena_hairstyles",
+          "index": 71,
+          "label": "Sp4 Mena Hairstyles"
+        },
+        {
+          "id": "mpo_mongol_hairstyles",
+          "index": 72,
+          "label": "Mpo Mongol Hairstyles"
+        },
+        {
+          "id": "tgp_chinese_hairstyles",
+          "index": 73,
+          "label": "Tgp Chinese Hairstyles"
+        },
+        {
+          "id": "tgp_japanese_hairstyles",
+          "index": 74,
+          "label": "Tgp Japanese Hairstyles"
+        },
+        {
+          "id": "tgp_japanese_high_nobility_hairstyles",
+          "index": 75,
+          "label": "Tgp Japanese High Nobility Hairstyles"
+        },
+        {
+          "id": "tgp_japanese_royal_hairstyles",
+          "index": 76,
+          "label": "Tgp Japanese Royal Hairstyles"
+        },
+        {
+          "id": "tgp_japanese_children_hairstyles",
+          "index": 77,
+          "label": "Tgp Japanese Children Hairstyles"
+        },
+        {
+          "id": "tgp_southeast_hairstyles",
+          "index": 78,
+          "label": "Tgp Southeast Hairstyles"
+        },
+        {
+          "id": "tgp_ainu_hairstyles",
+          "index": 79,
+          "label": "Tgp Ainu Hairstyles"
+        },
+        {
+          "id": "cp7_emishi_ainu_hairstyles_straight_wavy",
+          "index": 80,
+          "label": "Cp7 Emishi Ainu Hairstyles Straight Wavy"
+        },
+        {
+          "id": "cp7_emishi_ainu_hairstyles_curly_afro",
+          "index": 81,
+          "label": "Cp7 Emishi Ainu Hairstyles Curly Afro"
+        },
+        {
+          "id": "ccp9_uighur_hairstyles",
+          "index": 82,
+          "label": "Ccp9 Uighur Hairstyles"
+        },
+        {
+          "id": "sp5_hairstyles",
+          "index": 83,
+          "label": "Sp5 Hairstyles"
+        },
+        {
+          "id": "pam_christian_hairstyles",
+          "index": 84,
+          "label": "Pam Christian Hairstyles"
+        },
+        {
+          "id": "pam_catholic_hairstyles",
+          "index": 85,
+          "label": "Pam Catholic Hairstyles"
+        },
+        {
+          "id": "pam_orthodox_hairstyles",
+          "index": 86,
+          "label": "Pam Orthodox Hairstyles"
+        },
+        {
+          "id": "female_hair_fp1_special",
+          "index": 87,
+          "label": "Female Hair Fp1 Special"
+        },
+        {
+          "id": "legacy_dna_hairstyles",
+          "index": 100,
+          "label": "Legacy Dna Hairstyles"
+        }
+      ]
+    }
+  ]
+}

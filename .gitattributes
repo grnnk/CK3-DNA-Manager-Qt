@@ -1,0 +1,7 @@
+* text=auto
+
+# Shell scripts and workflow files must keep LF endings when checked out on
+# Linux runners. PowerShell scripts can use the platform default.
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

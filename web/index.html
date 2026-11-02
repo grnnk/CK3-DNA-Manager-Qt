@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>CK3 DNA Manager</title>
+  <link rel="icon" href="./assets/app.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="app">
+    <div id="menubar" class="menubar"></div>
+
+    <div class="workspace">
+      <aside class="sidebar">
+        <div class="brand-row">
+          <img class="brand-icon" src="./assets/app.png" alt="">
+          <div>
+            <div class="brand" data-i18n="app.title">CK3 DNA Manager</div>
+            <div class="muted" data-i18n="library.title">Library</div>
+          </div>
+        </div>
+
+        <div id="entry-count" class="muted"></div>
+
+        <input id="search" class="input" type="search" data-i18n-placeholder="library.searchPlaceholder" placeholder="Search by name or notes…">
+
+        <div class="sort-row">
+          <label class="field-label" for="sort" data-i18n="library.sort">Sort</label>
+          <select id="sort" class="input">
+            <option value="updated" data-i18n="library.sortUpdated">Last modified</option>
+            <option value="created" data-i18n="library.sortCreated">Date created</option>
+            <option value="name" data-i18n="library.sortName">Name</option>
+          </select>
+        </div>
+
+        <div id="entry-list" class="entry-list"></div>
+        <div id="list-empty" class="empty-list" hidden>
+          <div id="list-empty-title" class="empty-title"></div>
+          <div id="list-empty-hint" class="empty-hint"></div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="button-row">
+          <button id="new-button" class="btn primary">
+            <img class="icon" src="./assets/icons/add.svg" alt="">
+            <span data-i18n="library.new">New entry</span>
+          </button>
+          <button id="import-button" class="btn">
+            <img class="icon" src="./assets/icons/import.svg" alt="">
+            <span data-i18n="library.import">Import</span>
+          </button>
+        </div>
+
+        <div class="language-row">
+          <label class="field-label" for="language" data-i18n="app.language">Language</label>
+          <select id="language" class="input"></select>
+        </div>
+      </aside>
+
+      <main class="main">
+        <section id="welcome" class="welcome">
+          <img class="welcome-icon" src="./assets/app.png" alt="">
+          <div class="welcome-title" data-i18n="welcome.title">Shape faces. Keep every DNA safe.</div>
+          <div class="welcome-hint" data-i18n="welcome.hint"></div>
+          <div class="welcome-buttons">
+            <button id="welcome-new" class="btn primary">
+              <img class="icon" src="./assets/icons/add.svg" alt="">
+              <span data-i18n="welcome.new">Create your first entry</span>
+            </button>
+            <button id="welcome-import" class="btn">
+              <img class="icon" src="./assets/icons/import.svg" alt="">
+              <span data-i18n="welcome.import">Import library or character</span>
+            </button>
+          </div>
+        </section>
+
+        <section id="content" class="content" hidden>
+          <header class="detail-header">
+            <h1 id="detail-title" class="detail-title"></h1>
+            <button id="favorite" class="favorite" title="">☆</button>
+          </header>
+
+          <nav class="tabs" role="tablist">
+            <button id="tab-overview" class="tab active" role="tab" aria-selected="true" data-i18n="detail.overview">Overview</button>
+            <button id="tab-genes" class="tab" role="tab" aria-selected="false" data-i18n="detail.genes">Genes</button>
+          </nav>
+
+          <div id="overview-panel" class="panel" role="tabpanel">
+            <div class="overview-scroll">
+              <div class="overview-content">
+                <div class="portrait-column">
+                  <div id="portrait" class="portrait" tabindex="0">
+                    <img id="portrait-image" alt="" hidden>
+                    <div id="portrait-placeholder" class="portrait-placeholder" data-i18n="detail.dropPortrait">Drop a portrait here
+or click to choose an image</div>
+                    <div class="portrait-format-hint">PNG · JPG · WEBP · BMP · GIF</div>
+                  </div>
+                  <div class="portrait-buttons">
+                    <button id="change-portrait" class="btn">
+                      <img class="icon" src="./assets/icons/image.svg" alt="">
+                      <span data-i18n="detail.changePortrait">Change portrait</span>
+                    </button>
+                    <button id="paste-portrait" class="btn">
+                      <img class="icon" src="./assets/icons/paste.svg" alt="">
+                      <span data-i18n="action.pasteImage">Paste image</span>
+                    </button>
+                    <button id="remove-portrait" class="btn danger">
+                      <span data-i18n="detail.removePortrait">Remove portrait</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="detail-column">
+                  <label class="field-label" for="name" data-i18n="detail.name">Name</label>
+                  <input id="name" class="input name-input" data-i18n-placeholder="detail.namePlaceholder" placeholder="Give this DNA a name">
+
+                  <label class="field-label" for="notes" data-i18n="detail.notes">Notes</label>
+                  <textarea id="notes" class="input notes" data-i18n-placeholder="detail.notesPlaceholder" placeholder="Optional notes, origin, intended use…"></textarea>
+
+                  <div id="meta" class="muted meta"></div>
+
+                  <div class="actions">
+                    <button id="edit-genes" class="btn primary">
+                      <img class="icon" src="./assets/icons/edit.svg" alt="">
+                      <span data-i18n="detail.editGenes">Edit genes</span>
+                    </button>
+                    <button id="copy-base64" class="btn">
+                      <img class="icon" src="./assets/icons/copy.svg" alt="">
+                      <span data-i18n="detail.copyBase64">Copy Base64</span>
+                    </button>
+                    <button id="copy-ruler" class="btn">
+                      <img class="icon" src="./assets/icons/copy.svg" alt="">
+                      <span data-i18n="detail.copyRuler">Copy ruler code</span>
+                    </button>
+                    <button id="save-details" class="btn">
+                      <img class="icon" src="./assets/icons/save.svg" alt="">
+                      <span data-i18n="detail.saveDetails">Save changes</span>
+                    </button>
+                    <button id="duplicate-entry" class="btn">
+                      <img class="icon" src="./assets/icons/duplicate.svg" alt="">
+                      <span data-i18n="detail.duplicate">Duplicate</span>
+                    </button>
+                    <button id="export-entry" class="btn">
+                      <img class="icon" src="./assets/icons/export.svg" alt="">
+                      <span data-i18n="detail.export">Export</span>
+                    </button>
+                    <button id="delete-entry" class="btn danger">
+                      <img class="icon" src="./assets/icons/delete.svg" alt="">
+                      <span data-i18n="detail.delete">Delete</span>
+                    </button>
+                  </div>
+
+                  <div class="code-tabs">
+                    <div class="code-tab-headers">
+                      <button class="code-tab active" data-code-tab="base64" data-i18n="detail.base64Tab">Base64 DNA</button>
+                      <button class="code-tab" data-code-tab="ruler" data-i18n="detail.rulerTab">Ruler Designer</button>
+                      <button id="copy-code" class="btn small">
+                        <img class="icon" src="./assets/icons/copy.svg" alt="">
+                        <span data-i18n="detail.copy">Copy</span>
+                      </button>
+                    </div>
+                    <textarea id="base64-code" class="input code" readonly spellcheck="false" wrap="soft"></textarea>
+                    <textarea id="ruler-code" class="input code" readonly spellcheck="false" wrap="soft" hidden></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="genes-panel" class="panel" role="tabpanel" hidden>
+            <div class="gene-toolbar">
+              <input id="gene-search" class="input" type="search" data-i18n-placeholder="genes.searchPlaceholder" placeholder="Search genes by name or key…">
+              <select id="gene-category" class="input"></select>
+              <span id="gene-count" class="muted"></span>
+            </div>
+            <div id="gene-legend" class="muted legend" data-i18n="genes.hint"></div>
+            <div class="gene-scroll">
+              <div id="gene-content" class="gene-content"></div>
+            </div>
+            <div class="editor-footer">
+              <span id="dirty-label" class="dirty" data-i18n="genes.noChanges">No unsaved changes</span>
+              <button id="revert-genes" class="btn" data-i18n="genes.revert" disabled>Revert</button>
+              <button id="save-genes" class="btn primary" data-i18n="genes.save" disabled>Save genes</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="statusbar" class="statusbar"><span id="status-text" data-i18n="status.ready">Ready</span></div>
+    <div id="modal-root"></div>
+
+    <input id="file-input" type="file" accept=".json,.db,.sqlite,.sqlite3,application/json" hidden>
+    <input id="image-input" type="file" accept="image/png,image/jpeg,image/webp,image/bmp,image/gif" hidden>
+  </div>
+
+  <script>
+    // ES module imports are blocked for file:// URLs in Chromium. The generated
+    // standalone bundle contains the same app, embedded assets and SQLite WASM.
+    (function () {
+      const script = document.createElement('script');
+      if (location.protocol === 'file:') {
+        script.src = './standalone.bundle.js';
+      } else {
+        script.type = 'module';
+        script.src = './js/ui/app.js';
+      }
+      script.onerror = () => {
+        const message = document.createElement('div');
+        message.style.cssText = 'padding:24px;color:#e07b6a;font:14px/1.5 system-ui,sans-serif;';
+        message.textContent = location.protocol === 'file:'
+          ? 'Could not load standalone.bundle.js. Keep the whole web folder together and rebuild with node web/tools/build-standalone.mjs.'
+          : 'Could not load the web app modules. Serve the web folder over HTTP.';
+        document.body.prepend(message);
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
+</body>
+</html>
