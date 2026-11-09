@@ -26,9 +26,10 @@ A static browser build lives in [`web/`](web/) and is published to
 interface and the DNA/Ruler Designer codec, but stores its library in the
 browser instead of SQLite.
 
-- **No runtime build step.** Plain HTML, CSS and ES modules; GitHub Pages
-  serves the `web/` folder directly. A generated `standalone.bundle.js` also
-  lets `index.html` run when opened directly from disk.
+- **No runtime build step.** Plain HTML, CSS and ES modules; the UI controller
+  is split into focused modules under [`web/js/ui/`](web/js/ui/), and GitHub
+  Pages serves the `web/` folder directly. A generated `standalone.bundle.js`
+  also lets `index.html` run when opened directly from disk.
 - **Local-first.** Entries, settings and portraits live in `localStorage`
   under the `ck3dna.v1.*` namespace.
 - **Same JSON format.** Import and export use the desktop app's
@@ -88,6 +89,9 @@ The Pages deployment workflow is
 - **Every important DNA format.** Paste modern Base64, legacy Base64 or a Ruler
   Designer block. Copy either Base64 or Ruler Designer text back to the
   clipboard.
+- **Quick conversion.** Use the sidebar button or
+  **File > Quick DNA conversion** to convert a pasted code in either direction
+  without creating a library entry.
 - **Complete gene editing.** 104 vanilla Base64 slots plus modded extra slots,
   two alleles per morph gene, strength values, RGBA colours, and the
   Ruler-Designer-only beard and hairstyle genes.
@@ -130,6 +134,9 @@ pre-1.0.1 `%APPDATA%\Welshtokki\CK3 DNA Manager` location on first launch.
 
 - **New entry** (`Ctrl+N`) accepts Base64 DNA or a Ruler Designer `genes={ ... }`
   block. The format selector defaults to automatic detection.
+- **Quick DNA conversion** converts a pasted code to both Base64 and Ruler
+  Designer formats without saving it. Open it from the sidebar or
+  **File > Quick DNA conversion**.
 - **Import library or character** (`Ctrl+Shift+O`) accepts an original
   `CK3_DNA_DB.json` or a JSON file exported by this app.
 - **Export current entry** (`Ctrl+E`) and **Export all entries**
