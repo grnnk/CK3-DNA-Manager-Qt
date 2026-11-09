@@ -57,6 +57,8 @@ add_library(ck3ui STATIC
     src/ui/GeneEditorWidget.cpp
     src/ui/AddEntryDialog.h
     src/ui/AddEntryDialog.cpp
+    src/ui/QuickConvertDialog.h
+    src/ui/QuickConvertDialog.cpp
     src/ui/AboutDialog.h
     src/ui/AboutDialog.cpp
 )

@@ -5144,7 +5144,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Inspired by CK3 DNA Manager by Welshtokki:",
       "about.qt": "Built with Qt 6 and SQLite:",
       "msg.importUnsupported": "This file is not a supported CK3 DNA Manager library or character export.",
-      "msg.importEmpty": "The selected file contains no characters."
+      "msg.importEmpty": "The selected file contains no characters.",
+      "action.quickConvert": "Quick DNA conversion…",
+      "quick.title": "Quick DNA conversion",
+      "quick.hint": "Paste a DNA code to convert it.",
+      "quick.output": "Converted output"
     },
     "de": {
       "app.title": "CK3 DNA Manager",
@@ -5310,7 +5314,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Inspiriert von CK3 DNA Manager von Welshtokki:",
       "about.qt": "Erstellt mit Qt 6 und SQLite:",
       "msg.importUnsupported": "Diese Datei ist kein unterstützter CK3 DNA Manager-Bibliotheks- oder Charakterexport.",
-      "msg.importEmpty": "Die ausgewählte Datei enthält keine Charaktere."
+      "msg.importEmpty": "Die ausgewählte Datei enthält keine Charaktere.",
+      "action.quickConvert": "Schnelle DNA-Konvertierung…",
+      "quick.title": "Schnelle DNA-Konvertierung",
+      "quick.hint": "Füge einen DNA-Code ein, um ihn zu konvertieren.",
+      "quick.output": "Konvertierte Ausgabe"
     },
     "fr": {
       "app.title": "CK3 DNA Manager",
@@ -5476,7 +5484,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Inspiré par CK3 DNA Manager de Welshtokki :",
       "about.qt": "Développé avec Qt 6 et SQLite :",
       "msg.importUnsupported": "Ce fichier n’est pas un export de bibliothèque ou de personnage CK3 DNA Manager pris en charge.",
-      "msg.importEmpty": "Le fichier sélectionné ne contient aucun personnage."
+      "msg.importEmpty": "Le fichier sélectionné ne contient aucun personnage.",
+      "action.quickConvert": "Conversion rapide de l'ADN…",
+      "quick.title": "Conversion rapide de l'ADN",
+      "quick.hint": "Collez un code ADN pour le convertir.",
+      "quick.output": "Résultat converti"
     },
     "zh": {
       "app.title": "CK3 DNA Manager",
@@ -5642,7 +5654,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "灵感来自 Welshtokki 的 CK3 DNA Manager：",
       "about.qt": "使用 Qt 6 和 SQLite 构建：",
       "msg.importUnsupported": "此文件不是受支持的 CK3 DNA Manager 库或角色导出文件。",
-      "msg.importEmpty": "所选文件不包含任何角色。"
+      "msg.importEmpty": "所选文件不包含任何角色。",
+      "action.quickConvert": "快速 DNA 转换…",
+      "quick.title": "快速 DNA 转换",
+      "quick.hint": "粘贴 DNA 代码即可转换。",
+      "quick.output": "转换结果"
     },
     "ru": {
       "app.title": "CK3 DNA Manager",
@@ -5808,7 +5824,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Вдохновлено CK3 DNA Manager от Welshtokki:",
       "about.qt": "Создано с помощью Qt 6 и SQLite:",
       "msg.importUnsupported": "Этот файл не является поддерживаемым экспортом библиотеки или персонажа CK3 DNA Manager.",
-      "msg.importEmpty": "Выбранный файл не содержит персонажей."
+      "msg.importEmpty": "Выбранный файл не содержит персонажей.",
+      "action.quickConvert": "Быстрое преобразование ДНК…",
+      "quick.title": "Быстрое преобразование ДНК",
+      "quick.hint": "Вставьте код ДНК, чтобы преобразовать его.",
+      "quick.output": "Результат преобразования"
     },
     "es": {
       "app.title": "CK3 DNA Manager",
@@ -5974,7 +5994,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Inspirado en CK3 DNA Manager de Welshtokki:",
       "about.qt": "Creado con Qt 6 y SQLite:",
       "msg.importUnsupported": "Este archivo no es una exportación compatible de biblioteca o personaje de CK3 DNA Manager.",
-      "msg.importEmpty": "El archivo seleccionado no contiene personajes."
+      "msg.importEmpty": "El archivo seleccionado no contiene personajes.",
+      "action.quickConvert": "Conversión rápida de ADN…",
+      "quick.title": "Conversión rápida de ADN",
+      "quick.hint": "Pega un código de ADN para convertirlo.",
+      "quick.output": "Resultado convertido"
     },
     "pt": {
       "app.title": "CK3 DNA Manager",
@@ -6140,7 +6164,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Inspirado no CK3 DNA Manager de Welshtokki:",
       "about.qt": "Criado com Qt 6 e SQLite:",
       "msg.importUnsupported": "Este ficheiro não é uma exportação compatível de biblioteca ou personagem do CK3 DNA Manager.",
-      "msg.importEmpty": "O ficheiro selecionado não contém personagens."
+      "msg.importEmpty": "O ficheiro selecionado não contém personagens.",
+      "action.quickConvert": "Conversão rápida de ADN…",
+      "quick.title": "Conversão rápida de ADN",
+      "quick.hint": "Cole um código de DNA para convertê-lo.",
+      "quick.output": "Resultado convertido"
     },
     "pl": {
       "app.title": "CK3 DNA Manager",
@@ -6306,7 +6334,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Inspirowane CK3 DNA Manager autorstwa Welshtokki:",
       "about.qt": "Zbudowano z Qt 6 i SQLite:",
       "msg.importUnsupported": "Ten plik nie jest obsługiwanym eksportem biblioteki lub postaci CK3 DNA Manager.",
-      "msg.importEmpty": "Wybrany plik nie zawiera żadnych postaci."
+      "msg.importEmpty": "Wybrany plik nie zawiera żadnych postaci.",
+      "action.quickConvert": "Szybka konwersja DNA…",
+      "quick.title": "Szybka konwersja DNA",
+      "quick.hint": "Wklej kod DNA, aby go przekonwertować.",
+      "quick.output": "Przekonwertowany wynik"
     },
     "ja": {
       "app.title": "CK3 DNA Manager",
@@ -6472,7 +6504,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Welshtokki氏のCK3 DNA Managerにインスパイアされました：",
       "about.qt": "Qt 6とSQLiteで構築:",
       "msg.importUnsupported": "このファイルはサポートされているCK3 DNA Managerのライブラリまたはキャラクターのエクスポートではありません。",
-      "msg.importEmpty": "選択したファイルにはキャラクターがありません。"
+      "msg.importEmpty": "選択したファイルにはキャラクターがありません。",
+      "action.quickConvert": "DNA のクイック変換…",
+      "quick.title": "DNA のクイック変換",
+      "quick.hint": "DNA コードを貼り付けると変換できます。",
+      "quick.output": "変換結果"
     },
     "ko": {
       "app.title": "CK3 DNA Manager",
@@ -6638,7 +6674,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Welshtokki의 CK3 DNA Manager에서 영감을 받았습니다:",
       "about.qt": "Qt 6 및 SQLite로 제작:",
       "msg.importUnsupported": "이 파일은 지원되는 CK3 DNA Manager 라이브러리 또는 캐릭터 내보내기 파일이 아닙니다.",
-      "msg.importEmpty": "선택한 파일에 캐릭터가 없습니다."
+      "msg.importEmpty": "선택한 파일에 캐릭터가 없습니다.",
+      "action.quickConvert": "빠른 DNA 변환…",
+      "quick.title": "빠른 DNA 변환",
+      "quick.hint": "DNA 코드를 붙여넣으면 변환됩니다.",
+      "quick.output": "변환 결과"
     },
     "it": {
       "app.title": "CK3 DNA Manager",
@@ -6804,7 +6844,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Ispirato a CK3 DNA Manager di Welshtokki:",
       "about.qt": "Realizzato con Qt 6 e SQLite:",
       "msg.importUnsupported": "Questo file non è una libreria o un'esportazione di personaggi supportata da CK3 DNA Manager.",
-      "msg.importEmpty": "Il file selezionato non contiene personaggi."
+      "msg.importEmpty": "Il file selezionato non contiene personaggi.",
+      "action.quickConvert": "Conversione rapida del DNA…",
+      "quick.title": "Conversione rapida del DNA",
+      "quick.hint": "Incolla un codice DNA per convertirlo.",
+      "quick.output": "Risultato convertito"
     },
     "sv": {
       "app.title": "CK3 DNA Manager",
@@ -6970,7 +7014,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Inspirerad av CK3 DNA Manager av Welshtokki:",
       "about.qt": "Byggt med Qt 6 och SQLite:",
       "msg.importUnsupported": "Den här filen är inte ett CK3 DNA Manager-bibliotek eller en karaktärsexport som stöds.",
-      "msg.importEmpty": "Den valda filen innehåller inga karaktärer."
+      "msg.importEmpty": "Den valda filen innehåller inga karaktärer.",
+      "action.quickConvert": "Snabb DNA-konvertering…",
+      "quick.title": "Snabb DNA-konvertering",
+      "quick.hint": "Klistra in en DNA-kod för att konvertera den.",
+      "quick.output": "Konverterat resultat"
     },
     "tr": {
       "app.title": "CK3 DNA Manager",
@@ -7136,7 +7184,11 @@ globalThis.__CK3DNA_ASSETS__ = {
       "about.original": "Welshtokki'nin CK3 DNA Manager uygulamasından esinlenmiştir:",
       "about.qt": "Qt 6 ve SQLite ile geliştirilmiştir:",
       "msg.importUnsupported": "Bu dosya desteklenen bir CK3 DNA Manager kütüphanesi veya karakter dışa aktarımı değil.",
-      "msg.importEmpty": "Seçilen dosyada hiç karakter yok."
+      "msg.importEmpty": "Seçilen dosyada hiç karakter yok.",
+      "action.quickConvert": "Hızlı DNA dönüştürme…",
+      "quick.title": "Hızlı DNA dönüştürme",
+      "quick.hint": "Dönüştürmek için bir DNA kodu yapıştırın.",
+      "quick.output": "Dönüştürülen çıktı"
     }
   }
 }
@@ -7267,6 +7319,274 @@ globalThis.__CK3DNA_SQL_WASM_BASE64__ = "AGFzbQEAAAABnwRFYAJ/fwF/YAF/AX9gA39/fwB
     }
     static categoryTranslationKey(category) {
       return `genes.category.${category}`;
+    }
+  };
+
+  // js/core/i18n.js
+  var I18n = class {
+    constructor() {
+      this.languages = [];
+      this.names = /* @__PURE__ */ new Map();
+      this.strings = /* @__PURE__ */ new Map();
+      this.current = "en";
+    }
+    load(root) {
+      this.languages = [];
+      this.names = /* @__PURE__ */ new Map();
+      this.strings = /* @__PURE__ */ new Map();
+      if (!root || typeof root !== "object") throw new Error("Translations are not a JSON object");
+      if (Array.isArray(root.languages)) {
+        for (const value of root.languages) {
+          if (!value || typeof value !== "object") continue;
+          const code = typeof value.code === "string" ? value.code : "";
+          if (!code) continue;
+          if (!this.languages.includes(code)) this.languages.push(code);
+          const name = typeof value.nativeName === "string" && value.nativeName ? value.nativeName : typeof value.name === "string" && value.name ? value.name : code;
+          this.names.set(code, name);
+        }
+      }
+      if (root.strings && typeof root.strings === "object") {
+        for (const [code, values] of Object.entries(root.strings)) {
+          if (!values || typeof values !== "object" || Array.isArray(values)) continue;
+          const map = /* @__PURE__ */ new Map();
+          for (const [key, value] of Object.entries(values)) {
+            if (typeof value === "string") map.set(key, value);
+          }
+          this.strings.set(code, map);
+        }
+      }
+      if (!this.strings.has("en")) throw new Error("Translations do not contain English strings");
+      if (!this.languages.includes("en")) this.languages.unshift("en");
+      if (!this.names.has("en")) this.names.set("en", "English");
+      if (!this.strings.has(this.current)) this.current = "en";
+    }
+    availableLanguages() {
+      return [...this.languages];
+    }
+    languageName(code) {
+      return this.names.get(code) || code;
+    }
+    setLanguage(code) {
+      if (code === this.current || !this.strings.has(code)) return false;
+      this.current = code;
+      return true;
+    }
+    value(key) {
+      const current = this.strings.get(this.current);
+      const english = this.strings.get("en");
+      const value = current?.get(key) || english?.get(key);
+      return value || key;
+    }
+    t(key, ...args) {
+      let text = this.value(key);
+      args.forEach((arg, index) => {
+        text = text.split(`%${index + 1}`).join(String(arg));
+      });
+      return text;
+    }
+    locale() {
+      return this.current;
+    }
+  };
+
+  // js/storage/local-store.js
+  var LIBRARY_KEY = "ck3dna.v1.library";
+  var SETTINGS_KEY = "ck3dna.v1.settings";
+  var PORTRAIT_PREFIX = "ck3dna.v1.portrait.";
+  var THUMB_PREFIX = "ck3dna.v1.thumb.";
+  function newId() {
+    if (globalThis.crypto?.randomUUID) return crypto.randomUUID();
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (character) => {
+      const random = Math.floor(Math.random() * 16);
+      const value = character === "x" ? random : random & 3 | 8;
+      return value.toString(16);
+    });
+  }
+  function emptyLibrary() {
+    return { version: 1, entries: [] };
+  }
+  var LocalStore = class {
+    constructor(storage = globalThis.localStorage) {
+      this.storage = storage;
+    }
+    load() {
+      const raw = this.storage.getItem(LIBRARY_KEY);
+      if (!raw) return { library: emptyLibrary(), error: "" };
+      try {
+        const parsed = JSON.parse(raw);
+        if (!parsed || !Array.isArray(parsed.entries)) throw new Error("Invalid library shape");
+        return { library: { version: 1, entries: parsed.entries }, error: "" };
+      } catch (error) {
+        return { library: emptyLibrary(), error: error.message || "The library could not be read." };
+      }
+    }
+    save(library) {
+      const payload = JSON.stringify({ version: 1, entries: library.entries });
+      this.storage.setItem(LIBRARY_KEY, payload);
+    }
+    entries() {
+      return this.load().library.entries;
+    }
+    get(id) {
+      return this.entries().find((entry) => entry.id === id) || null;
+    }
+    insert(entry) {
+      const library = this.load().library;
+      const now = Date.now();
+      const record = {
+        id: entry.id || newId(),
+        name: (entry.name || "").trim() || "Untitled",
+        notes: entry.notes || "",
+        dna: entry.dna || "",
+        rulerMeta: entry.rulerMeta || "",
+        favorite: Boolean(entry.favorite),
+        createdAt: entry.createdAt > 0 ? entry.createdAt : now,
+        updatedAt: entry.updatedAt > 0 ? entry.updatedAt : now,
+        hasPortrait: Boolean(entry.hasPortrait)
+      };
+      if (!record.dna) throw new Error("Cannot save an empty DNA payload.");
+      library.entries.push(record);
+      this.save(library);
+      return record;
+    }
+    update(entry, { preserveTimestamp = false } = {}) {
+      const library = this.load().library;
+      const index = library.entries.findIndex((candidate) => candidate.id === entry.id);
+      if (index < 0) throw new Error("The DNA entry no longer exists.");
+      const current = library.entries[index];
+      library.entries[index] = {
+        ...current,
+        ...entry,
+        name: (entry.name || "").trim() || "Untitled",
+        updatedAt: preserveTimestamp && entry.updatedAt > 0 ? entry.updatedAt : Date.now()
+      };
+      this.save(library);
+      return library.entries[index];
+    }
+    remove(id) {
+      const library = this.load().library;
+      library.entries = library.entries.filter((entry) => entry.id !== id);
+      this.save(library);
+      this.removePortrait(id);
+    }
+    getPortrait(id) {
+      return this.storage.getItem(`${PORTRAIT_PREFIX}${id}`);
+    }
+    getThumbnail(id) {
+      return this.storage.getItem(`${THUMB_PREFIX}${id}`);
+    }
+    setPortrait(id, portraitDataUrl, thumbnailDataUrl) {
+      const portraitKey = `${PORTRAIT_PREFIX}${id}`;
+      const thumbKey = `${THUMB_PREFIX}${id}`;
+      const previousPortrait = this.storage.getItem(portraitKey);
+      const previousThumb = this.storage.getItem(thumbKey);
+      const thumb = thumbnailDataUrl || portraitDataUrl;
+      try {
+        this.storage.setItem(portraitKey, portraitDataUrl);
+        this.storage.setItem(thumbKey, thumb);
+      } catch (error) {
+        if (previousPortrait === null) this.storage.removeItem(portraitKey);
+        else this.storage.setItem(portraitKey, previousPortrait);
+        if (previousThumb === null) this.storage.removeItem(thumbKey);
+        else this.storage.setItem(thumbKey, previousThumb);
+        throw error;
+      }
+    }
+    removePortrait(id) {
+      this.storage.removeItem(`${PORTRAIT_PREFIX}${id}`);
+      this.storage.removeItem(`${THUMB_PREFIX}${id}`);
+    }
+    getSettings() {
+      const raw = this.storage.getItem(SETTINGS_KEY);
+      if (!raw) return { language: "", sort: "updated", startupSource: "local" };
+      try {
+        const parsed = JSON.parse(raw);
+        return {
+          language: typeof parsed.language === "string" ? parsed.language : "",
+          sort: typeof parsed.sort === "string" ? parsed.sort : "updated",
+          startupSource: parsed.startupSource === "folder" ? "folder" : "local"
+        };
+      } catch {
+        return { language: "", sort: "updated", startupSource: "local" };
+      }
+    }
+    saveSettings(settings) {
+      this.storage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+    }
+    usageBytes() {
+      let total = 0;
+      for (let i = 0; i < this.storage.length; i += 1) {
+        const key = this.storage.key(i);
+        if (!key || !key.startsWith("ck3dna.v1.")) continue;
+        total += key.length + (this.storage.getItem(key)?.length || 0);
+      }
+      return total * 2;
+    }
+    clear() {
+      const keys = [];
+      for (let i = 0; i < this.storage.length; i += 1) {
+        const key = this.storage.key(i);
+        if (key && key.startsWith("ck3dna.v1.")) keys.push(key);
+      }
+      for (const key of keys) this.storage.removeItem(key);
+    }
+  };
+  function entryToExport(entry, { portraitPng = "", geneCount = 0, moddedGeneCount = 0, rulerDesigner = "" } = {}) {
+    const object = {
+      name: entry.name,
+      notes: entry.notes || "",
+      favorite: Boolean(entry.favorite)
+    };
+    if (entry.rulerMeta) object.rulerMeta = entry.rulerMeta;
+    object.base64 = entry.dna;
+    object.geneCount = geneCount;
+    object.moddedGeneCount = moddedGeneCount;
+    if (rulerDesigner) object.rulerDesigner = rulerDesigner;
+    object.createdAt = entry.createdAt;
+    object.updatedAt = entry.updatedAt;
+    if (portraitPng) object.portraitPng = portraitPng;
+    return object;
+  }
+  function buildExport(entries) {
+    return {
+      format: "ck3-dna-manager-qt",
+      version: 1,
+      exportedAt: (/* @__PURE__ */ new Date()).toISOString(),
+      entries
+    };
+  }
+
+  // js/ui/state.js
+  var state = {
+    catalog: null,
+    legacyCatalog: null,
+    i18n: null,
+    store: null,
+    entries: [],
+    currentId: null,
+    currentData: null,
+    baselineData: null,
+    detailsDirty: false,
+    geneDirty: false,
+    sort: "updated",
+    search: "",
+    geneSearch: "",
+    geneCategory: "",
+    activeTab: "overview",
+    codeTab: "base64",
+    collapsedSections: /* @__PURE__ */ new Set(),
+    statusTimer: null,
+    add: null,
+    menuOpen: false,
+    startupSource: "local",
+    folder: {
+      handle: null,
+      name: "",
+      connected: false,
+      needsPermission: false,
+      syncTimer: null,
+      syncing: false,
+      error: ""
     }
   };
 
@@ -8042,227 +8362,305 @@ globalThis.__CK3DNA_SQL_WASM_BASE64__ = "AGFzbQEAAAABnwRFYAJ/fwF/YAF/AX9gA39/fwB
     return result;
   }
 
-  // js/core/i18n.js
-  var I18n = class {
-    constructor() {
-      this.languages = [];
-      this.names = /* @__PURE__ */ new Map();
-      this.strings = /* @__PURE__ */ new Map();
-      this.current = "en";
-    }
-    load(root) {
-      this.languages = [];
-      this.names = /* @__PURE__ */ new Map();
-      this.strings = /* @__PURE__ */ new Map();
-      if (!root || typeof root !== "object") throw new Error("Translations are not a JSON object");
-      if (Array.isArray(root.languages)) {
-        for (const value of root.languages) {
-          if (!value || typeof value !== "object") continue;
-          const code = typeof value.code === "string" ? value.code : "";
-          if (!code) continue;
-          if (!this.languages.includes(code)) this.languages.push(code);
-          const name = typeof value.nativeName === "string" && value.nativeName ? value.nativeName : typeof value.name === "string" && value.name ? value.name : code;
-          this.names.set(code, name);
-        }
-      }
-      if (root.strings && typeof root.strings === "object") {
-        for (const [code, values] of Object.entries(root.strings)) {
-          if (!values || typeof values !== "object" || Array.isArray(values)) continue;
-          const map = /* @__PURE__ */ new Map();
-          for (const [key, value] of Object.entries(values)) {
-            if (typeof value === "string") map.set(key, value);
-          }
-          this.strings.set(code, map);
-        }
-      }
-      if (!this.strings.has("en")) throw new Error("Translations do not contain English strings");
-      if (!this.languages.includes("en")) this.languages.unshift("en");
-      if (!this.names.has("en")) this.names.set("en", "English");
-      if (!this.strings.has(this.current)) this.current = "en";
-    }
-    availableLanguages() {
-      return [...this.languages];
-    }
-    languageName(code) {
-      return this.names.get(code) || code;
-    }
-    setLanguage(code) {
-      if (code === this.current || !this.strings.has(code)) return false;
-      this.current = code;
-      return true;
-    }
-    value(key) {
-      const current = this.strings.get(this.current);
-      const english = this.strings.get("en");
-      const value = current?.get(key) || english?.get(key);
-      return value || key;
-    }
-    t(key, ...args) {
-      let text = this.value(key);
-      args.forEach((arg, index) => {
-        text = text.split(`%${index + 1}`).join(String(arg));
-      });
-      return text;
-    }
-    locale() {
-      return this.current;
-    }
-  };
-
-  // js/core/images.js
-  var IMAGE_EXTENSIONS = ["png", "jpg", "jpeg", "jfif", "webp", "bmp", "gif"];
-  function isImageFile(file) {
-    if (!file) return false;
-    if (file.type && file.type.startsWith("image/")) return true;
-    const name = (file.name || "").toLowerCase();
-    return IMAGE_EXTENSIONS.some((extension) => name.endsWith(`.${extension}`));
+  // js/ui/shared.js
+  var $ = (id) => document.getElementById(id);
+  function nameCollator() {
+    return new Intl.Collator(state.i18n?.locale() || void 0, { sensitivity: "base", numeric: true });
   }
-  async function loadImage(source) {
-    if (typeof createImageBitmap === "function") {
-      try {
-        return await createImageBitmap(source, { imageOrientation: "from-image" });
-      } catch {
-      }
-    }
-    return new Promise((resolve, reject) => {
-      const url = typeof source === "string" ? source : URL.createObjectURL(source);
-      const image = new Image();
-      image.onload = () => {
-        if (typeof source !== "string") URL.revokeObjectURL(url);
-        resolve(image);
-      };
-      image.onerror = () => {
-        if (typeof source !== "string") URL.revokeObjectURL(url);
-        reject(new Error("The image could not be loaded."));
-      };
-      image.src = url;
-    });
+  function escapeHtml(value) {
+    return String(value ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   }
-  function imageSize(image) {
-    return {
-      width: image.width || image.naturalWidth || 0,
-      height: image.height || image.naturalHeight || 0
-    };
+  function escapeAttr(value) {
+    return escapeHtml(value);
   }
-  function makeCanvas(width, height) {
-    const canvas = document.createElement("canvas");
-    canvas.width = Math.max(1, Math.round(width));
-    canvas.height = Math.max(1, Math.round(height));
-    return canvas;
-  }
-  function canvasToBlob(canvas, type, quality) {
-    return new Promise((resolve) => {
-      canvas.toBlob((blob) => resolve(blob), type, quality);
-    });
-  }
-  async function encodeCanvas(canvas, preferredType = "image/webp", quality = 0.88) {
-    let blob = await canvasToBlob(canvas, preferredType, quality);
-    if (!blob && preferredType !== "image/png") {
-      blob = await canvasToBlob(canvas, "image/png");
-    }
-    return blob;
-  }
-  async function encodePortrait(image, maxSize = 1600) {
-    const { width, height } = imageSize(image);
-    if (!width || !height) throw new Error("The image has no pixels.");
-    const scale = Math.min(1, maxSize / Math.max(width, height));
-    const canvas = makeCanvas(width * scale, height * scale);
-    const context = canvas.getContext("2d");
-    context.imageSmoothingEnabled = true;
-    context.imageSmoothingQuality = "high";
-    context.drawImage(image, 0, 0, canvas.width, canvas.height);
-    return encodeCanvas(canvas, "image/webp", 0.86);
-  }
-  async function makeThumbnail(image, targetWidth = 96, targetHeight = 120) {
-    const { width, height } = imageSize(image);
-    if (!width || !height) return null;
-    const scale = Math.max(targetWidth / width, targetHeight / height);
-    const sourceWidth = targetWidth / scale;
-    const sourceHeight = targetHeight / scale;
-    const sourceX = (width - sourceWidth) / 2;
-    const sourceY = (height - sourceHeight) / 2;
-    const canvas = makeCanvas(targetWidth, targetHeight);
-    const context = canvas.getContext("2d");
-    context.imageSmoothingEnabled = true;
-    context.imageSmoothingQuality = "high";
-    context.drawImage(
-      image,
-      sourceX,
-      sourceY,
-      sourceWidth,
-      sourceHeight,
-      0,
-      0,
-      targetWidth,
-      targetHeight
-    );
-    return encodeCanvas(canvas, "image/webp", 0.9);
-  }
-  function blobToDataUrl(blob) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = () => resolve(String(reader.result));
-      reader.onerror = () => reject(reader.error || new Error("Could not read the image."));
-      reader.readAsDataURL(blob);
-    });
-  }
-  function base64ToBlob(base64, mime = "image/png") {
-    const binary = atob(base64);
-    const bytes = new Uint8Array(binary.length);
-    for (let i = 0; i < binary.length; i += 1) bytes[i] = binary.charCodeAt(i);
-    return new Blob([bytes], { type: mime });
-  }
-  async function dataUrlToPngBase64(dataUrl) {
-    const image = await loadImage(dataUrl);
-    const { width, height } = imageSize(image);
-    const canvas = makeCanvas(width, height);
-    canvas.getContext("2d").drawImage(image, 0, 0);
-    return canvas.toDataURL("image/png").split(",")[1];
-  }
-  function imageFromClipboardEvent(event) {
-    const items = event.clipboardData?.items;
-    if (!items) return null;
-    for (const item of items) {
-      if (item.type && item.type.startsWith("image/")) {
-        const file = item.getAsFile();
-        if (file) return file;
-      }
-    }
-    return null;
-  }
-  function clipboardEventHasText(event) {
-    const items = event.clipboardData?.items;
-    if (!items) return false;
-    for (const item of items) {
-      if (item.type === "text/plain" || item.type === "text/html") return true;
-    }
-    return false;
-  }
-  async function readClipboardImage() {
-    if (!navigator.clipboard?.read) return null;
+  function formatDate(ms) {
+    if (!ms) return "—";
     try {
-      const items = await navigator.clipboard.read();
-      for (const item of items) {
-        const type = item.types.find((candidate) => candidate.startsWith("image/"));
-        if (type) return item.getType(type);
-      }
+      return new Intl.DateTimeFormat(state.i18n.locale(), {
+        dateStyle: "short",
+        timeStyle: "short"
+      }).format(new Date(ms));
+    } catch {
+      return new Date(ms).toLocaleString();
+    }
+  }
+  function formatBytes(bytes) {
+    if (!bytes) return "0 B";
+    if (bytes < 1024) return `${bytes} B`;
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+    return `${(bytes / (1024 * 1024)).toFixed(2)} MB`;
+  }
+  function geneCountForEntry(entry) {
+    try {
+      return Math.floor(atob(entry.dna).length / 4);
+    } catch {
+      return 0;
+    }
+  }
+  function moddedCountForEntry(entry) {
+    return Math.max(0, geneCountForEntry(entry) - 104);
+  }
+  function dataForEntry(entry) {
+    try {
+      const bytes = base64ToBytes(entry.dna);
+      const parsed = fromBytes(bytes, Base64Hint.Modern, state.catalog, state.legacyCatalog);
+      if (!parsed.ok) return null;
+      applyRulerMetadata(parsed.data, entry.rulerMeta);
+      return parsed.data;
     } catch {
       return null;
     }
+  }
+  function countsForData(data) {
+    const modded = data.extras.filter((extra) => extra.kind === ExtraGeneKind.Modded).length;
+    const rulerOnly = data.extras.filter((extra) => extra.kind === ExtraGeneKind.RulerOnly).length;
+    return {
+      total: state.catalog.base64GeneCount() + modded,
+      modded,
+      rulerOnly
+    };
+  }
+  function categoryLabel(category) {
+    const key = GeneCatalog.categoryTranslationKey(category);
+    const value = state.i18n.value(key);
+    return value === key ? category : value;
+  }
+  function subtitleFor(entry) {
+    const firstLine = (entry.notes || "").split(/\r?\n/).find((line) => line.trim());
+    if (firstLine) return firstLine.trim();
+    const count = geneCountForEntry(entry);
+    const modded = moddedCountForEntry(entry);
+    return `${state.i18n.t("detail.genesCount", count)}${modded ? ` · ${state.i18n.t("detail.moddedCount", modded)}` : ""}`;
+  }
+  function setStatus(text, timeout = 4e3) {
+    const element = $("status-text");
+    element.textContent = text;
+    if (state.statusTimer) clearTimeout(state.statusTimer);
+    if (timeout > 0) {
+      state.statusTimer = setTimeout(() => {
+        element.textContent = state.i18n.t("status.ready");
+      }, timeout);
+    }
+  }
+  function sanitizeFileName(name) {
+    const value = (name || "").replace(/[\\/:*?"<>|]/g, "_").replace(/\s+/g, " ").trim();
+    return value || "dna";
+  }
+  function persistSettings(patch) {
+    try {
+      const settings = state.store.getSettings();
+      state.store.saveSettings({ ...settings, ...patch });
+    } catch {
+    }
+  }
+
+  // js/ui/dialogs.js
+  function openModal(html) {
+    const backdrop = document.createElement("div");
+    backdrop.className = "modal-backdrop";
+    backdrop.innerHTML = html;
+    $("modal-root").appendChild(backdrop);
+    return backdrop;
+  }
+  function closeModal(backdrop) {
+    if (backdrop?.parentElement) backdrop.remove();
+  }
+  function topModal() {
+    const root = $("modal-root");
+    return root.lastElementChild;
+  }
+  function showConfirm({ title, text, confirmLabel, cancelLabel, danger = false }) {
+    return new Promise((resolve) => {
+      const backdrop = openModal(`
+      <div class="dialog" role="dialog" aria-modal="true">
+        <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(title)}</h2></div>
+        <div class="dialog-body"><p>${escapeHtml(text)}</p></div>
+        <div class="dialog-footer">
+          <button class="btn" data-confirm="cancel">${escapeHtml(cancelLabel)}</button>
+          <button class="btn ${danger ? "danger" : "primary"}" data-confirm="ok">${escapeHtml(confirmLabel)}</button>
+        </div>
+      </div>`);
+      const finish = (value) => {
+        closeModal(backdrop);
+        resolve(value);
+      };
+      backdrop.querySelector('[data-confirm="cancel"]').addEventListener("click", () => finish(false));
+      backdrop.querySelector('[data-confirm="ok"]').addEventListener("click", () => finish(true));
+      backdrop.addEventListener("click", (event) => {
+        if (event.target === backdrop) finish(false);
+      });
+    });
+  }
+  function showUnsavedDialog() {
+    return new Promise((resolve) => {
+      const backdrop = openModal(`
+      <div class="dialog" role="dialog" aria-modal="true">
+        <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(state.i18n.t("msg.unsavedTitle"))}</h2></div>
+        <div class="dialog-body"><p>${escapeHtml(state.i18n.t("msg.unsavedText"))}</p></div>
+        <div class="dialog-footer">
+          <button class="btn" data-choice="cancel">${escapeHtml(state.i18n.t("msg.cancel"))}</button>
+          <button class="btn danger" data-choice="discard">${escapeHtml(state.i18n.t("msg.discard"))}</button>
+          <button class="btn primary" data-choice="save">${escapeHtml(state.i18n.t("msg.save"))}</button>
+        </div>
+      </div>`);
+      const finish = (value) => {
+        closeModal(backdrop);
+        resolve(value);
+      };
+      backdrop.querySelector('[data-choice="cancel"]').addEventListener("click", () => finish("cancel"));
+      backdrop.querySelector('[data-choice="discard"]').addEventListener("click", () => finish("discard"));
+      backdrop.querySelector('[data-choice="save"]').addEventListener("click", () => finish("save"));
+      backdrop.addEventListener("click", (event) => {
+        if (event.target === backdrop) finish("cancel");
+      });
+    });
+  }
+  function showInfo(title, text, warnings = []) {
+    return new Promise((resolve) => {
+      const warningHtml = warnings.length ? `<pre style="white-space:pre-wrap;color:var(--warning);font-size:12px;max-height:180px;overflow:auto">${escapeHtml(warnings.slice(0, 8).join("\n"))}</pre>` : "";
+      const backdrop = openModal(`
+      <div class="dialog" role="dialog" aria-modal="true" style="width:560px">
+        <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(title)}</h2></div>
+        <div class="dialog-body"><p>${escapeHtml(text)}</p>${warningHtml}</div>
+        <div class="dialog-footer"><button class="btn primary" data-close>${escapeHtml(state.i18n.t("msg.ok"))}</button></div>
+      </div>`);
+      const finish = () => {
+        closeModal(backdrop);
+        resolve();
+      };
+      backdrop.querySelector("[data-close]").addEventListener("click", finish);
+      backdrop.addEventListener("click", (event) => {
+        if (event.target === backdrop) finish();
+      });
+    });
+  }
+  function showError(title, text) {
+    return showInfo(title, text);
+  }
+  async function openAboutDialog() {
+    const backdrop = openModal(`
+    <div class="dialog about-dialog" role="dialog" aria-modal="true">
+      <div class="about-header">
+        <img class="about-icon" src="./assets/app.png" alt="">
+        <div>
+          <div class="about-title">${escapeHtml(state.i18n.t("about.title"))}</div>
+          <div class="about-tagline">${escapeHtml(state.i18n.t("about.version", "1.0.0"))}</div>
+        </div>
+      </div>
+      <div class="dialog-body">
+        <p class="about-text">${escapeHtml(state.i18n.t("about.tagline"))}</p>
+        <p class="about-text">${escapeHtml(state.i18n.t("about.description"))}</p>
+        <div class="about-links">
+          ${escapeHtml(state.i18n.t("about.repository"))} <a href="https://github.com/grnnk/CK3-DNA-Manager-Qt" target="_blank" rel="noopener">grnnk/CK3-DNA-Manager-Qt</a><br>
+          ${escapeHtml(state.i18n.t("about.original"))} <a href="https://github.com/Welshtokki/CK3_DNA_Manager" target="_blank" rel="noopener">Welshtokki/CK3_DNA_Manager</a><br>
+          ${escapeHtml(state.i18n.t("about.qt"))} <a href="https://www.qt.io" target="_blank" rel="noopener">qt.io</a>
+        </div>
+      </div>
+      <div class="dialog-footer"><button class="btn primary" data-close>${escapeHtml(state.i18n.t("msg.close"))}</button></div>
+    </div>`);
+    backdrop.querySelector("[data-close]").addEventListener("click", () => closeModal(backdrop));
+    backdrop.addEventListener("click", (event) => {
+      if (event.target === backdrop) closeModal(backdrop);
+    });
+  }
+
+  // js/storage/folder-store.js
+  var IDB_NAME = "ck3dna.v1.handles";
+  var IDB_STORE = "handles";
+  var HANDLE_KEY = "library-folder";
+  var DATABASE_NAMES = ["dna.db", "database.db", "library.db", "ck3dna.db"];
+  var SYNC_DIRECTORY = "web-sync";
+  var SYNC_FILE = "library.json";
+  function openHandleDatabase() {
+    return new Promise((resolve, reject) => {
+      const request = indexedDB.open(IDB_NAME, 1);
+      request.onupgradeneeded = () => {
+        if (!request.result.objectStoreNames.contains(IDB_STORE)) {
+          request.result.createObjectStore(IDB_STORE);
+        }
+      };
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error || new Error("Could not open IndexedDB."));
+    });
+  }
+  function transaction(mode, callback) {
+    return openHandleDatabase().then((database) => new Promise((resolve, reject) => {
+      const tx = database.transaction(IDB_STORE, mode);
+      const store = tx.objectStore(IDB_STORE);
+      const request = callback(store);
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error || new Error("IndexedDB request failed."));
+      tx.oncomplete = () => database.close();
+    }));
+  }
+  function isSupported() {
+    return typeof globalThis.showDirectoryPicker === "function" && typeof indexedDB !== "undefined";
+  }
+  function saveDirectoryHandle(handle) {
+    return transaction("readwrite", (store) => store.put(handle, HANDLE_KEY));
+  }
+  function loadDirectoryHandle() {
+    return transaction("readonly", (store) => store.get(HANDLE_KEY));
+  }
+  function clearDirectoryHandle() {
+    return transaction("readwrite", (store) => store.delete(HANDLE_KEY));
+  }
+  async function queryPermission(handle, mode = "readwrite") {
+    if (!handle?.queryPermission) return "granted";
+    try {
+      return await handle.queryPermission({ mode });
+    } catch {
+      return "denied";
+    }
+  }
+  async function requestPermission(handle, mode = "readwrite") {
+    if (!handle?.requestPermission) return "granted";
+    try {
+      return await handle.requestPermission({ mode });
+    } catch {
+      return "denied";
+    }
+  }
+  async function getDirectory(handle, path, create = false) {
+    let directory = handle;
+    for (const part of path) {
+      directory = await directory.getDirectoryHandle(part, { create });
+    }
+    return directory;
+  }
+  async function getFile(handle, path, create = false) {
+    const directory = await getDirectory(handle, path.slice(0, -1), create);
+    return directory.getFileHandle(path[path.length - 1], { create });
+  }
+  async function readSyncLibrary(handle) {
+    try {
+      const fileHandle = await getFile(handle, [SYNC_DIRECTORY, SYNC_FILE], false);
+      const file = await fileHandle.getFile();
+      const text = await file.text();
+      return JSON.parse(text);
+    } catch {
+      return null;
+    }
+  }
+  async function writeSyncLibrary(handle, root) {
+    const fileHandle = await getFile(handle, [SYNC_DIRECTORY, SYNC_FILE], true);
+    const writable = await fileHandle.createWritable();
+    try {
+      await writable.write(JSON.stringify(root, null, 2));
+    } finally {
+      await writable.close();
+    }
+  }
+  async function findDatabaseFile(handle) {
+    for (const name of DATABASE_NAMES) {
+      try {
+        const fileHandle = await handle.getFileHandle(name);
+        const file = await fileHandle.getFile();
+        return { name, file };
+      } catch {
+      }
+    }
     return null;
-  }
-  function downloadBlob(blob, filename) {
-    const url = URL.createObjectURL(blob);
-    const anchor = document.createElement("a");
-    anchor.href = url;
-    anchor.download = filename;
-    document.body.appendChild(anchor);
-    anchor.click();
-    anchor.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 1e3);
-  }
-  function downloadText(text, filename, type = "application/json") {
-    downloadBlob(new Blob([text], { type }), filename);
   }
 
   // js/core/legacy-importer.js
@@ -8623,297 +9021,844 @@ globalThis.__CK3DNA_SQL_WASM_BASE64__ = "AGFzbQEAAAABnwRFYAJ/fwF/YAF/AX9gA39/fwB
     }
   }
 
-  // js/storage/folder-store.js
-  var IDB_NAME = "ck3dna.v1.handles";
-  var IDB_STORE = "handles";
-  var HANDLE_KEY = "library-folder";
-  var DATABASE_NAMES = ["dna.db", "database.db", "library.db", "ck3dna.db"];
-  var SYNC_DIRECTORY = "web-sync";
-  var SYNC_FILE = "library.json";
-  function openHandleDatabase() {
+  // js/core/images.js
+  var IMAGE_EXTENSIONS = ["png", "jpg", "jpeg", "jfif", "webp", "bmp", "gif"];
+  function isImageFile(file) {
+    if (!file) return false;
+    if (file.type && file.type.startsWith("image/")) return true;
+    const name = (file.name || "").toLowerCase();
+    return IMAGE_EXTENSIONS.some((extension) => name.endsWith(`.${extension}`));
+  }
+  async function loadImage(source) {
+    if (typeof createImageBitmap === "function") {
+      try {
+        return await createImageBitmap(source, { imageOrientation: "from-image" });
+      } catch {
+      }
+    }
     return new Promise((resolve, reject) => {
-      const request = indexedDB.open(IDB_NAME, 1);
-      request.onupgradeneeded = () => {
-        if (!request.result.objectStoreNames.contains(IDB_STORE)) {
-          request.result.createObjectStore(IDB_STORE);
-        }
+      const url = typeof source === "string" ? source : URL.createObjectURL(source);
+      const image = new Image();
+      image.onload = () => {
+        if (typeof source !== "string") URL.revokeObjectURL(url);
+        resolve(image);
       };
-      request.onsuccess = () => resolve(request.result);
-      request.onerror = () => reject(request.error || new Error("Could not open IndexedDB."));
+      image.onerror = () => {
+        if (typeof source !== "string") URL.revokeObjectURL(url);
+        reject(new Error("The image could not be loaded."));
+      };
+      image.src = url;
     });
   }
-  function transaction(mode, callback) {
-    return openHandleDatabase().then((database) => new Promise((resolve, reject) => {
-      const tx = database.transaction(IDB_STORE, mode);
-      const store = tx.objectStore(IDB_STORE);
-      const request = callback(store);
-      request.onsuccess = () => resolve(request.result);
-      request.onerror = () => reject(request.error || new Error("IndexedDB request failed."));
-      tx.oncomplete = () => database.close();
-    }));
+  function imageSize(image) {
+    return {
+      width: image.width || image.naturalWidth || 0,
+      height: image.height || image.naturalHeight || 0
+    };
   }
-  function isSupported() {
-    return typeof globalThis.showDirectoryPicker === "function" && typeof indexedDB !== "undefined";
+  function makeCanvas(width, height) {
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(width));
+    canvas.height = Math.max(1, Math.round(height));
+    return canvas;
   }
-  function saveDirectoryHandle(handle) {
-    return transaction("readwrite", (store) => store.put(handle, HANDLE_KEY));
+  function canvasToBlob(canvas, type, quality) {
+    return new Promise((resolve) => {
+      canvas.toBlob((blob) => resolve(blob), type, quality);
+    });
   }
-  function loadDirectoryHandle() {
-    return transaction("readonly", (store) => store.get(HANDLE_KEY));
-  }
-  function clearDirectoryHandle() {
-    return transaction("readwrite", (store) => store.delete(HANDLE_KEY));
-  }
-  async function queryPermission(handle, mode = "readwrite") {
-    if (!handle?.queryPermission) return "granted";
-    try {
-      return await handle.queryPermission({ mode });
-    } catch {
-      return "denied";
+  async function encodeCanvas(canvas, preferredType = "image/webp", quality = 0.88) {
+    let blob = await canvasToBlob(canvas, preferredType, quality);
+    if (!blob && preferredType !== "image/png") {
+      blob = await canvasToBlob(canvas, "image/png");
     }
+    return blob;
   }
-  async function requestPermission(handle, mode = "readwrite") {
-    if (!handle?.requestPermission) return "granted";
-    try {
-      return await handle.requestPermission({ mode });
-    } catch {
-      return "denied";
-    }
+  async function encodePortrait(image, maxSize = 1600) {
+    const { width, height } = imageSize(image);
+    if (!width || !height) throw new Error("The image has no pixels.");
+    const scale = Math.min(1, maxSize / Math.max(width, height));
+    const canvas = makeCanvas(width * scale, height * scale);
+    const context = canvas.getContext("2d");
+    context.imageSmoothingEnabled = true;
+    context.imageSmoothingQuality = "high";
+    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+    return encodeCanvas(canvas, "image/webp", 0.86);
   }
-  async function getDirectory(handle, path, create = false) {
-    let directory = handle;
-    for (const part of path) {
-      directory = await directory.getDirectoryHandle(part, { create });
-    }
-    return directory;
+  async function makeThumbnail(image, targetWidth = 96, targetHeight = 120) {
+    const { width, height } = imageSize(image);
+    if (!width || !height) return null;
+    const scale = Math.max(targetWidth / width, targetHeight / height);
+    const sourceWidth = targetWidth / scale;
+    const sourceHeight = targetHeight / scale;
+    const sourceX = (width - sourceWidth) / 2;
+    const sourceY = (height - sourceHeight) / 2;
+    const canvas = makeCanvas(targetWidth, targetHeight);
+    const context = canvas.getContext("2d");
+    context.imageSmoothingEnabled = true;
+    context.imageSmoothingQuality = "high";
+    context.drawImage(
+      image,
+      sourceX,
+      sourceY,
+      sourceWidth,
+      sourceHeight,
+      0,
+      0,
+      targetWidth,
+      targetHeight
+    );
+    return encodeCanvas(canvas, "image/webp", 0.9);
   }
-  async function getFile(handle, path, create = false) {
-    const directory = await getDirectory(handle, path.slice(0, -1), create);
-    return directory.getFileHandle(path[path.length - 1], { create });
+  function blobToDataUrl(blob) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(String(reader.result));
+      reader.onerror = () => reject(reader.error || new Error("Could not read the image."));
+      reader.readAsDataURL(blob);
+    });
   }
-  async function readSyncLibrary(handle) {
-    try {
-      const fileHandle = await getFile(handle, [SYNC_DIRECTORY, SYNC_FILE], false);
-      const file = await fileHandle.getFile();
-      const text = await file.text();
-      return JSON.parse(text);
-    } catch {
-      return null;
-    }
+  function base64ToBlob(base64, mime = "image/png") {
+    const binary = atob(base64);
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i += 1) bytes[i] = binary.charCodeAt(i);
+    return new Blob([bytes], { type: mime });
   }
-  async function writeSyncLibrary(handle, root) {
-    const fileHandle = await getFile(handle, [SYNC_DIRECTORY, SYNC_FILE], true);
-    const writable = await fileHandle.createWritable();
-    try {
-      await writable.write(JSON.stringify(root, null, 2));
-    } finally {
-      await writable.close();
-    }
+  async function dataUrlToPngBase64(dataUrl) {
+    const image = await loadImage(dataUrl);
+    const { width, height } = imageSize(image);
+    const canvas = makeCanvas(width, height);
+    canvas.getContext("2d").drawImage(image, 0, 0);
+    return canvas.toDataURL("image/png").split(",")[1];
   }
-  async function findDatabaseFile(handle) {
-    for (const name of DATABASE_NAMES) {
-      try {
-        const fileHandle = await handle.getFileHandle(name);
-        const file = await fileHandle.getFile();
-        return { name, file };
-      } catch {
+  function imageFromClipboardEvent(event) {
+    const items = event.clipboardData?.items;
+    if (!items) return null;
+    for (const item of items) {
+      if (item.type && item.type.startsWith("image/")) {
+        const file = item.getAsFile();
+        if (file) return file;
       }
     }
     return null;
   }
+  function clipboardEventHasText(event) {
+    const items = event.clipboardData?.items;
+    if (!items) return false;
+    for (const item of items) {
+      if (item.type === "text/plain" || item.type === "text/html") return true;
+    }
+    return false;
+  }
+  async function readClipboardImage() {
+    if (!navigator.clipboard?.read) return null;
+    try {
+      const items = await navigator.clipboard.read();
+      for (const item of items) {
+        const type = item.types.find((candidate) => candidate.startsWith("image/"));
+        if (type) return item.getType(type);
+      }
+    } catch {
+      return null;
+    }
+    return null;
+  }
+  function downloadBlob(blob, filename) {
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = filename;
+    document.body.appendChild(anchor);
+    anchor.click();
+    anchor.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1e3);
+  }
+  function downloadText(text, filename, type = "application/json") {
+    downloadBlob(new Blob([text], { type }), filename);
+  }
 
-  // js/storage/local-store.js
-  var LIBRARY_KEY = "ck3dna.v1.library";
-  var SETTINGS_KEY = "ck3dna.v1.settings";
-  var PORTRAIT_PREFIX = "ck3dna.v1.portrait.";
-  var THUMB_PREFIX = "ck3dna.v1.thumb.";
-  function newId() {
-    if (globalThis.crypto?.randomUUID) return crypto.randomUUID();
-    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (character) => {
-      const random = Math.floor(Math.random() * 16);
-      const value = character === "x" ? random : random & 3 | 8;
-      return value.toString(16);
+  // js/ui/add-dialog.js
+  async function setAddPortrait(blob) {
+    if (!state.add) return;
+    try {
+      const image = await loadImage(blob);
+      const portraitBlob = await encodePortrait(image, 1600);
+      const thumbnailBlob = await makeThumbnail(image, 96, 120);
+      if (!portraitBlob || !thumbnailBlob) throw new Error("The image could not be encoded.");
+      if (!state.add) return;
+      state.add.portraitDataUrl = await blobToDataUrl(portraitBlob);
+      state.add.thumbnailDataUrl = await blobToDataUrl(thumbnailBlob);
+      if (!state.add) return;
+      renderAddPortrait();
+      updateAddCreateButton();
+    } catch (error) {
+      await showError(state.i18n.t("msg.imageError", error.message), error.message);
+    }
+  }
+  function renderAddPortrait() {
+    if (!state.add) return;
+    const image = document.querySelector("#add-portrait-image");
+    const placeholder = document.querySelector("#add-portrait-placeholder");
+    if (!image || !placeholder) return;
+    if (state.add.portraitDataUrl) {
+      image.src = state.add.portraitDataUrl;
+      image.hidden = false;
+      placeholder.hidden = true;
+    } else {
+      image.removeAttribute("src");
+      image.hidden = true;
+      placeholder.hidden = false;
+    }
+  }
+  function updateAddCreateButton() {
+    if (!state.add) return;
+    const button = document.querySelector("#add-create");
+    if (button) button.disabled = !state.add.parsed;
+  }
+  function validateAdd() {
+    if (!state.add) return;
+    const dna = document.querySelector("#add-dna");
+    const status = document.querySelector("#add-status");
+    const text = dna.value.trim();
+    state.add.text = dna.value;
+    if (!text) {
+      status.className = "status-message";
+      status.textContent = state.i18n.t("add.pasteHint");
+      state.add.parsed = null;
+      updateAddCreateButton();
+      return;
+    }
+    const parsed = parse(text, state.add.hint, state.catalog, state.legacyCatalog);
+    state.add.parsed = parsed.ok ? parsed : null;
+    if (!parsed.ok) {
+      status.className = "status-message error";
+      status.textContent = parsed.error;
+      updateAddCreateButton();
+      return;
+    }
+    let message = "";
+    if (parsed.format === DnaFormat.LegacyBase64) {
+      message = state.i18n.t("add.detectedLegacy", parsed.geneCount);
+    } else if (parsed.format === DnaFormat.RulerDesigner) {
+      message = state.i18n.t("add.detectedRuler", parsed.geneCount);
+    } else {
+      message = state.i18n.t("add.detectedModern", parsed.geneCount);
+    }
+    const modded = parsed.data.extras.filter((extra) => extra.kind === ExtraGeneKind.Modded).length;
+    const rulerOnly = parsed.data.extras.filter((extra) => extra.kind === ExtraGeneKind.RulerOnly).length;
+    if (modded) message += state.i18n.t("add.moddedSuffix", modded);
+    if (rulerOnly) message += state.i18n.t("add.rulerOnlySuffix", rulerOnly);
+    if (parsed.warnings.length) message += `
+${state.i18n.t("add.warnings", parsed.warnings.length)}`;
+    status.className = `status-message ${parsed.warnings.length ? "warning" : "ok"}`;
+    status.textContent = message;
+    status.title = parsed.warnings.join("\n");
+    updateAddCreateButton();
+  }
+  async function openAddDialog(initialImage = null) {
+    if (state.add) return;
+    if (!await maybeLeaveCurrent()) return;
+    const backdrop = openModal(`
+    <div class="dialog add-dialog" role="dialog" aria-modal="true">
+      <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(state.i18n.t("add.title"))}</h2></div>
+      <div class="add-body">
+        <div class="add-left">
+          <label class="field-label" for="add-name">${escapeHtml(state.i18n.t("add.name"))}</label>
+          <input id="add-name" class="input" placeholder="${escapeAttr(state.i18n.t("add.namePlaceholder"))}">
+          <label class="field-label" for="add-dna">${escapeHtml(state.i18n.t("add.dna"))}</label>
+          <textarea id="add-dna" class="input add-dna" spellcheck="false" placeholder="${escapeAttr(state.i18n.t("add.dnaPlaceholder"))}"></textarea>
+          <div class="format-row">
+            <label class="field-label" for="add-format">${escapeHtml(state.i18n.t("add.format"))}</label>
+            <select id="add-format" class="input">
+              <option value="auto">${escapeHtml(state.i18n.t("add.formatAuto"))}</option>
+              <option value="modern">${escapeHtml(state.i18n.t("add.formatModern"))}</option>
+              <option value="legacy">${escapeHtml(state.i18n.t("add.formatLegacy"))}</option>
+            </select>
+          </div>
+          <div id="add-status" class="status-message">${escapeHtml(state.i18n.t("add.pasteHint"))}</div>
+        </div>
+        <div class="add-right">
+          <label class="field-label">${escapeHtml(state.i18n.t("add.portrait"))}</label>
+          <div id="add-portrait" class="portrait add-portrait" tabindex="0">
+            <img id="add-portrait-image" alt="" hidden>
+            <div id="add-portrait-placeholder" class="portrait-placeholder">${escapeHtml(state.i18n.t("add.dropImage"))}</div>
+          </div>
+          <div class="add-image-buttons">
+            <button id="add-choose" class="btn">${escapeHtml(state.i18n.t("add.chooseImage"))}</button>
+            <button id="add-paste" class="btn">${escapeHtml(state.i18n.t("action.pasteImage"))}</button>
+            <button id="add-remove" class="btn danger">${escapeHtml(state.i18n.t("add.removeImage"))}</button>
+          </div>
+        </div>
+      </div>
+      <div class="dialog-footer">
+        <button id="add-cancel" class="btn">${escapeHtml(state.i18n.t("msg.cancel"))}</button>
+        <button id="add-create" class="btn primary" disabled>${escapeHtml(state.i18n.t("add.create"))}</button>
+      </div>
+    </div>`);
+    state.add = {
+      parsed: null,
+      hint: Base64Hint.Auto,
+      portraitDataUrl: "",
+      thumbnailDataUrl: ""
+    };
+    const fileInput = document.createElement("input");
+    fileInput.type = "file";
+    fileInput.accept = "image/*";
+    fileInput.hidden = true;
+    backdrop.appendChild(fileInput);
+    let timer = null;
+    const dna = backdrop.querySelector("#add-dna");
+    const name = backdrop.querySelector("#add-name");
+    const format = backdrop.querySelector("#add-format");
+    const portrait = backdrop.querySelector("#add-portrait");
+    dna.addEventListener("input", () => {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(validateAdd, 220);
     });
-  }
-  function emptyLibrary() {
-    return { version: 1, entries: [] };
-  }
-  var LocalStore = class {
-    constructor(storage = globalThis.localStorage) {
-      this.storage = storage;
-    }
-    load() {
-      const raw = this.storage.getItem(LIBRARY_KEY);
-      if (!raw) return { library: emptyLibrary(), error: "" };
-      try {
-        const parsed = JSON.parse(raw);
-        if (!parsed || !Array.isArray(parsed.entries)) throw new Error("Invalid library shape");
-        return { library: { version: 1, entries: parsed.entries }, error: "" };
-      } catch (error) {
-        return { library: emptyLibrary(), error: error.message || "The library could not be read." };
+    name.addEventListener("input", updateAddCreateButton);
+    format.addEventListener("change", () => {
+      state.add.hint = format.value;
+      validateAdd();
+    });
+    const choose = () => fileInput.click();
+    backdrop.querySelector("#add-choose").addEventListener("click", choose);
+    portrait.addEventListener("click", choose);
+    fileInput.addEventListener("change", async () => {
+      const file = fileInput.files?.[0];
+      fileInput.value = "";
+      if (file) await setAddPortrait(file);
+    });
+    backdrop.querySelector("#add-paste").addEventListener("click", async () => {
+      const blob = await readClipboardImage();
+      if (!blob) {
+        setStatus(state.i18n.t("action.pasteImageHint"), 5e3);
+        return;
       }
-    }
-    save(library) {
-      const payload = JSON.stringify({ version: 1, entries: library.entries });
-      this.storage.setItem(LIBRARY_KEY, payload);
-    }
-    entries() {
-      return this.load().library.entries;
-    }
-    get(id) {
-      return this.entries().find((entry) => entry.id === id) || null;
-    }
-    insert(entry) {
-      const library = this.load().library;
-      const now = Date.now();
-      const record = {
-        id: entry.id || newId(),
-        name: (entry.name || "").trim() || "Untitled",
-        notes: entry.notes || "",
-        dna: entry.dna || "",
-        rulerMeta: entry.rulerMeta || "",
-        favorite: Boolean(entry.favorite),
-        createdAt: entry.createdAt > 0 ? entry.createdAt : now,
-        updatedAt: entry.updatedAt > 0 ? entry.updatedAt : now,
-        hasPortrait: Boolean(entry.hasPortrait)
-      };
-      if (!record.dna) throw new Error("Cannot save an empty DNA payload.");
-      library.entries.push(record);
-      this.save(library);
-      return record;
-    }
-    update(entry, { preserveTimestamp = false } = {}) {
-      const library = this.load().library;
-      const index = library.entries.findIndex((candidate) => candidate.id === entry.id);
-      if (index < 0) throw new Error("The DNA entry no longer exists.");
-      const current = library.entries[index];
-      library.entries[index] = {
-        ...current,
-        ...entry,
-        name: (entry.name || "").trim() || "Untitled",
-        updatedAt: preserveTimestamp && entry.updatedAt > 0 ? entry.updatedAt : Date.now()
-      };
-      this.save(library);
-      return library.entries[index];
-    }
-    remove(id) {
-      const library = this.load().library;
-      library.entries = library.entries.filter((entry) => entry.id !== id);
-      this.save(library);
-      this.removePortrait(id);
-    }
-    getPortrait(id) {
-      return this.storage.getItem(`${PORTRAIT_PREFIX}${id}`);
-    }
-    getThumbnail(id) {
-      return this.storage.getItem(`${THUMB_PREFIX}${id}`);
-    }
-    setPortrait(id, portraitDataUrl, thumbnailDataUrl) {
-      const portraitKey = `${PORTRAIT_PREFIX}${id}`;
-      const thumbKey = `${THUMB_PREFIX}${id}`;
-      const previousPortrait = this.storage.getItem(portraitKey);
-      const previousThumb = this.storage.getItem(thumbKey);
-      const thumb = thumbnailDataUrl || portraitDataUrl;
-      try {
-        this.storage.setItem(portraitKey, portraitDataUrl);
-        this.storage.setItem(thumbKey, thumb);
-      } catch (error) {
-        if (previousPortrait === null) this.storage.removeItem(portraitKey);
-        else this.storage.setItem(portraitKey, previousPortrait);
-        if (previousThumb === null) this.storage.removeItem(thumbKey);
-        else this.storage.setItem(thumbKey, previousThumb);
-        throw error;
-      }
-    }
-    removePortrait(id) {
-      this.storage.removeItem(`${PORTRAIT_PREFIX}${id}`);
-      this.storage.removeItem(`${THUMB_PREFIX}${id}`);
-    }
-    getSettings() {
-      const raw = this.storage.getItem(SETTINGS_KEY);
-      if (!raw) return { language: "", sort: "updated", startupSource: "local" };
-      try {
-        const parsed = JSON.parse(raw);
-        return {
-          language: typeof parsed.language === "string" ? parsed.language : "",
-          sort: typeof parsed.sort === "string" ? parsed.sort : "updated",
-          startupSource: parsed.startupSource === "folder" ? "folder" : "local"
-        };
-      } catch {
-        return { language: "", sort: "updated", startupSource: "local" };
-      }
-    }
-    saveSettings(settings) {
-      this.storage.setItem(SETTINGS_KEY, JSON.stringify(settings));
-    }
-    usageBytes() {
-      let total = 0;
-      for (let i = 0; i < this.storage.length; i += 1) {
-        const key = this.storage.key(i);
-        if (!key || !key.startsWith("ck3dna.v1.")) continue;
-        total += key.length + (this.storage.getItem(key)?.length || 0);
-      }
-      return total * 2;
-    }
-    clear() {
-      const keys = [];
-      for (let i = 0; i < this.storage.length; i += 1) {
-        const key = this.storage.key(i);
-        if (key && key.startsWith("ck3dna.v1.")) keys.push(key);
-      }
-      for (const key of keys) this.storage.removeItem(key);
-    }
-  };
-  function entryToExport(entry, { portraitPng = "", geneCount = 0, moddedGeneCount = 0, rulerDesigner = "" } = {}) {
-    const object = {
-      name: entry.name,
-      notes: entry.notes || "",
-      favorite: Boolean(entry.favorite)
+      await setAddPortrait(blob);
+    });
+    backdrop.querySelector("#add-remove").addEventListener("click", () => {
+      state.add.portraitDataUrl = "";
+      state.add.thumbnailDataUrl = "";
+      renderAddPortrait();
+      updateAddCreateButton();
+    });
+    portrait.addEventListener("dragover", (event) => {
+      event.preventDefault();
+      portrait.classList.add("drag-active");
+    });
+    portrait.addEventListener("dragleave", () => portrait.classList.remove("drag-active"));
+    portrait.addEventListener("drop", async (event) => {
+      event.preventDefault();
+      portrait.classList.remove("drag-active");
+      const file = [...event.dataTransfer?.files || []].find(isImageFile);
+      if (file) await setAddPortrait(file);
+    });
+    const close = () => {
+      if (timer) clearTimeout(timer);
+      state.add = null;
+      closeModal(backdrop);
     };
-    if (entry.rulerMeta) object.rulerMeta = entry.rulerMeta;
-    object.base64 = entry.dna;
-    object.geneCount = geneCount;
-    object.moddedGeneCount = moddedGeneCount;
-    if (rulerDesigner) object.rulerDesigner = rulerDesigner;
-    object.createdAt = entry.createdAt;
-    object.updatedAt = entry.updatedAt;
-    if (portraitPng) object.portraitPng = portraitPng;
-    return object;
-  }
-  function buildExport(entries) {
-    return {
-      format: "ck3-dna-manager-qt",
-      version: 1,
-      exportedAt: (/* @__PURE__ */ new Date()).toISOString(),
-      entries
-    };
+    backdrop.querySelector("#add-cancel").addEventListener("click", close);
+    backdrop.addEventListener("click", (event) => {
+      if (event.target === backdrop) close();
+    });
+    backdrop.querySelector("#add-create").addEventListener("click", async () => {
+      validateAdd();
+      if (!state.add?.parsed) return;
+      const parsed = state.add.parsed;
+      const entryName = name.value.trim() || state.i18n.t("add.nameFallback");
+      try {
+        const record = state.store.insert({
+          name: entryName,
+          notes: "",
+          dna: bytesToBase64(toBytes(parsed.data, state.catalog)),
+          rulerMeta: serializeRulerMetadata(parsed.data),
+          favorite: false,
+          createdAt: Date.now(),
+          updatedAt: Date.now(),
+          hasPortrait: Boolean(state.add.portraitDataUrl)
+        });
+        if (state.add.portraitDataUrl) {
+          try {
+            state.store.setPortrait(record.id, state.add.portraitDataUrl, state.add.thumbnailDataUrl);
+          } catch (error) {
+            try {
+              state.store.update({ ...record, hasPortrait: false });
+            } catch {
+            }
+            await showError(state.i18n.t("msg.databaseError"), error.message);
+          }
+        }
+        close();
+        refreshEntries();
+        loadEntry(record.id);
+        scheduleFolderSync();
+        setStatus(state.i18n.t("msg.saved"));
+      } catch (error) {
+        await showError(state.i18n.t("msg.databaseError"), error.message);
+      }
+    });
+    if (initialImage) {
+      await setAddPortrait(initialImage);
+    }
+    name.focus();
   }
 
-  // js/ui/app.js
-  var $ = (id) => document.getElementById(id);
-  var state = {
-    catalog: null,
-    legacyCatalog: null,
-    i18n: null,
-    store: null,
-    entries: [],
-    currentId: null,
-    currentData: null,
-    baselineData: null,
-    detailsDirty: false,
-    geneDirty: false,
-    sort: "updated",
-    search: "",
-    geneSearch: "",
-    geneCategory: "",
-    activeTab: "overview",
-    codeTab: "base64",
-    collapsedSections: /* @__PURE__ */ new Set(),
-    statusTimer: null,
-    add: null,
-    menuOpen: false,
-    startupSource: "local",
-    folder: {
+  // js/ui/portraits.js
+  async function portraitPngFor(entry) {
+    if (!entry.hasPortrait) return "";
+    const dataUrl = state.store.getPortrait(entry.id);
+    if (!dataUrl) return "";
+    try {
+      return await dataUrlToPngBase64(dataUrl);
+    } catch {
+      return "";
+    }
+  }
+  async function portraitFromPngBase64(base64) {
+    const blob = base64ToBlob(base64, "image/png");
+    const image = await loadImage(blob);
+    const portraitBlob = await encodePortrait(image, 1600);
+    const thumbnailBlob = await makeThumbnail(image, 96, 120);
+    if (!portraitBlob || !thumbnailBlob) return null;
+    return {
+      portraitDataUrl: await blobToDataUrl(portraitBlob),
+      thumbnailDataUrl: await blobToDataUrl(thumbnailBlob)
+    };
+  }
+  async function ensureThumbnail(entry) {
+    if (!entry.hasPortrait || entry.thumbnailDataUrl || !entry.portraitDataUrl) return entry;
+    try {
+      const image = await loadImage(entry.portraitDataUrl);
+      const thumbnailBlob = await makeThumbnail(image, 96, 120);
+      if (thumbnailBlob) entry.thumbnailDataUrl = await blobToDataUrl(thumbnailBlob);
+    } catch {
+      entry.thumbnailDataUrl = entry.portraitDataUrl;
+    }
+    return entry;
+  }
+  async function setPortraitFromBlob(blob) {
+    if (!state.currentId) {
+      await openAddDialog(blob);
+      return;
+    }
+    const entry = state.store.get(state.currentId);
+    if (!entry) return;
+    try {
+      const image = await loadImage(blob);
+      const portraitBlob = await encodePortrait(image, 1600);
+      const thumbnailBlob = await makeThumbnail(image, 96, 120);
+      if (!portraitBlob || !thumbnailBlob) throw new Error("The image could not be encoded.");
+      const portraitDataUrl = await blobToDataUrl(portraitBlob);
+      const thumbnailDataUrl = await blobToDataUrl(thumbnailBlob);
+      state.store.setPortrait(entry.id, portraitDataUrl, thumbnailDataUrl);
+      state.store.update({ ...entry, hasPortrait: true });
+      refreshEntries();
+      renderPortrait();
+      renderMeta();
+      scheduleFolderSync();
+      setStatus(state.i18n.t("msg.portraitUpdated"));
+    } catch (error) {
+      await showError(state.i18n.t("msg.imageError", error.message), error.message);
+    }
+  }
+  async function removePortrait() {
+    if (!state.currentId) return;
+    const entry = state.store.get(state.currentId);
+    if (!entry) return;
+    try {
+      state.store.removePortrait(entry.id);
+      state.store.update({ ...entry, hasPortrait: false });
+    } catch (error) {
+      await showError(state.i18n.t("msg.databaseError"), error.message);
+      return;
+    }
+    refreshEntries();
+    renderPortrait();
+    renderMeta();
+    scheduleFolderSync();
+    setStatus(state.i18n.t("msg.portraitRemoved"));
+  }
+  async function pastePortrait() {
+    const blob = await readClipboardImage();
+    if (!blob) {
+      setStatus(state.i18n.t("action.pasteImageHint"), 5e3);
+      return;
+    }
+    await setPortraitFromBlob(blob);
+  }
+
+  // js/ui/transfer.js
+  async function exportEntries(entries, filename) {
+    const objects = [];
+    for (const entry of entries) {
+      const data = dataForEntry(entry);
+      const counts = data ? countsForData(data) : { total: 0, modded: 0 };
+      const portraitPng = await portraitPngFor(entry);
+      objects.push(entryToExport(entry, {
+        portraitPng,
+        geneCount: counts.total,
+        moddedGeneCount: counts.modded,
+        rulerDesigner: data ? toRuler(data, state.catalog) : ""
+      }));
+    }
+    const payload = buildExport(objects);
+    downloadText(JSON.stringify(payload, null, 2), `${sanitizeFileName(filename)}.json`);
+    setStatus(state.i18n.t("msg.exported"));
+  }
+  async function exportCurrent() {
+    if (!state.currentId) return;
+    if (!await maybeLeaveCurrent()) return;
+    const entry = state.store.get(state.currentId);
+    if (!entry) return;
+    await exportEntries([entry], entry.name);
+  }
+  async function exportAll() {
+    if (!await maybeLeaveCurrent()) return;
+    if (state.entries.length === 0) {
+      await showInfo(state.i18n.t("action.exportAll"), state.i18n.t("library.emptyTitle"));
+      return;
+    }
+    await exportEntries(state.entries, state.i18n.t("library.title"));
+  }
+  function mergeEntriesFromSource(entries) {
+    const summary = { imported: 0, updated: 0, skipped: 0 };
+    for (const entry of entries) {
+      const existing = entry.id ? state.store.get(entry.id) : null;
+      if (existing) {
+        if ((entry.updatedAt || 0) > (existing.updatedAt || 0)) {
+          try {
+            state.store.update({
+              ...existing,
+              name: entry.name,
+              notes: entry.notes,
+              dna: entry.dna,
+              rulerMeta: entry.rulerMeta,
+              favorite: entry.favorite,
+              updatedAt: entry.updatedAt
+            }, { preserveTimestamp: true });
+            if (entry.hasPortrait && entry.portraitDataUrl) {
+              try {
+                state.store.setPortrait(existing.id, entry.portraitDataUrl, entry.thumbnailDataUrl || entry.portraitDataUrl);
+              } catch {
+                try {
+                  const saved = state.store.get(existing.id);
+                  if (saved) state.store.update({ ...saved, hasPortrait: false });
+                } catch {
+                }
+              }
+            }
+            summary.updated += 1;
+          } catch {
+            summary.skipped += 1;
+          }
+        } else {
+          summary.skipped += 1;
+        }
+        continue;
+      }
+      const signature = `${entry.name}\0${entry.dna}`;
+      if (state.entries.some((candidate) => `${candidate.name}\0${candidate.dna}` === signature)) {
+        summary.skipped += 1;
+        continue;
+      }
+      try {
+        const record = state.store.insert({ ...entry, id: entry.id || void 0 });
+        if (entry.hasPortrait && entry.portraitDataUrl) {
+          try {
+            state.store.setPortrait(record.id, entry.portraitDataUrl, entry.thumbnailDataUrl || entry.portraitDataUrl);
+          } catch {
+            try {
+              state.store.update({ ...record, hasPortrait: false });
+            } catch {
+            }
+          }
+        }
+        summary.imported += 1;
+      } catch {
+        summary.skipped += 1;
+      }
+    }
+    state.entries = state.store.entries();
+    return summary;
+  }
+  async function buildSyncPayload() {
+    const objects = [];
+    for (const entry of state.entries) {
+      const data = dataForEntry(entry);
+      const counts = data ? countsForData(data) : { total: 0, modded: 0 };
+      const portraitPng = await portraitPngFor(entry);
+      const object = entryToExport(entry, {
+        portraitPng,
+        geneCount: counts.total,
+        moddedGeneCount: counts.modded,
+        rulerDesigner: data ? toRuler(data, state.catalog) : ""
+      });
+      object.id = entry.id;
+      objects.push(object);
+    }
+    const payload = buildExport(objects);
+    payload.webSync = true;
+    return payload;
+  }
+  async function importDatabaseFile(file) {
+    setStatus("Importing database…", 0);
+    try {
+      const buffer = await file.arrayBuffer();
+      const result = await importSqliteDatabase(buffer, {
+        catalog: state.catalog,
+        legacyCatalog: state.legacyCatalog
+      });
+      if (!result.ok) {
+        await showError(state.i18n.t("msg.importTitle"), result.error);
+        setStatus(state.i18n.t("status.ready"));
+        return;
+      }
+      for (const entry of result.entries) await ensureThumbnail(entry);
+      const summary = mergeEntriesFromSource(result.entries);
+      refreshEntries();
+      const first = sortedEntries()[0];
+      if (first) loadEntry(first.id);
+      await showInfo(
+        state.i18n.t("msg.importTitle"),
+        `Read ${result.entries.length} entries from ${file.name}. Imported ${summary.imported}, updated ${summary.updated}, skipped ${summary.skipped}.`,
+        result.warnings
+      );
+      scheduleFolderSync();
+      setStatus(state.i18n.t("status.ready"));
+    } catch (error) {
+      await showError(state.i18n.t("msg.importTitle"), error.message || String(error));
+      setStatus(state.i18n.t("status.ready"));
+    }
+  }
+  async function importFromFile(file) {
+    if (!file) return;
+    const looksLikeSqlite = /\.(db|sqlite|sqlite3)$/i.test(file.name || "");
+    if (looksLikeSqlite) {
+      await importDatabaseFile(file);
+      return;
+    }
+    try {
+      const header = await file.slice(0, 16).text();
+      if (header.startsWith("SQLite format 3")) {
+        await importDatabaseFile(file);
+        return;
+      }
+    } catch {
+    }
+    setStatus("Importing…", 0);
+    let root;
+    try {
+      const text = await file.text();
+      root = JSON.parse(text);
+    } catch (error) {
+      await showError(state.i18n.t("msg.importTitle"), error.message);
+      setStatus(state.i18n.t("status.ready"));
+      return;
+    }
+    const result = await importLibrary(root, {
+      catalog: state.catalog,
+      legacyCatalog: state.legacyCatalog,
+      makePortraitFromBase64: async (base64) => {
+        const blob = base64ToBlob(base64, "image/png");
+        const image = await loadImage(blob);
+        const portraitBlob = await encodePortrait(image, 1600);
+        const thumbnailBlob = await makeThumbnail(image, 96, 120);
+        if (!portraitBlob || !thumbnailBlob) return null;
+        return {
+          portraitDataUrl: await blobToDataUrl(portraitBlob),
+          thumbnailDataUrl: await blobToDataUrl(thumbnailBlob)
+        };
+      }
+    });
+    if (!result.ok) {
+      await showError(state.i18n.t("msg.importTitle"), result.error);
+      setStatus(state.i18n.t("status.ready"));
+      return;
+    }
+    let firstId = null;
+    for (const entry of result.entries) {
+      try {
+        const record = state.store.insert({
+          name: entry.name,
+          notes: entry.notes,
+          dna: entry.dna,
+          rulerMeta: entry.rulerMeta,
+          favorite: entry.favorite,
+          createdAt: entry.createdAt,
+          updatedAt: entry.updatedAt,
+          hasPortrait: entry.hasPortrait
+        });
+        if (!firstId) firstId = record.id;
+        if (entry.hasPortrait && entry.portraitDataUrl) {
+          try {
+            state.store.setPortrait(record.id, entry.portraitDataUrl, entry.thumbnailDataUrl);
+          } catch (error) {
+            try {
+              state.store.update({ ...record, hasPortrait: false });
+            } catch {
+            }
+            result.warnings.push(`Could not store portrait for "${entry.name}": ${error.message}`);
+          }
+        }
+      } catch (error) {
+        result.warnings.push(`Could not import "${entry.name}": ${error.message}`);
+      }
+    }
+    refreshEntries();
+    if (firstId) loadEntry(firstId);
+    scheduleFolderSync();
+    const summary = state.i18n.t("msg.importSummary", result.imported, result.portraits, result.skipped);
+    await showInfo(state.i18n.t("msg.importTitle"), summary, result.warnings);
+    setStatus(state.i18n.t("status.ready"));
+  }
+
+  // js/ui/folder.js
+  async function syncToFolder({ silent = true } = {}) {
+    if (!state.folder.connected || !state.folder.handle || state.folder.syncing) return false;
+    state.folder.syncing = true;
+    try {
+      const payload = await buildSyncPayload();
+      await writeSyncLibrary(state.folder.handle, payload);
+      state.folder.error = "";
+      if (!silent) setStatus("Library synced to the connected folder.");
+      return true;
+    } catch (error) {
+      state.folder.error = error.message || String(error);
+      if (!silent) await showError("Folder sync failed", state.folder.error);
+      return false;
+    } finally {
+      state.folder.syncing = false;
+    }
+  }
+  function scheduleFolderSync() {
+    if (!state.folder.connected) return;
+    if (state.folder.syncTimer) clearTimeout(state.folder.syncTimer);
+    state.folder.syncTimer = setTimeout(() => {
+      state.folder.syncTimer = null;
+      void syncToFolder({ silent: true });
+    }, 900);
+  }
+  async function pullFolderLibrary(handle) {
+    const summary = { imported: 0, updated: 0, skipped: 0, warnings: [], source: "none", failed: false };
+    const root = await readSyncLibrary(handle);
+    if (root) {
+      summary.source = "sync";
+      const result = await importLibrary(root, {
+        catalog: state.catalog,
+        legacyCatalog: state.legacyCatalog,
+        makePortraitFromBase64: portraitFromPngBase64
+      });
+      if (result.ok) {
+        const merged = mergeEntriesFromSource(result.entries);
+        summary.imported += merged.imported;
+        summary.updated += merged.updated;
+        summary.skipped += merged.skipped;
+        summary.warnings.push(...result.warnings);
+      } else {
+        summary.failed = true;
+        summary.warnings.push(result.error);
+      }
+    } else {
+      const database = await findDatabaseFile(handle);
+      if (database) {
+        summary.source = "db";
+        const buffer = await database.file.arrayBuffer();
+        const result = await importSqliteDatabase(buffer, {
+          catalog: state.catalog,
+          legacyCatalog: state.legacyCatalog
+        });
+        if (result.ok) {
+          for (const entry of result.entries) await ensureThumbnail(entry);
+          const merged = mergeEntriesFromSource(result.entries);
+          summary.imported += merged.imported;
+          summary.updated += merged.updated;
+          summary.skipped += merged.skipped;
+          summary.warnings.push(...result.warnings);
+        } else {
+          summary.failed = true;
+          summary.warnings.push(result.error);
+        }
+      }
+    }
+    return summary;
+  }
+  async function connectFolder() {
+    if (!isSupported()) {
+      await showError(
+        "Folder access unavailable",
+        "This browser does not support the File System Access API. Use Chrome, Edge or another Chromium-based browser, or import/export JSON files instead."
+      );
+      return;
+    }
+    try {
+      const handle = await window.showDirectoryPicker({ id: "ck3dna-library", mode: "readwrite" });
+      const permission = await requestPermission(handle, "readwrite");
+      if (permission !== "granted") {
+        await showError("Folder permission denied", "The browser did not grant write access to the selected folder.");
+        return;
+      }
+      await saveDirectoryHandle(handle);
+      state.folder.handle = handle;
+      state.folder.name = handle.name;
+      state.folder.connected = true;
+      state.folder.needsPermission = false;
+      state.folder.error = "";
+      state.startupSource = "folder";
+      persistSettings({ startupSource: "folder" });
+      setStatus("Reading folder library…", 0);
+      const summary = await pullFolderLibrary(handle);
+      const synced = summary.failed ? false : await syncToFolder({ silent: true });
+      if (!summary.failed && !synced && state.folder.error) summary.warnings.push(state.folder.error);
+      refreshEntries();
+      if (state.currentId && state.store.get(state.currentId)) loadEntry(state.currentId);
+      else {
+        const first = sortedEntries()[0];
+        if (first) loadEntry(first.id);
+      }
+      await showInfo(
+        "Folder connected",
+        `Connected to "${handle.name}". Imported ${summary.imported}, updated ${summary.updated}, skipped ${summary.skipped}. ${summary.failed ? "The existing library file could not be read, so it was left untouched." : synced ? "Changes will be written to web-sync/library.json." : "The folder was connected, but the sync file could not be written."}`,
+        summary.warnings
+      );
+      setStatus("Folder connected.");
+    } catch (error) {
+      if (error.name === "AbortError") return;
+      await showError("Could not connect the folder", error.message || String(error));
+    }
+  }
+  async function reconnectFolder() {
+    if (!state.folder.handle) return;
+    const permission = await requestPermission(state.folder.handle, "readwrite");
+    if (permission !== "granted") {
+      state.folder.needsPermission = true;
+      await showError("Folder permission denied", "The browser did not grant access to the remembered folder.");
+      return;
+    }
+    state.folder.connected = true;
+    state.folder.needsPermission = false;
+    const summary = await pullFolderLibrary(state.folder.handle);
+    const synced = summary.failed ? false : await syncToFolder({ silent: true });
+    if (!summary.failed && !synced && state.folder.error) summary.warnings.push(state.folder.error);
+    refreshEntries();
+    if (state.currentId && state.store.get(state.currentId)) loadEntry(state.currentId);
+    else {
+      const first = sortedEntries()[0];
+      if (first) loadEntry(first.id);
+    }
+    await showInfo(
+      "Folder reconnected",
+      `Imported ${summary.imported}, updated ${summary.updated}, skipped ${summary.skipped}.${summary.failed ? " The existing library file could not be read, so it was left untouched." : synced ? "" : " The sync file could not be written."}`,
+      summary.warnings
+    );
+  }
+  async function disconnectFolder() {
+    if (state.folder.syncTimer) clearTimeout(state.folder.syncTimer);
+    try {
+      await clearDirectoryHandle();
+    } catch {
+    }
+    state.folder = {
       handle: null,
       name: "",
       connected: false,
@@ -8921,159 +9866,256 @@ globalThis.__CK3DNA_SQL_WASM_BASE64__ = "AGFzbQEAAAABnwRFYAJ/fwF/YAF/AX9gA39/fwB
       syncTimer: null,
       syncing: false,
       error: ""
-    }
-  };
-  function nameCollator() {
-    return new Intl.Collator(state.i18n?.locale() || void 0, { sensitivity: "base", numeric: true });
-  }
-  function escapeHtml(value) {
-    return String(value ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
-  }
-  function escapeAttr(value) {
-    return escapeHtml(value);
-  }
-  function formatDate(ms) {
-    if (!ms) return "—";
-    try {
-      return new Intl.DateTimeFormat(state.i18n.locale(), {
-        dateStyle: "short",
-        timeStyle: "short"
-      }).format(new Date(ms));
-    } catch {
-      return new Date(ms).toLocaleString();
-    }
-  }
-  function formatBytes(bytes) {
-    if (!bytes) return "0 B";
-    if (bytes < 1024) return `${bytes} B`;
-    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
-    return `${(bytes / (1024 * 1024)).toFixed(2)} MB`;
-  }
-  function geneCountForEntry(entry) {
-    try {
-      return Math.floor(atob(entry.dna).length / 4);
-    } catch {
-      return 0;
-    }
-  }
-  function moddedCountForEntry(entry) {
-    return Math.max(0, geneCountForEntry(entry) - 104);
-  }
-  function dataForEntry(entry) {
-    try {
-      const bytes = base64ToBytes(entry.dna);
-      const parsed = fromBytes(bytes, Base64Hint.Modern, state.catalog, state.legacyCatalog);
-      if (!parsed.ok) return null;
-      applyRulerMetadata(parsed.data, entry.rulerMeta);
-      return parsed.data;
-    } catch {
-      return null;
-    }
-  }
-  function countsForData(data) {
-    const modded = data.extras.filter((extra) => extra.kind === ExtraGeneKind.Modded).length;
-    const rulerOnly = data.extras.filter((extra) => extra.kind === ExtraGeneKind.RulerOnly).length;
-    return {
-      total: state.catalog.base64GeneCount() + modded,
-      modded,
-      rulerOnly
     };
+    state.startupSource = "local";
+    persistSettings({ startupSource: "local" });
+    setStatus("Folder disconnected.");
   }
-  function categoryLabel(category) {
-    const key = GeneCatalog.categoryTranslationKey(category);
-    const value = state.i18n.value(key);
-    return value === key ? category : value;
-  }
-  function subtitleFor(entry) {
-    const firstLine = (entry.notes || "").split(/\r?\n/).find((line) => line.trim());
-    if (firstLine) return firstLine.trim();
-    const count = geneCountForEntry(entry);
-    const modded = moddedCountForEntry(entry);
-    return `${state.i18n.t("detail.genesCount", count)}${modded ? ` · ${state.i18n.t("detail.moddedCount", modded)}` : ""}`;
-  }
-  function setStatus(text, timeout = 4e3) {
-    const element = $("status-text");
-    element.textContent = text;
-    if (state.statusTimer) clearTimeout(state.statusTimer);
-    if (timeout > 0) {
-      state.statusTimer = setTimeout(() => {
-        element.textContent = state.i18n.t("status.ready");
-      }, timeout);
+  async function restoreFolder() {
+    if (!isSupported()) return;
+    try {
+      const handle = await loadDirectoryHandle();
+      if (!handle) return;
+      state.folder.handle = handle;
+      state.folder.name = handle.name;
+      const permission = await queryPermission(handle, "readwrite");
+      if (permission !== "granted") {
+        state.folder.needsPermission = true;
+        return;
+      }
+      state.folder.connected = true;
+      state.folder.needsPermission = false;
+      if (state.startupSource === "folder") {
+        const summary = await pullFolderLibrary(handle);
+        if (summary.imported || summary.updated) refreshEntries();
+        if (!summary.failed) await syncToFolder({ silent: true });
+      }
+    } catch (error) {
+      state.folder.error = error.message || String(error);
     }
   }
-  function showWelcome() {
-    state.currentId = null;
-    state.currentData = null;
-    state.baselineData = null;
-    state.detailsDirty = false;
-    state.geneDirty = false;
-    $("welcome").hidden = false;
-    $("content").hidden = true;
-    renderList();
-    updateActionStates();
+
+  // js/ui/gene-editor.js
+  function renderGeneCategories() {
+    const select = $("gene-category");
+    const current = state.geneCategory;
+    const categories = state.catalog.categoriesInUse().filter((category) => state.catalog.genes.some((gene) => gene.inBase64 && gene.category === category));
+    select.innerHTML = [
+      `<option value="">${escapeHtml(state.i18n.t("genes.allCategories"))}</option>`,
+      ...categories.map((category) => `<option value="${escapeAttr(category)}">${escapeHtml(categoryLabel(category))}</option>`)
+    ].join("");
+    select.value = categories.includes(current) ? current : "";
+    state.geneCategory = select.value;
   }
-  function sortedEntries() {
-    const filtered = state.entries.filter((entry) => {
-      if (!state.search) return true;
-      const needle = state.search.toLowerCase();
-      return `${entry.name}
-${entry.notes}`.toLowerCase().includes(needle);
-    });
-    const collator = nameCollator();
-    return filtered.sort((a, b) => {
-      if (a.favorite !== b.favorite) return a.favorite ? -1 : 1;
-      let result = 0;
-      if (state.sort === "created") result = (b.createdAt || 0) - (a.createdAt || 0);
-      else if (state.sort === "name") result = collator.compare(a.name || "", b.name || "");
-      else result = (b.updatedAt || 0) - (a.updatedAt || 0);
-      if (result !== 0) return result;
-      return String(a.id).localeCompare(String(b.id));
-    });
+  function optionHtml(gene, selected) {
+    const options = gene.options.map((option) => `<option value="${option.index}"${option.index === selected ? " selected" : ""}>${escapeHtml(option.label)}</option>`);
+    if (!gene.options.some((option) => option.index === selected)) {
+      options.unshift(`<option value="${selected}" selected>${escapeHtml(state.i18n.t("genes.unknownOption", selected))}</option>`);
+    }
+    return options.join("");
   }
-  function renderList() {
-    const visible = sortedEntries();
-    const total = state.entries.length;
-    $("entry-count").textContent = state.search ? state.i18n.t("library.filteredCount", visible.length, total) : state.i18n.t("library.count", total);
-    const list = $("entry-list");
-    const empty = $("list-empty");
-    if (total === 0) {
-      list.innerHTML = "";
-      empty.hidden = false;
-      $("list-empty-title").textContent = state.i18n.t("library.emptyTitle");
-      $("list-empty-hint").textContent = state.i18n.t("library.emptyHint");
-      return;
-    }
-    if (visible.length === 0) {
-      list.innerHTML = "";
-      empty.hidden = false;
-      $("list-empty-title").textContent = state.i18n.t("library.noMatches");
-      $("list-empty-hint").textContent = state.i18n.t("library.noMatchesHint");
-      return;
-    }
-    empty.hidden = true;
-    list.innerHTML = visible.map((entry) => {
-      const thumb = entry.hasPortrait ? state.store.getThumbnail(entry.id) || state.store.getPortrait(entry.id) : null;
-      const selected = entry.id === state.currentId ? " selected" : "";
-      const star = entry.favorite ? '<span class="entry-star">★</span>' : "";
-      const thumbHtml = thumb ? `<img src="${escapeAttr(thumb)}" alt="">` : "<span>DNA</span>";
+  function geneRowHtml(gene) {
+    const label = `
+    <div class="gene-label">
+      <div class="gene-name">${escapeHtml(gene.name)}</div>
+      <div class="gene-key">${escapeHtml(gene.key)}</div>
+    </div>`;
+    if (gene.kind === "color") {
+      const values = state.currentData.colors.get(gene.key) || [0, 0, 0, 0];
       return `
-      <div class="entry-item${selected}" data-id="${escapeAttr(entry.id)}" role="option" aria-selected="${entry.id === state.currentId}">
-        <div class="entry-thumb">${thumbHtml}</div>
-        <div class="entry-main">
-          <div class="entry-name">${escapeHtml(entry.name)}</div>
-          <div class="entry-subtitle">${escapeHtml(subtitleFor(entry))}</div>
-          <div class="entry-date">${escapeHtml(formatDate(entry.updatedAt))}</div>
+      <div class="gene-row" data-gene-key="${escapeAttr(gene.key)}">
+        ${label}
+        <span class="allele-tag">${escapeHtml(state.i18n.t("genes.colorValues"))}</span>
+        <div class="color-values">
+          ${values.map((value, index) => `
+            <input class="input number" type="number" min="0" max="255" value="${value}"
+              data-gene-key="${escapeAttr(gene.key)}" data-color-index="${index}"
+              aria-label="${escapeAttr(`${gene.name} ${index + 1}`)}">
+          `).join("")}
         </div>
-        ${star}
+      </div>`;
+    }
+    const pair = state.currentData.genes.get(gene.key) || {
+      first: { variant: 0, intensity: 0 },
+      second: { variant: 0, intensity: 0 }
+    };
+    return `
+    <div class="gene-row" data-gene-key="${escapeAttr(gene.key)}">
+      ${label}
+      <span class="allele-tag">A1</span>
+      <select class="input" data-gene-key="${escapeAttr(gene.key)}" data-side="first" aria-label="${escapeAttr(`${gene.name} A1`)}">
+        ${optionHtml(gene, pair.first.variant)}
+      </select>
+      <input class="input number" type="number" min="0" max="255" value="${pair.first.intensity}"
+        data-gene-key="${escapeAttr(gene.key)}" data-side="first" data-field="intensity"
+        aria-label="${escapeAttr(`${gene.name} A1 strength`)}">
+      <span class="allele-tag">A2</span>
+      <select class="input" data-gene-key="${escapeAttr(gene.key)}" data-side="second" aria-label="${escapeAttr(`${gene.name} A2`)}">
+        ${optionHtml(gene, pair.second.variant)}
+      </select>
+      <input class="input number" type="number" min="0" max="255" value="${pair.second.intensity}"
+        data-gene-key="${escapeAttr(gene.key)}" data-side="second" data-field="intensity"
+        aria-label="${escapeAttr(`${gene.name} A2 strength`)}">
+    </div>`;
+  }
+  function extraDisplayName(extra) {
+    if (extra.key.startsWith("extra_")) {
+      const slot = Number.parseInt(extra.key.slice("extra_".length), 10);
+      if (Number.isFinite(slot)) return state.i18n.t("genes.extraGene", slot);
+    }
+    return extra.key;
+  }
+  function extraRowHtml(extra, index) {
+    const kind = extra.kind === ExtraGeneKind.RulerOnly ? state.i18n.t("genes.rulerOnlyKind") : state.i18n.t("genes.moddedKind");
+    const firstVariant = extra.firstOption ? `<div class="extra-option" title="${escapeAttr(extra.firstOption)}">${escapeHtml(extra.firstOption)}</div>` : `<input class="input number" type="number" min="0" max="255" value="${extra.bytes[0]}"
+        data-extra-index="${index}" data-side="first" data-field="variant">`;
+    const secondVariant = extra.secondOption ? `<div class="extra-option" title="${escapeAttr(extra.secondOption)}">${escapeHtml(extra.secondOption)}</div>` : `<input class="input number" type="number" min="0" max="255" value="${extra.bytes[2]}"
+        data-extra-index="${index}" data-side="second" data-field="variant">`;
+    return `
+    <div class="gene-row" data-extra-index="${index}">
+      <div class="gene-label">
+        <div class="gene-name">${escapeHtml(extraDisplayName(extra))}</div>
+        <div class="gene-key">${escapeHtml(kind)}</div>
       </div>
-    `;
-    }).join("");
+      <span class="allele-tag">A1</span>
+      ${firstVariant}
+      <input class="input number" type="number" min="0" max="255" value="${extra.bytes[1]}"
+        data-extra-index="${index}" data-side="first" data-field="strength">
+      <span class="allele-tag">A2</span>
+      ${secondVariant}
+      <input class="input number" type="number" min="0" max="255" value="${extra.bytes[3]}"
+        data-extra-index="${index}" data-side="second" data-field="strength">
+    </div>`;
   }
-  function refreshEntries() {
-    state.entries = state.store.entries();
-    renderList();
-    updateActionStates();
+  function renderGeneEditor() {
+    const content = $("gene-content");
+    if (!state.currentData) {
+      content.innerHTML = "";
+      $("gene-count").textContent = "";
+      updateDirtyUi();
+      return;
+    }
+    const query = state.geneSearch.trim().toLowerCase();
+    const categoryFilter = state.geneCategory;
+    let shown = 0;
+    const total = state.catalog.base64GeneCount() + state.currentData.extras.length;
+    const sections = [];
+    for (const category of state.catalog.categoryOrder) {
+      if (categoryFilter && category !== categoryFilter) continue;
+      const genes = state.catalog.genes.filter((gene) => gene.inBase64 && gene.category === category && (!query || gene.name.toLowerCase().includes(query) || gene.key.toLowerCase().includes(query)));
+      if (genes.length === 0) continue;
+      shown += genes.length;
+      const collapsed = state.collapsedSections.has(category);
+      sections.push(`
+      <div class="gene-section">
+        <button class="section-header" data-section="${escapeAttr(category)}">
+          <span class="section-arrow">${collapsed ? "▸" : "▾"}</span>
+          <span>${escapeHtml(categoryLabel(category))} · ${genes.length}</span>
+        </button>
+        <div class="section-body"${collapsed ? " hidden" : ""}>
+          ${genes.map(geneRowHtml).join("")}
+        </div>
+      </div>`);
+    }
+    if (!categoryFilter && state.currentData.extras.length > 0) {
+      const extras = state.currentData.extras.filter((extra) => {
+        if (!query) return true;
+        return extra.key.toLowerCase().includes(query) || extraDisplayName(extra).toLowerCase().includes(query);
+      });
+      if (extras.length > 0) {
+        shown += extras.length;
+        const collapsed = state.collapsedSections.has("__extras");
+        sections.push(`
+        <div class="gene-section">
+          <button class="section-header" data-section="__extras">
+            <span class="section-arrow">${collapsed ? "▸" : "▾"}</span>
+            <span>${escapeHtml(state.i18n.t("genes.nonVanilla"))} · ${extras.length}</span>
+          </button>
+          <div class="section-body"${collapsed ? " hidden" : ""}>
+            <div class="extra-hint">${escapeHtml(state.i18n.t("genes.moddedHint"))}</div>
+            ${extras.map((extra) => {
+          const index = state.currentData.extras.indexOf(extra);
+          return extraRowHtml(extra, index);
+        }).join("")}
+          </div>
+        </div>`);
+      }
+    }
+    content.innerHTML = sections.length ? sections.join("") : `<div class="no-matches">${escapeHtml(state.i18n.t("genes.noMatches"))}</div>`;
+    $("gene-count").textContent = query || categoryFilter ? state.i18n.t("genes.countFiltered", shown, total) : state.i18n.t("genes.count", total);
+    updateDirtyUi();
   }
+  function markGeneDirty() {
+    if (!state.currentId) return;
+    state.geneDirty = true;
+    updateDirtyUi();
+  }
+  function clearRawTokens(key) {
+    if (state.currentData) state.currentData.ruler.rawTokens.delete(key);
+  }
+  function handleGeneChange(event) {
+    if (!state.currentData) return;
+    const target = event.target;
+    if (!(target instanceof HTMLElement)) return;
+    if (target.dataset.extraIndex !== void 0) {
+      const index = Number(target.dataset.extraIndex);
+      const extra = state.currentData.extras[index];
+      if (!extra) return;
+      const side2 = target.dataset.side;
+      const field = target.dataset.field;
+      const value = Math.max(0, Math.min(255, Number(target.value) || 0));
+      if (field === "variant") {
+        extra.bytes[side2 === "first" ? 0 : 2] = value;
+        if (side2 === "first") extra.firstOption = "";
+        else extra.secondOption = "";
+        clearRawTokens(extra.key);
+        markGeneDirty();
+        return;
+      }
+      if (field === "strength") {
+        extra.bytes[side2 === "first" ? 1 : 3] = value;
+        clearRawTokens(extra.key);
+        markGeneDirty();
+        return;
+      }
+      return;
+    }
+    const key = target.dataset.geneKey;
+    if (!key) return;
+    if (target.dataset.colorIndex !== void 0) {
+      const color = state.currentData.colors.get(key) || [0, 0, 0, 0];
+      const index = Number(target.dataset.colorIndex);
+      color[index] = Math.max(0, Math.min(255, Number(target.value) || 0));
+      state.currentData.colors.set(key, color);
+      clearRawTokens(key);
+      markGeneDirty();
+      return;
+    }
+    const pair = state.currentData.genes.get(key);
+    if (!pair) return;
+    const side = target.dataset.side === "second" ? pair.second : pair.first;
+    if (target.dataset.field === "intensity") {
+      side.intensity = Math.max(0, Math.min(255, Number(target.value) || 0));
+    } else {
+      side.variant = Number(target.value) || 0;
+    }
+    clearRawTokens(key);
+    markGeneDirty();
+  }
+  function revertGenes() {
+    if (!state.baselineData) return;
+    state.currentData = cloneDnaData(state.baselineData);
+    state.geneDirty = false;
+    renderGeneEditor();
+    renderCodes();
+    renderMeta();
+    updateDirtyUi();
+  }
+  function saveGenes() {
+    saveEntry(true);
+  }
+
+  // js/ui/detail.js
   function renderHeader() {
     const entry = state.currentId ? state.store.get(state.currentId) : null;
     if (!entry) return;
@@ -9361,371 +10403,83 @@ ${entry.notes}`.toLowerCase().includes(needle);
     scheduleFolderSync();
     setStatus(state.i18n.t("msg.deleted"));
   }
-  function sanitizeFileName(name) {
-    const value = (name || "").replace(/[\\/:*?"<>|]/g, "_").replace(/\s+/g, " ").trim();
-    return value || "dna";
+
+  // js/ui/library.js
+  function showWelcome() {
+    state.currentId = null;
+    state.currentData = null;
+    state.baselineData = null;
+    state.detailsDirty = false;
+    state.geneDirty = false;
+    $("welcome").hidden = false;
+    $("content").hidden = true;
+    renderList();
+    updateActionStates();
   }
-  async function portraitPngFor(entry) {
-    if (!entry.hasPortrait) return "";
-    const dataUrl = state.store.getPortrait(entry.id);
-    if (!dataUrl) return "";
-    try {
-      return await dataUrlToPngBase64(dataUrl);
-    } catch {
-      return "";
-    }
+  function sortedEntries() {
+    const filtered = state.entries.filter((entry) => {
+      if (!state.search) return true;
+      const needle = state.search.toLowerCase();
+      return `${entry.name}
+${entry.notes}`.toLowerCase().includes(needle);
+    });
+    const collator = nameCollator();
+    return filtered.sort((a, b) => {
+      if (a.favorite !== b.favorite) return a.favorite ? -1 : 1;
+      let result = 0;
+      if (state.sort === "created") result = (b.createdAt || 0) - (a.createdAt || 0);
+      else if (state.sort === "name") result = collator.compare(a.name || "", b.name || "");
+      else result = (b.updatedAt || 0) - (a.updatedAt || 0);
+      if (result !== 0) return result;
+      return String(a.id).localeCompare(String(b.id));
+    });
   }
-  async function exportEntries(entries, filename) {
-    const objects = [];
-    for (const entry of entries) {
-      const data = dataForEntry(entry);
-      const counts = data ? countsForData(data) : { total: 0, modded: 0 };
-      const portraitPng = await portraitPngFor(entry);
-      objects.push(entryToExport(entry, {
-        portraitPng,
-        geneCount: counts.total,
-        moddedGeneCount: counts.modded,
-        rulerDesigner: data ? toRuler(data, state.catalog) : ""
-      }));
-    }
-    const payload = buildExport(objects);
-    downloadText(JSON.stringify(payload, null, 2), `${sanitizeFileName(filename)}.json`);
-    setStatus(state.i18n.t("msg.exported"));
-  }
-  async function exportCurrent() {
-    if (!state.currentId) return;
-    if (!await maybeLeaveCurrent()) return;
-    const entry = state.store.get(state.currentId);
-    if (!entry) return;
-    await exportEntries([entry], entry.name);
-  }
-  async function exportAll() {
-    if (!await maybeLeaveCurrent()) return;
-    if (state.entries.length === 0) {
-      await showInfo(state.i18n.t("action.exportAll"), state.i18n.t("library.emptyTitle"));
+  function renderList() {
+    const visible = sortedEntries();
+    const total = state.entries.length;
+    $("entry-count").textContent = state.search ? state.i18n.t("library.filteredCount", visible.length, total) : state.i18n.t("library.count", total);
+    const list = $("entry-list");
+    const empty = $("list-empty");
+    if (total === 0) {
+      list.innerHTML = "";
+      empty.hidden = false;
+      $("list-empty-title").textContent = state.i18n.t("library.emptyTitle");
+      $("list-empty-hint").textContent = state.i18n.t("library.emptyHint");
       return;
     }
-    await exportEntries(state.entries, state.i18n.t("library.title"));
-  }
-  async function portraitFromPngBase64(base64) {
-    const blob = base64ToBlob(base64, "image/png");
-    const image = await loadImage(blob);
-    const portraitBlob = await encodePortrait(image, 1600);
-    const thumbnailBlob = await makeThumbnail(image, 96, 120);
-    if (!portraitBlob || !thumbnailBlob) return null;
-    return {
-      portraitDataUrl: await blobToDataUrl(portraitBlob),
-      thumbnailDataUrl: await blobToDataUrl(thumbnailBlob)
-    };
-  }
-  async function ensureThumbnail(entry) {
-    if (!entry.hasPortrait || entry.thumbnailDataUrl || !entry.portraitDataUrl) return entry;
-    try {
-      const image = await loadImage(entry.portraitDataUrl);
-      const thumbnailBlob = await makeThumbnail(image, 96, 120);
-      if (thumbnailBlob) entry.thumbnailDataUrl = await blobToDataUrl(thumbnailBlob);
-    } catch {
-      entry.thumbnailDataUrl = entry.portraitDataUrl;
+    if (visible.length === 0) {
+      list.innerHTML = "";
+      empty.hidden = false;
+      $("list-empty-title").textContent = state.i18n.t("library.noMatches");
+      $("list-empty-hint").textContent = state.i18n.t("library.noMatchesHint");
+      return;
     }
-    return entry;
+    empty.hidden = true;
+    list.innerHTML = visible.map((entry) => {
+      const thumb = entry.hasPortrait ? state.store.getThumbnail(entry.id) || state.store.getPortrait(entry.id) : null;
+      const selected = entry.id === state.currentId ? " selected" : "";
+      const star = entry.favorite ? '<span class="entry-star">★</span>' : "";
+      const thumbHtml = thumb ? `<img src="${escapeAttr(thumb)}" alt="">` : "<span>DNA</span>";
+      return `
+      <div class="entry-item${selected}" data-id="${escapeAttr(entry.id)}" role="option" aria-selected="${entry.id === state.currentId}">
+        <div class="entry-thumb">${thumbHtml}</div>
+        <div class="entry-main">
+          <div class="entry-name">${escapeHtml(entry.name)}</div>
+          <div class="entry-subtitle">${escapeHtml(subtitleFor(entry))}</div>
+          <div class="entry-date">${escapeHtml(formatDate(entry.updatedAt))}</div>
+        </div>
+        ${star}
+      </div>
+    `;
+    }).join("");
   }
-  function persistSettings(patch) {
-    try {
-      const settings = state.store.getSettings();
-      state.store.saveSettings({ ...settings, ...patch });
-    } catch {
-    }
-  }
-  function mergeEntriesFromSource(entries) {
-    const summary = { imported: 0, updated: 0, skipped: 0 };
-    for (const entry of entries) {
-      const existing = entry.id ? state.store.get(entry.id) : null;
-      if (existing) {
-        if ((entry.updatedAt || 0) > (existing.updatedAt || 0)) {
-          try {
-            state.store.update({
-              ...existing,
-              name: entry.name,
-              notes: entry.notes,
-              dna: entry.dna,
-              rulerMeta: entry.rulerMeta,
-              favorite: entry.favorite,
-              updatedAt: entry.updatedAt
-            }, { preserveTimestamp: true });
-            if (entry.hasPortrait && entry.portraitDataUrl) {
-              try {
-                state.store.setPortrait(existing.id, entry.portraitDataUrl, entry.thumbnailDataUrl || entry.portraitDataUrl);
-              } catch {
-                try {
-                  const saved = state.store.get(existing.id);
-                  if (saved) state.store.update({ ...saved, hasPortrait: false });
-                } catch {
-                }
-              }
-            }
-            summary.updated += 1;
-          } catch {
-            summary.skipped += 1;
-          }
-        } else {
-          summary.skipped += 1;
-        }
-        continue;
-      }
-      const signature = `${entry.name}\0${entry.dna}`;
-      if (state.entries.some((candidate) => `${candidate.name}\0${candidate.dna}` === signature)) {
-        summary.skipped += 1;
-        continue;
-      }
-      try {
-        const record = state.store.insert({ ...entry, id: entry.id || void 0 });
-        if (entry.hasPortrait && entry.portraitDataUrl) {
-          try {
-            state.store.setPortrait(record.id, entry.portraitDataUrl, entry.thumbnailDataUrl || entry.portraitDataUrl);
-          } catch {
-            try {
-              state.store.update({ ...record, hasPortrait: false });
-            } catch {
-            }
-          }
-        }
-        summary.imported += 1;
-      } catch {
-        summary.skipped += 1;
-      }
-    }
+  function refreshEntries() {
     state.entries = state.store.entries();
-    return summary;
+    renderList();
+    updateActionStates();
   }
-  async function buildSyncPayload() {
-    const objects = [];
-    for (const entry of state.entries) {
-      const data = dataForEntry(entry);
-      const counts = data ? countsForData(data) : { total: 0, modded: 0 };
-      const portraitPng = await portraitPngFor(entry);
-      const object = entryToExport(entry, {
-        portraitPng,
-        geneCount: counts.total,
-        moddedGeneCount: counts.modded,
-        rulerDesigner: data ? toRuler(data, state.catalog) : ""
-      });
-      object.id = entry.id;
-      objects.push(object);
-    }
-    const payload = buildExport(objects);
-    payload.webSync = true;
-    return payload;
-  }
-  async function syncToFolder({ silent = true } = {}) {
-    if (!state.folder.connected || !state.folder.handle || state.folder.syncing) return false;
-    state.folder.syncing = true;
-    try {
-      const payload = await buildSyncPayload();
-      await writeSyncLibrary(state.folder.handle, payload);
-      state.folder.error = "";
-      if (!silent) setStatus("Library synced to the connected folder.");
-      return true;
-    } catch (error) {
-      state.folder.error = error.message || String(error);
-      if (!silent) await showError("Folder sync failed", state.folder.error);
-      return false;
-    } finally {
-      state.folder.syncing = false;
-    }
-  }
-  function scheduleFolderSync() {
-    if (!state.folder.connected) return;
-    if (state.folder.syncTimer) clearTimeout(state.folder.syncTimer);
-    state.folder.syncTimer = setTimeout(() => {
-      state.folder.syncTimer = null;
-      void syncToFolder({ silent: true });
-    }, 900);
-  }
-  async function pullFolderLibrary(handle) {
-    const summary = { imported: 0, updated: 0, skipped: 0, warnings: [], source: "none", failed: false };
-    const root = await readSyncLibrary(handle);
-    if (root) {
-      summary.source = "sync";
-      const result = await importLibrary(root, {
-        catalog: state.catalog,
-        legacyCatalog: state.legacyCatalog,
-        makePortraitFromBase64: portraitFromPngBase64
-      });
-      if (result.ok) {
-        const merged = mergeEntriesFromSource(result.entries);
-        summary.imported += merged.imported;
-        summary.updated += merged.updated;
-        summary.skipped += merged.skipped;
-        summary.warnings.push(...result.warnings);
-      } else {
-        summary.failed = true;
-        summary.warnings.push(result.error);
-      }
-    } else {
-      const database = await findDatabaseFile(handle);
-      if (database) {
-        summary.source = "db";
-        const buffer = await database.file.arrayBuffer();
-        const result = await importSqliteDatabase(buffer, {
-          catalog: state.catalog,
-          legacyCatalog: state.legacyCatalog
-        });
-        if (result.ok) {
-          for (const entry of result.entries) await ensureThumbnail(entry);
-          const merged = mergeEntriesFromSource(result.entries);
-          summary.imported += merged.imported;
-          summary.updated += merged.updated;
-          summary.skipped += merged.skipped;
-          summary.warnings.push(...result.warnings);
-        } else {
-          summary.failed = true;
-          summary.warnings.push(result.error);
-        }
-      }
-    }
-    return summary;
-  }
-  async function connectFolder() {
-    if (!isSupported()) {
-      await showError(
-        "Folder access unavailable",
-        "This browser does not support the File System Access API. Use Chrome, Edge or another Chromium-based browser, or import/export JSON files instead."
-      );
-      return;
-    }
-    try {
-      const handle = await window.showDirectoryPicker({ id: "ck3dna-library", mode: "readwrite" });
-      const permission = await requestPermission(handle, "readwrite");
-      if (permission !== "granted") {
-        await showError("Folder permission denied", "The browser did not grant write access to the selected folder.");
-        return;
-      }
-      await saveDirectoryHandle(handle);
-      state.folder.handle = handle;
-      state.folder.name = handle.name;
-      state.folder.connected = true;
-      state.folder.needsPermission = false;
-      state.folder.error = "";
-      state.startupSource = "folder";
-      persistSettings({ startupSource: "folder" });
-      setStatus("Reading folder library…", 0);
-      const summary = await pullFolderLibrary(handle);
-      const synced = summary.failed ? false : await syncToFolder({ silent: true });
-      if (!summary.failed && !synced && state.folder.error) summary.warnings.push(state.folder.error);
-      refreshEntries();
-      if (state.currentId && state.store.get(state.currentId)) loadEntry(state.currentId);
-      else {
-        const first = sortedEntries()[0];
-        if (first) loadEntry(first.id);
-      }
-      await showInfo(
-        "Folder connected",
-        `Connected to "${handle.name}". Imported ${summary.imported}, updated ${summary.updated}, skipped ${summary.skipped}. ${summary.failed ? "The existing library file could not be read, so it was left untouched." : synced ? "Changes will be written to web-sync/library.json." : "The folder was connected, but the sync file could not be written."}`,
-        summary.warnings
-      );
-      setStatus("Folder connected.");
-    } catch (error) {
-      if (error.name === "AbortError") return;
-      await showError("Could not connect the folder", error.message || String(error));
-    }
-  }
-  async function reconnectFolder() {
-    if (!state.folder.handle) return;
-    const permission = await requestPermission(state.folder.handle, "readwrite");
-    if (permission !== "granted") {
-      state.folder.needsPermission = true;
-      await showError("Folder permission denied", "The browser did not grant access to the remembered folder.");
-      return;
-    }
-    state.folder.connected = true;
-    state.folder.needsPermission = false;
-    const summary = await pullFolderLibrary(state.folder.handle);
-    const synced = summary.failed ? false : await syncToFolder({ silent: true });
-    if (!summary.failed && !synced && state.folder.error) summary.warnings.push(state.folder.error);
-    refreshEntries();
-    if (state.currentId && state.store.get(state.currentId)) loadEntry(state.currentId);
-    else {
-      const first = sortedEntries()[0];
-      if (first) loadEntry(first.id);
-    }
-    await showInfo(
-      "Folder reconnected",
-      `Imported ${summary.imported}, updated ${summary.updated}, skipped ${summary.skipped}.${summary.failed ? " The existing library file could not be read, so it was left untouched." : synced ? "" : " The sync file could not be written."}`,
-      summary.warnings
-    );
-  }
-  async function disconnectFolder() {
-    if (state.folder.syncTimer) clearTimeout(state.folder.syncTimer);
-    try {
-      await clearDirectoryHandle();
-    } catch {
-    }
-    state.folder = {
-      handle: null,
-      name: "",
-      connected: false,
-      needsPermission: false,
-      syncTimer: null,
-      syncing: false,
-      error: ""
-    };
-    state.startupSource = "local";
-    persistSettings({ startupSource: "local" });
-    setStatus("Folder disconnected.");
-  }
-  async function restoreFolder() {
-    if (!isSupported()) return;
-    try {
-      const handle = await loadDirectoryHandle();
-      if (!handle) return;
-      state.folder.handle = handle;
-      state.folder.name = handle.name;
-      const permission = await queryPermission(handle, "readwrite");
-      if (permission !== "granted") {
-        state.folder.needsPermission = true;
-        return;
-      }
-      state.folder.connected = true;
-      state.folder.needsPermission = false;
-      if (state.startupSource === "folder") {
-        const summary = await pullFolderLibrary(handle);
-        if (summary.imported || summary.updated) refreshEntries();
-        if (!summary.failed) await syncToFolder({ silent: true });
-      }
-    } catch (error) {
-      state.folder.error = error.message || String(error);
-    }
-  }
-  async function importDatabaseFile(file) {
-    setStatus("Importing database…", 0);
-    try {
-      const buffer = await file.arrayBuffer();
-      const result = await importSqliteDatabase(buffer, {
-        catalog: state.catalog,
-        legacyCatalog: state.legacyCatalog
-      });
-      if (!result.ok) {
-        await showError(state.i18n.t("msg.importTitle"), result.error);
-        setStatus(state.i18n.t("status.ready"));
-        return;
-      }
-      for (const entry of result.entries) await ensureThumbnail(entry);
-      const summary = mergeEntriesFromSource(result.entries);
-      refreshEntries();
-      const first = sortedEntries()[0];
-      if (first) loadEntry(first.id);
-      await showInfo(
-        state.i18n.t("msg.importTitle"),
-        `Read ${result.entries.length} entries from ${file.name}. Imported ${summary.imported}, updated ${summary.updated}, skipped ${summary.skipped}.`,
-        result.warnings
-      );
-      scheduleFolderSync();
-      setStatus(state.i18n.t("status.ready"));
-    } catch (error) {
-      await showError(state.i18n.t("msg.importTitle"), error.message || String(error));
-      setStatus(state.i18n.t("status.ready"));
-    }
-  }
+
+  // js/ui/clipboard.js
   async function copyText(text, messageKey) {
     try {
       if (navigator.clipboard?.writeText) {
@@ -9741,8 +10495,10 @@ ${entry.notes}`.toLowerCase().includes(needle);
         area.remove();
       }
       setStatus(state.i18n.t(messageKey));
+      return true;
     } catch {
       await showError(state.i18n.t("msg.error"), "The clipboard could not be written.");
+      return false;
     }
   }
   async function copyBase64() {
@@ -9757,274 +10513,237 @@ ${entry.notes}`.toLowerCase().includes(needle);
     if (state.codeTab === "base64") await copyBase64();
     else await copyRuler();
   }
-  async function setPortraitFromBlob(blob) {
-    if (!state.currentId) {
-      await openAddDialog(blob);
-      return;
+
+  // js/ui/quick-convert.js
+  function conversionMessage(parsed) {
+    if (parsed.format === DnaFormat.LegacyBase64) {
+      return state.i18n.t("add.detectedLegacy", parsed.geneCount);
     }
-    const entry = state.store.get(state.currentId);
-    if (!entry) return;
-    try {
-      const image = await loadImage(blob);
-      const portraitBlob = await encodePortrait(image, 1600);
-      const thumbnailBlob = await makeThumbnail(image, 96, 120);
-      if (!portraitBlob || !thumbnailBlob) throw new Error("The image could not be encoded.");
-      const portraitDataUrl = await blobToDataUrl(portraitBlob);
-      const thumbnailDataUrl = await blobToDataUrl(thumbnailBlob);
-      state.store.setPortrait(entry.id, portraitDataUrl, thumbnailDataUrl);
-      state.store.update({ ...entry, hasPortrait: true });
-      refreshEntries();
-      renderPortrait();
-      renderMeta();
-      scheduleFolderSync();
-      setStatus(state.i18n.t("msg.portraitUpdated"));
-    } catch (error) {
-      await showError(state.i18n.t("msg.imageError", error.message), error.message);
+    if (parsed.format === DnaFormat.RulerDesigner) {
+      return state.i18n.t("add.detectedRuler", parsed.geneCount);
     }
+    return state.i18n.t("add.detectedModern", parsed.geneCount);
   }
-  async function removePortrait() {
-    if (!state.currentId) return;
-    const entry = state.store.get(state.currentId);
-    if (!entry) return;
-    try {
-      state.store.removePortrait(entry.id);
-      state.store.update({ ...entry, hasPortrait: false });
-    } catch (error) {
-      await showError(state.i18n.t("msg.databaseError"), error.message);
-      return;
-    }
-    refreshEntries();
-    renderPortrait();
-    renderMeta();
-    scheduleFolderSync();
-    setStatus(state.i18n.t("msg.portraitRemoved"));
-  }
-  async function pastePortrait() {
-    const blob = await readClipboardImage();
-    if (!blob) {
-      setStatus(state.i18n.t("action.pasteImageHint"), 5e3);
-      return;
-    }
-    await setPortraitFromBlob(blob);
-  }
-  function renderGeneCategories() {
-    const select = $("gene-category");
-    const current = state.geneCategory;
-    const categories = state.catalog.categoriesInUse().filter((category) => state.catalog.genes.some((gene) => gene.inBase64 && gene.category === category));
-    select.innerHTML = [
-      `<option value="">${escapeHtml(state.i18n.t("genes.allCategories"))}</option>`,
-      ...categories.map((category) => `<option value="${escapeAttr(category)}">${escapeHtml(categoryLabel(category))}</option>`)
-    ].join("");
-    select.value = categories.includes(current) ? current : "";
-    state.geneCategory = select.value;
-  }
-  function optionHtml(gene, selected) {
-    const options = gene.options.map((option) => `<option value="${option.index}"${option.index === selected ? " selected" : ""}>${escapeHtml(option.label)}</option>`);
-    if (!gene.options.some((option) => option.index === selected)) {
-      options.unshift(`<option value="${selected}" selected>${escapeHtml(state.i18n.t("genes.unknownOption", selected))}</option>`);
-    }
-    return options.join("");
-  }
-  function geneRowHtml(gene) {
-    const label = `
-    <div class="gene-label">
-      <div class="gene-name">${escapeHtml(gene.name)}</div>
-      <div class="gene-key">${escapeHtml(gene.key)}</div>
-    </div>`;
-    if (gene.kind === "color") {
-      const values = state.currentData.colors.get(gene.key) || [0, 0, 0, 0];
-      return `
-      <div class="gene-row" data-gene-key="${escapeAttr(gene.key)}">
-        ${label}
-        <span class="allele-tag">${escapeHtml(state.i18n.t("genes.colorValues"))}</span>
-        <div class="color-values">
-          ${values.map((value, index) => `
-            <input class="input number" type="number" min="0" max="255" value="${value}"
-              data-gene-key="${escapeAttr(gene.key)}" data-color-index="${index}"
-              aria-label="${escapeAttr(`${gene.name} ${index + 1}`)}">
-          `).join("")}
-        </div>
-      </div>`;
-    }
-    const pair = state.currentData.genes.get(gene.key) || {
-      first: { variant: 0, intensity: 0 },
-      second: { variant: 0, intensity: 0 }
-    };
-    return `
-    <div class="gene-row" data-gene-key="${escapeAttr(gene.key)}">
-      ${label}
-      <span class="allele-tag">A1</span>
-      <select class="input" data-gene-key="${escapeAttr(gene.key)}" data-side="first" aria-label="${escapeAttr(`${gene.name} A1`)}">
-        ${optionHtml(gene, pair.first.variant)}
-      </select>
-      <input class="input number" type="number" min="0" max="255" value="${pair.first.intensity}"
-        data-gene-key="${escapeAttr(gene.key)}" data-side="first" data-field="intensity"
-        aria-label="${escapeAttr(`${gene.name} A1 strength`)}">
-      <span class="allele-tag">A2</span>
-      <select class="input" data-gene-key="${escapeAttr(gene.key)}" data-side="second" aria-label="${escapeAttr(`${gene.name} A2`)}">
-        ${optionHtml(gene, pair.second.variant)}
-      </select>
-      <input class="input number" type="number" min="0" max="255" value="${pair.second.intensity}"
-        data-gene-key="${escapeAttr(gene.key)}" data-side="second" data-field="intensity"
-        aria-label="${escapeAttr(`${gene.name} A2 strength`)}">
-    </div>`;
-  }
-  function extraDisplayName(extra) {
-    if (extra.key.startsWith("extra_")) {
-      const slot = Number.parseInt(extra.key.slice("extra_".length), 10);
-      if (Number.isFinite(slot)) return state.i18n.t("genes.extraGene", slot);
-    }
-    return extra.key;
-  }
-  function extraRowHtml(extra, index) {
-    const kind = extra.kind === ExtraGeneKind.RulerOnly ? state.i18n.t("genes.rulerOnlyKind") : state.i18n.t("genes.moddedKind");
-    const firstVariant = extra.firstOption ? `<div class="extra-option" title="${escapeAttr(extra.firstOption)}">${escapeHtml(extra.firstOption)}</div>` : `<input class="input number" type="number" min="0" max="255" value="${extra.bytes[0]}"
-        data-extra-index="${index}" data-side="first" data-field="variant">`;
-    const secondVariant = extra.secondOption ? `<div class="extra-option" title="${escapeAttr(extra.secondOption)}">${escapeHtml(extra.secondOption)}</div>` : `<input class="input number" type="number" min="0" max="255" value="${extra.bytes[2]}"
-        data-extra-index="${index}" data-side="second" data-field="variant">`;
-    return `
-    <div class="gene-row" data-extra-index="${index}">
-      <div class="gene-label">
-        <div class="gene-name">${escapeHtml(extraDisplayName(extra))}</div>
-        <div class="gene-key">${escapeHtml(kind)}</div>
-      </div>
-      <span class="allele-tag">A1</span>
-      ${firstVariant}
-      <input class="input number" type="number" min="0" max="255" value="${extra.bytes[1]}"
-        data-extra-index="${index}" data-side="first" data-field="strength">
-      <span class="allele-tag">A2</span>
-      ${secondVariant}
-      <input class="input number" type="number" min="0" max="255" value="${extra.bytes[3]}"
-        data-extra-index="${index}" data-side="second" data-field="strength">
-    </div>`;
-  }
-  function renderGeneEditor() {
-    const content = $("gene-content");
-    if (!state.currentData) {
-      content.innerHTML = "";
-      $("gene-count").textContent = "";
-      updateDirtyUi();
-      return;
-    }
-    const query = state.geneSearch.trim().toLowerCase();
-    const categoryFilter = state.geneCategory;
-    let shown = 0;
-    const total = state.catalog.base64GeneCount() + state.currentData.extras.length;
-    const sections = [];
-    for (const category of state.catalog.categoryOrder) {
-      if (categoryFilter && category !== categoryFilter) continue;
-      const genes = state.catalog.genes.filter((gene) => gene.inBase64 && gene.category === category && (!query || gene.name.toLowerCase().includes(query) || gene.key.toLowerCase().includes(query)));
-      if (genes.length === 0) continue;
-      shown += genes.length;
-      const collapsed = state.collapsedSections.has(category);
-      sections.push(`
-      <div class="gene-section">
-        <button class="section-header" data-section="${escapeAttr(category)}">
-          <span class="section-arrow">${collapsed ? "▸" : "▾"}</span>
-          <span>${escapeHtml(categoryLabel(category))} · ${genes.length}</span>
-        </button>
-        <div class="section-body"${collapsed ? " hidden" : ""}>
-          ${genes.map(geneRowHtml).join("")}
-        </div>
-      </div>`);
-    }
-    if (!categoryFilter && state.currentData.extras.length > 0) {
-      const extras = state.currentData.extras.filter((extra) => {
-        if (!query) return true;
-        return extra.key.toLowerCase().includes(query) || extraDisplayName(extra).toLowerCase().includes(query);
-      });
-      if (extras.length > 0) {
-        shown += extras.length;
-        const collapsed = state.collapsedSections.has("__extras");
-        sections.push(`
-        <div class="gene-section">
-          <button class="section-header" data-section="__extras">
-            <span class="section-arrow">${collapsed ? "▸" : "▾"}</span>
-            <span>${escapeHtml(state.i18n.t("genes.nonVanilla"))} · ${extras.length}</span>
-          </button>
-          <div class="section-body"${collapsed ? " hidden" : ""}>
-            <div class="extra-hint">${escapeHtml(state.i18n.t("genes.moddedHint"))}</div>
-            ${extras.map((extra) => {
-          const index = state.currentData.extras.indexOf(extra);
-          return extraRowHtml(extra, index);
-        }).join("")}
+  function openQuickConvertDialog() {
+    if (document.querySelector("#quick-input")) return;
+    const backdrop = openModal(`
+    <div class="dialog quick-dialog" role="dialog" aria-modal="true">
+      <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(state.i18n.t("quick.title"))}</h2></div>
+      <div class="quick-body">
+        <div class="quick-input-column">
+          <label class="field-label" for="quick-input">${escapeHtml(state.i18n.t("add.dna"))}</label>
+          <textarea id="quick-input" class="input quick-input" spellcheck="false" placeholder="${escapeAttr(state.i18n.t("add.dnaPlaceholder"))}"></textarea>
+          <div class="format-row">
+            <label class="field-label" for="quick-format">${escapeHtml(state.i18n.t("add.format"))}</label>
+            <select id="quick-format" class="input">
+              <option value="auto">${escapeHtml(state.i18n.t("add.formatAuto"))}</option>
+              <option value="modern">${escapeHtml(state.i18n.t("add.formatModern"))}</option>
+              <option value="legacy">${escapeHtml(state.i18n.t("add.formatLegacy"))}</option>
+            </select>
           </div>
-        </div>`);
-      }
-    }
-    content.innerHTML = sections.length ? sections.join("") : `<div class="no-matches">${escapeHtml(state.i18n.t("genes.noMatches"))}</div>`;
-    $("gene-count").textContent = query || categoryFilter ? state.i18n.t("genes.countFiltered", shown, total) : state.i18n.t("genes.count", total);
-    updateDirtyUi();
-  }
-  function markGeneDirty() {
-    if (!state.currentId) return;
-    state.geneDirty = true;
-    updateDirtyUi();
-  }
-  function clearRawTokens(key) {
-    if (state.currentData) state.currentData.ruler.rawTokens.delete(key);
-  }
-  function handleGeneChange(event) {
-    if (!state.currentData) return;
-    const target = event.target;
-    if (!(target instanceof HTMLElement)) return;
-    if (target.dataset.extraIndex !== void 0) {
-      const index = Number(target.dataset.extraIndex);
-      const extra = state.currentData.extras[index];
-      if (!extra) return;
-      const side2 = target.dataset.side;
-      const field = target.dataset.field;
-      const value = Math.max(0, Math.min(255, Number(target.value) || 0));
-      if (field === "variant") {
-        extra.bytes[side2 === "first" ? 0 : 2] = value;
-        if (side2 === "first") extra.firstOption = "";
-        else extra.secondOption = "";
-        clearRawTokens(extra.key);
-        markGeneDirty();
+          <div id="quick-status" class="status-message">${escapeHtml(state.i18n.t("quick.hint"))}</div>
+        </div>
+        <div class="quick-output-column">
+          <label class="field-label">${escapeHtml(state.i18n.t("quick.output"))}</label>
+          <div class="quick-output-block">
+            <div class="quick-output-header">
+              <span class="field-label">${escapeHtml(state.i18n.t("detail.base64Tab"))}</span>
+              <button id="quick-copy-base64" class="btn" disabled>${escapeHtml(state.i18n.t("detail.copyBase64"))}</button>
+            </div>
+            <textarea id="quick-base64" class="input quick-output" readonly></textarea>
+          </div>
+          <div class="quick-output-block">
+            <div class="quick-output-header">
+              <span class="field-label">${escapeHtml(state.i18n.t("detail.rulerTab"))}</span>
+              <button id="quick-copy-ruler" class="btn" disabled>${escapeHtml(state.i18n.t("detail.copyRuler"))}</button>
+            </div>
+            <textarea id="quick-ruler" class="input quick-output" readonly></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="dialog-footer">
+        <button id="quick-close" class="btn primary" data-close>${escapeHtml(state.i18n.t("msg.close"))}</button>
+      </div>
+    </div>`);
+    const input = backdrop.querySelector("#quick-input");
+    const format = backdrop.querySelector("#quick-format");
+    const status = backdrop.querySelector("#quick-status");
+    const base64 = backdrop.querySelector("#quick-base64");
+    const ruler = backdrop.querySelector("#quick-ruler");
+    const copyBase642 = backdrop.querySelector("#quick-copy-base64");
+    const copyRuler2 = backdrop.querySelector("#quick-copy-ruler");
+    let timer = null;
+    const clearOutput = () => {
+      base64.value = "";
+      ruler.value = "";
+      copyBase642.disabled = true;
+      copyRuler2.disabled = true;
+    };
+    const validate = () => {
+      const text = input.value.trim();
+      if (!text) {
+        clearOutput();
+        status.className = "status-message";
+        status.textContent = state.i18n.t("quick.hint");
+        status.title = "";
         return;
       }
-      if (field === "strength") {
-        extra.bytes[side2 === "first" ? 1 : 3] = value;
-        clearRawTokens(extra.key);
-        markGeneDirty();
+      const parsed = parse(text, format.value, state.catalog, state.legacyCatalog);
+      if (!parsed.ok) {
+        clearOutput();
+        status.className = "status-message error";
+        status.textContent = parsed.error;
+        status.title = "";
         return;
       }
-      return;
-    }
-    const key = target.dataset.geneKey;
-    if (!key) return;
-    if (target.dataset.colorIndex !== void 0) {
-      const color = state.currentData.colors.get(key) || [0, 0, 0, 0];
-      const index = Number(target.dataset.colorIndex);
-      color[index] = Math.max(0, Math.min(255, Number(target.value) || 0));
-      state.currentData.colors.set(key, color);
-      clearRawTokens(key);
-      markGeneDirty();
-      return;
-    }
-    const pair = state.currentData.genes.get(key);
-    if (!pair) return;
-    const side = target.dataset.side === "second" ? pair.second : pair.first;
-    if (target.dataset.field === "intensity") {
-      side.intensity = Math.max(0, Math.min(255, Number(target.value) || 0));
-    } else {
-      side.variant = Number(target.value) || 0;
-    }
-    clearRawTokens(key);
-    markGeneDirty();
+      let message = conversionMessage(parsed);
+      const modded = parsed.data.extras.filter((extra) => extra.kind === ExtraGeneKind.Modded).length;
+      const rulerOnly = parsed.data.extras.filter((extra) => extra.kind === ExtraGeneKind.RulerOnly).length;
+      if (modded) message += state.i18n.t("add.moddedSuffix", modded);
+      if (rulerOnly) message += state.i18n.t("add.rulerOnlySuffix", rulerOnly);
+      if (parsed.warnings.length) message += `
+${state.i18n.t("add.warnings", parsed.warnings.length)}`;
+      status.className = `status-message ${parsed.warnings.length ? "warning" : "ok"}`;
+      status.textContent = message;
+      status.title = parsed.warnings.join("\n");
+      base64.value = toBase64(parsed.data, state.catalog);
+      ruler.value = toRuler(parsed.data, state.catalog);
+      copyBase642.disabled = !base64.value;
+      copyRuler2.disabled = !ruler.value;
+    };
+    input.addEventListener("input", () => {
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(validate, 180);
+    });
+    format.addEventListener("change", validate);
+    copyBase642.addEventListener("click", async () => {
+      if (await copyText(base64.value, "msg.copiedBase64")) {
+        status.className = "status-message ok";
+        status.textContent = state.i18n.t("msg.copiedBase64");
+        status.title = "";
+      }
+    });
+    copyRuler2.addEventListener("click", async () => {
+      if (await copyText(ruler.value, "msg.copiedRuler")) {
+        status.className = "status-message ok";
+        status.textContent = state.i18n.t("msg.copiedRuler");
+        status.title = "";
+      }
+    });
+    const close = () => {
+      if (timer) clearTimeout(timer);
+      closeModal(backdrop);
+    };
+    backdrop.querySelector("#quick-close").addEventListener("click", close);
+    backdrop.addEventListener("click", (event) => {
+      if (event.target === backdrop) close();
+    });
+    validate();
+    input.focus();
   }
-  function revertGenes() {
-    if (!state.baselineData) return;
-    state.currentData = cloneDnaData(state.baselineData);
-    state.geneDirty = false;
-    renderGeneEditor();
-    renderCodes();
-    renderMeta();
-    updateDirtyUi();
+
+  // js/ui/storage-dialog.js
+  async function openStorageDialog() {
+    const usage = state.store.usageBytes();
+    let folderStatus = "Not connected";
+    if (state.folder.connected) folderStatus = `Connected: ${state.folder.name}`;
+    else if (state.folder.needsPermission) folderStatus = `Reconnect needed: ${state.folder.name}`;
+    else if (state.folder.handle) folderStatus = `Remembered: ${state.folder.name}`;
+    const backdrop = openModal(`
+    <div class="dialog storage-dialog" role="dialog" aria-modal="true">
+      <div class="dialog-header"><h2 class="dialog-title">Storage &amp; backup</h2></div>
+      <div class="dialog-body">
+        <p>This web version stores its library in this browser's localStorage. Export a JSON backup regularly, or connect a folder to keep a synced copy next to the desktop database.</p>
+        <div class="storage-row"><span>Entries</span><strong>${state.entries.length}</strong></div>
+        <div class="storage-row"><span>Estimated storage used</span><strong>${formatBytes(usage)}</strong></div>
+        <div class="storage-row"><span>Primary storage</span><strong>Browser localStorage</strong></div>
+        <div class="storage-row"><span>Library folder</span><strong>${escapeHtml(folderStatus)}</strong></div>
+        <div class="storage-row">
+          <span>Startup source</span>
+          <select id="startup-source" class="input" style="width:220px">
+            <option value="local"${state.startupSource === "local" ? " selected" : ""}>Browser localStorage</option>
+            <option value="folder"${state.startupSource === "folder" ? " selected" : ""}>Connected folder</option>
+          </select>
+        </div>
+        ${state.folder.error ? `<p style="color:var(--danger)">${escapeHtml(state.folder.error)}</p>` : ""}
+        <p style="margin-top:16px">A connected folder is read from and written to <code>web-sync/library.json</code>. If that file does not exist, the app can read <code>dna.db</code> once and import it. The desktop database is never modified.</p>
+        ${isSupported() ? "" : '<p style="color:var(--warning)">This browser does not support direct folder access. JSON import/export and .db import still work.</p>'}
+      </div>
+      <div class="dialog-footer" style="flex-wrap:wrap;justify-content:flex-start">
+        ${state.folder.connected ? '<button class="btn" data-storage="sync">Sync now</button>' : state.folder.handle ? '<button class="btn" data-storage="reconnect">Reconnect folder</button>' : '<button class="btn" data-storage="connect">Connect folder</button>'}
+        <button class="btn" data-storage="disconnect"${state.folder.handle ? "" : " disabled"}>Disconnect</button>
+        <button class="btn" data-storage="import-db">Import .db</button>
+        <button class="btn" data-storage="import">Import JSON</button>
+        <button class="btn" data-storage="export">Export all</button>
+        <button class="btn danger" data-storage="clear">Clear library</button>
+        <button class="btn primary" data-storage="close">Close</button>
+      </div>
+    </div>`);
+    backdrop.querySelector('[data-storage="close"]').addEventListener("click", () => closeModal(backdrop));
+    backdrop.querySelector('[data-storage="export"]').addEventListener("click", () => {
+      closeModal(backdrop);
+      void exportAll();
+    });
+    backdrop.querySelector('[data-storage="import"]').addEventListener("click", () => {
+      closeModal(backdrop);
+      $("file-input").click();
+    });
+    backdrop.querySelector('[data-storage="import-db"]').addEventListener("click", () => {
+      closeModal(backdrop);
+      $("file-input").click();
+    });
+    backdrop.querySelector('[data-storage="connect"]')?.addEventListener("click", () => {
+      closeModal(backdrop);
+      void connectFolder();
+    });
+    backdrop.querySelector('[data-storage="reconnect"]')?.addEventListener("click", () => {
+      closeModal(backdrop);
+      void reconnectFolder();
+    });
+    backdrop.querySelector('[data-storage="sync"]')?.addEventListener("click", () => {
+      closeModal(backdrop);
+      void syncToFolder({ silent: false });
+    });
+    backdrop.querySelector('[data-storage="disconnect"]')?.addEventListener("click", () => {
+      closeModal(backdrop);
+      void disconnectFolder();
+    });
+    backdrop.querySelector("#startup-source")?.addEventListener("change", (event) => {
+      state.startupSource = event.target.value === "folder" ? "folder" : "local";
+      persistSettings({ startupSource: state.startupSource });
+      setStatus(state.startupSource === "folder" ? "Startup source: connected folder." : "Startup source: browser storage.");
+    });
+    backdrop.querySelector('[data-storage="clear"]').addEventListener("click", async () => {
+      closeModal(backdrop);
+      const confirmed = await showConfirm({
+        title: "Clear library",
+        text: "Delete every entry and portrait stored in this browser? This cannot be undone.",
+        confirmLabel: "Delete",
+        cancelLabel: state.i18n.t("msg.cancel"),
+        danger: true
+      });
+      if (!confirmed) return;
+      if (state.folder.connected) await disconnectFolder();
+      try {
+        state.store.clear();
+      } catch (error) {
+        await showError(state.i18n.t("msg.databaseError"), error.message);
+        return;
+      }
+      state.entries = [];
+      state.currentId = null;
+      state.currentData = null;
+      showWelcome();
+      refreshEntries();
+      scheduleFolderSync();
+      setStatus("Library cleared.");
+    });
+    backdrop.addEventListener("click", (event) => {
+      if (event.target === backdrop) closeModal(backdrop);
+    });
   }
-  function saveGenes() {
-    saveEntry(true);
-  }
+
+  // js/ui/menus.js
   function buildMenus() {
     const bar = $("menubar");
     bar.innerHTML = "";
@@ -10034,6 +10753,7 @@ ${entry.notes}`.toLowerCase().includes(needle);
         label: "menu.file",
         items: [
           { action: "new", label: "action.newEntry", shortcut: "Ctrl+N" },
+          { action: "quick-convert", label: "action.quickConvert" },
           { action: "import", label: "action.importLegacy", shortcut: "Ctrl+Shift+O" },
           { separator: true },
           { action: "export", label: "action.exportEntry", shortcut: "Ctrl+E" },
@@ -10135,6 +10855,9 @@ ${entry.notes}`.toLowerCase().includes(needle);
       case "new":
         void openAddDialog();
         break;
+      case "quick-convert":
+        openQuickConvertDialog();
+        break;
       case "import":
         $("file-input").click();
         break;
@@ -10217,519 +10940,8 @@ ${entry.notes}`.toLowerCase().includes(needle);
     applyTranslations();
     setStatus(state.i18n.t("status.ready"), 3e3);
   }
-  function openModal(html) {
-    const backdrop = document.createElement("div");
-    backdrop.className = "modal-backdrop";
-    backdrop.innerHTML = html;
-    $("modal-root").appendChild(backdrop);
-    return backdrop;
-  }
-  function closeModal(backdrop) {
-    if (backdrop?.parentElement) backdrop.remove();
-  }
-  function topModal() {
-    const root = $("modal-root");
-    return root.lastElementChild;
-  }
-  function showConfirm({ title, text, confirmLabel, cancelLabel, danger = false }) {
-    return new Promise((resolve) => {
-      const backdrop = openModal(`
-      <div class="dialog" role="dialog" aria-modal="true">
-        <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(title)}</h2></div>
-        <div class="dialog-body"><p>${escapeHtml(text)}</p></div>
-        <div class="dialog-footer">
-          <button class="btn" data-confirm="cancel">${escapeHtml(cancelLabel)}</button>
-          <button class="btn ${danger ? "danger" : "primary"}" data-confirm="ok">${escapeHtml(confirmLabel)}</button>
-        </div>
-      </div>`);
-      const finish = (value) => {
-        closeModal(backdrop);
-        resolve(value);
-      };
-      backdrop.querySelector('[data-confirm="cancel"]').addEventListener("click", () => finish(false));
-      backdrop.querySelector('[data-confirm="ok"]').addEventListener("click", () => finish(true));
-      backdrop.addEventListener("click", (event) => {
-        if (event.target === backdrop) finish(false);
-      });
-    });
-  }
-  function showUnsavedDialog() {
-    return new Promise((resolve) => {
-      const backdrop = openModal(`
-      <div class="dialog" role="dialog" aria-modal="true">
-        <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(state.i18n.t("msg.unsavedTitle"))}</h2></div>
-        <div class="dialog-body"><p>${escapeHtml(state.i18n.t("msg.unsavedText"))}</p></div>
-        <div class="dialog-footer">
-          <button class="btn" data-choice="cancel">${escapeHtml(state.i18n.t("msg.cancel"))}</button>
-          <button class="btn danger" data-choice="discard">${escapeHtml(state.i18n.t("msg.discard"))}</button>
-          <button class="btn primary" data-choice="save">${escapeHtml(state.i18n.t("msg.save"))}</button>
-        </div>
-      </div>`);
-      const finish = (value) => {
-        closeModal(backdrop);
-        resolve(value);
-      };
-      backdrop.querySelector('[data-choice="cancel"]').addEventListener("click", () => finish("cancel"));
-      backdrop.querySelector('[data-choice="discard"]').addEventListener("click", () => finish("discard"));
-      backdrop.querySelector('[data-choice="save"]').addEventListener("click", () => finish("save"));
-      backdrop.addEventListener("click", (event) => {
-        if (event.target === backdrop) finish("cancel");
-      });
-    });
-  }
-  function showInfo(title, text, warnings = []) {
-    return new Promise((resolve) => {
-      const warningHtml = warnings.length ? `<pre style="white-space:pre-wrap;color:var(--warning);font-size:12px;max-height:180px;overflow:auto">${escapeHtml(warnings.slice(0, 8).join("\n"))}</pre>` : "";
-      const backdrop = openModal(`
-      <div class="dialog" role="dialog" aria-modal="true" style="width:560px">
-        <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(title)}</h2></div>
-        <div class="dialog-body"><p>${escapeHtml(text)}</p>${warningHtml}</div>
-        <div class="dialog-footer"><button class="btn primary" data-close>${escapeHtml(state.i18n.t("msg.ok"))}</button></div>
-      </div>`);
-      const finish = () => {
-        closeModal(backdrop);
-        resolve();
-      };
-      backdrop.querySelector("[data-close]").addEventListener("click", finish);
-      backdrop.addEventListener("click", (event) => {
-        if (event.target === backdrop) finish();
-      });
-    });
-  }
-  function showError(title, text) {
-    return showInfo(title, text);
-  }
-  async function openAboutDialog() {
-    const backdrop = openModal(`
-    <div class="dialog about-dialog" role="dialog" aria-modal="true">
-      <div class="about-header">
-        <img class="about-icon" src="./assets/app.png" alt="">
-        <div>
-          <div class="about-title">${escapeHtml(state.i18n.t("about.title"))}</div>
-          <div class="about-tagline">${escapeHtml(state.i18n.t("about.version", "1.0.0"))}</div>
-        </div>
-      </div>
-      <div class="dialog-body">
-        <p class="about-text">${escapeHtml(state.i18n.t("about.tagline"))}</p>
-        <p class="about-text">${escapeHtml(state.i18n.t("about.description"))}</p>
-        <div class="about-links">
-          ${escapeHtml(state.i18n.t("about.repository"))} <a href="https://github.com/grnnk/CK3-DNA-Manager-Qt" target="_blank" rel="noopener">grnnk/CK3-DNA-Manager-Qt</a><br>
-          ${escapeHtml(state.i18n.t("about.original"))} <a href="https://github.com/Welshtokki/CK3_DNA_Manager" target="_blank" rel="noopener">Welshtokki/CK3_DNA_Manager</a><br>
-          ${escapeHtml(state.i18n.t("about.qt"))} <a href="https://www.qt.io" target="_blank" rel="noopener">qt.io</a>
-        </div>
-      </div>
-      <div class="dialog-footer"><button class="btn primary" data-close>${escapeHtml(state.i18n.t("msg.close"))}</button></div>
-    </div>`);
-    backdrop.querySelector("[data-close]").addEventListener("click", () => closeModal(backdrop));
-    backdrop.addEventListener("click", (event) => {
-      if (event.target === backdrop) closeModal(backdrop);
-    });
-  }
-  async function openStorageDialog() {
-    const usage = state.store.usageBytes();
-    let folderStatus = "Not connected";
-    if (state.folder.connected) folderStatus = `Connected: ${state.folder.name}`;
-    else if (state.folder.needsPermission) folderStatus = `Reconnect needed: ${state.folder.name}`;
-    else if (state.folder.handle) folderStatus = `Remembered: ${state.folder.name}`;
-    const backdrop = openModal(`
-    <div class="dialog storage-dialog" role="dialog" aria-modal="true">
-      <div class="dialog-header"><h2 class="dialog-title">Storage &amp; backup</h2></div>
-      <div class="dialog-body">
-        <p>This web version stores its library in this browser's localStorage. Export a JSON backup regularly, or connect a folder to keep a synced copy next to the desktop database.</p>
-        <div class="storage-row"><span>Entries</span><strong>${state.entries.length}</strong></div>
-        <div class="storage-row"><span>Estimated storage used</span><strong>${formatBytes(usage)}</strong></div>
-        <div class="storage-row"><span>Primary storage</span><strong>Browser localStorage</strong></div>
-        <div class="storage-row"><span>Library folder</span><strong>${escapeHtml(folderStatus)}</strong></div>
-        <div class="storage-row">
-          <span>Startup source</span>
-          <select id="startup-source" class="input" style="width:220px">
-            <option value="local"${state.startupSource === "local" ? " selected" : ""}>Browser localStorage</option>
-            <option value="folder"${state.startupSource === "folder" ? " selected" : ""}>Connected folder</option>
-          </select>
-        </div>
-        ${state.folder.error ? `<p style="color:var(--danger)">${escapeHtml(state.folder.error)}</p>` : ""}
-        <p style="margin-top:16px">A connected folder is read from and written to <code>web-sync/library.json</code>. If that file does not exist, the app can read <code>dna.db</code> once and import it. The desktop database is never modified.</p>
-        ${isSupported() ? "" : '<p style="color:var(--warning)">This browser does not support direct folder access. JSON import/export and .db import still work.</p>'}
-      </div>
-      <div class="dialog-footer" style="flex-wrap:wrap;justify-content:flex-start">
-        ${state.folder.connected ? '<button class="btn" data-storage="sync">Sync now</button>' : state.folder.handle ? '<button class="btn" data-storage="reconnect">Reconnect folder</button>' : '<button class="btn" data-storage="connect">Connect folder</button>'}
-        <button class="btn" data-storage="disconnect"${state.folder.handle ? "" : " disabled"}>Disconnect</button>
-        <button class="btn" data-storage="import-db">Import .db</button>
-        <button class="btn" data-storage="import">Import JSON</button>
-        <button class="btn" data-storage="export">Export all</button>
-        <button class="btn danger" data-storage="clear">Clear library</button>
-        <button class="btn primary" data-storage="close">Close</button>
-      </div>
-    </div>`);
-    backdrop.querySelector('[data-storage="close"]').addEventListener("click", () => closeModal(backdrop));
-    backdrop.querySelector('[data-storage="export"]').addEventListener("click", () => {
-      closeModal(backdrop);
-      void exportAll();
-    });
-    backdrop.querySelector('[data-storage="import"]').addEventListener("click", () => {
-      closeModal(backdrop);
-      $("file-input").click();
-    });
-    backdrop.querySelector('[data-storage="import-db"]').addEventListener("click", () => {
-      closeModal(backdrop);
-      $("file-input").click();
-    });
-    backdrop.querySelector('[data-storage="connect"]')?.addEventListener("click", () => {
-      closeModal(backdrop);
-      void connectFolder();
-    });
-    backdrop.querySelector('[data-storage="reconnect"]')?.addEventListener("click", () => {
-      closeModal(backdrop);
-      void reconnectFolder();
-    });
-    backdrop.querySelector('[data-storage="sync"]')?.addEventListener("click", () => {
-      closeModal(backdrop);
-      void syncToFolder({ silent: false });
-    });
-    backdrop.querySelector('[data-storage="disconnect"]')?.addEventListener("click", () => {
-      closeModal(backdrop);
-      void disconnectFolder();
-    });
-    backdrop.querySelector("#startup-source")?.addEventListener("change", (event) => {
-      state.startupSource = event.target.value === "folder" ? "folder" : "local";
-      persistSettings({ startupSource: state.startupSource });
-      setStatus(state.startupSource === "folder" ? "Startup source: connected folder." : "Startup source: browser storage.");
-    });
-    backdrop.querySelector('[data-storage="clear"]').addEventListener("click", async () => {
-      closeModal(backdrop);
-      const confirmed = await showConfirm({
-        title: "Clear library",
-        text: "Delete every entry and portrait stored in this browser? This cannot be undone.",
-        confirmLabel: "Delete",
-        cancelLabel: state.i18n.t("msg.cancel"),
-        danger: true
-      });
-      if (!confirmed) return;
-      if (state.folder.connected) await disconnectFolder();
-      try {
-        state.store.clear();
-      } catch (error) {
-        await showError(state.i18n.t("msg.databaseError"), error.message);
-        return;
-      }
-      state.entries = [];
-      state.currentId = null;
-      state.currentData = null;
-      showWelcome();
-      refreshEntries();
-      scheduleFolderSync();
-      setStatus("Library cleared.");
-    });
-    backdrop.addEventListener("click", (event) => {
-      if (event.target === backdrop) closeModal(backdrop);
-    });
-  }
-  async function setAddPortrait(blob) {
-    if (!state.add) return;
-    try {
-      const image = await loadImage(blob);
-      const portraitBlob = await encodePortrait(image, 1600);
-      const thumbnailBlob = await makeThumbnail(image, 96, 120);
-      if (!portraitBlob || !thumbnailBlob) throw new Error("The image could not be encoded.");
-      if (!state.add) return;
-      state.add.portraitDataUrl = await blobToDataUrl(portraitBlob);
-      state.add.thumbnailDataUrl = await blobToDataUrl(thumbnailBlob);
-      if (!state.add) return;
-      renderAddPortrait();
-      updateAddCreateButton();
-    } catch (error) {
-      await showError(state.i18n.t("msg.imageError", error.message), error.message);
-    }
-  }
-  function renderAddPortrait() {
-    if (!state.add) return;
-    const image = document.querySelector("#add-portrait-image");
-    const placeholder = document.querySelector("#add-portrait-placeholder");
-    if (!image || !placeholder) return;
-    if (state.add.portraitDataUrl) {
-      image.src = state.add.portraitDataUrl;
-      image.hidden = false;
-      placeholder.hidden = true;
-    } else {
-      image.removeAttribute("src");
-      image.hidden = true;
-      placeholder.hidden = false;
-    }
-  }
-  function updateAddCreateButton() {
-    if (!state.add) return;
-    const button = document.querySelector("#add-create");
-    if (button) button.disabled = !state.add.parsed;
-  }
-  function validateAdd() {
-    if (!state.add) return;
-    const dna = document.querySelector("#add-dna");
-    const status = document.querySelector("#add-status");
-    const text = dna.value.trim();
-    state.add.text = dna.value;
-    if (!text) {
-      status.className = "status-message";
-      status.textContent = state.i18n.t("add.pasteHint");
-      state.add.parsed = null;
-      updateAddCreateButton();
-      return;
-    }
-    const parsed = parse(text, state.add.hint, state.catalog, state.legacyCatalog);
-    state.add.parsed = parsed.ok ? parsed : null;
-    if (!parsed.ok) {
-      status.className = "status-message error";
-      status.textContent = parsed.error;
-      updateAddCreateButton();
-      return;
-    }
-    let message = "";
-    if (parsed.format === DnaFormat.LegacyBase64) {
-      message = state.i18n.t("add.detectedLegacy", parsed.geneCount);
-    } else if (parsed.format === DnaFormat.RulerDesigner) {
-      message = state.i18n.t("add.detectedRuler", parsed.geneCount);
-    } else {
-      message = state.i18n.t("add.detectedModern", parsed.geneCount);
-    }
-    const modded = parsed.data.extras.filter((extra) => extra.kind === ExtraGeneKind.Modded).length;
-    const rulerOnly = parsed.data.extras.filter((extra) => extra.kind === ExtraGeneKind.RulerOnly).length;
-    if (modded) message += state.i18n.t("add.moddedSuffix", modded);
-    if (rulerOnly) message += state.i18n.t("add.rulerOnlySuffix", rulerOnly);
-    if (parsed.warnings.length) message += `
-${state.i18n.t("add.warnings", parsed.warnings.length)}`;
-    status.className = `status-message ${parsed.warnings.length ? "warning" : "ok"}`;
-    status.textContent = message;
-    status.title = parsed.warnings.join("\n");
-    updateAddCreateButton();
-  }
-  async function openAddDialog(initialImage = null) {
-    if (state.add) return;
-    if (!await maybeLeaveCurrent()) return;
-    const backdrop = openModal(`
-    <div class="dialog add-dialog" role="dialog" aria-modal="true">
-      <div class="dialog-header"><h2 class="dialog-title">${escapeHtml(state.i18n.t("add.title"))}</h2></div>
-      <div class="add-body">
-        <div class="add-left">
-          <label class="field-label" for="add-name">${escapeHtml(state.i18n.t("add.name"))}</label>
-          <input id="add-name" class="input" placeholder="${escapeAttr(state.i18n.t("add.namePlaceholder"))}">
-          <label class="field-label" for="add-dna">${escapeHtml(state.i18n.t("add.dna"))}</label>
-          <textarea id="add-dna" class="input add-dna" spellcheck="false" placeholder="${escapeAttr(state.i18n.t("add.dnaPlaceholder"))}"></textarea>
-          <div class="format-row">
-            <label class="field-label" for="add-format">${escapeHtml(state.i18n.t("add.format"))}</label>
-            <select id="add-format" class="input">
-              <option value="auto">${escapeHtml(state.i18n.t("add.formatAuto"))}</option>
-              <option value="modern">${escapeHtml(state.i18n.t("add.formatModern"))}</option>
-              <option value="legacy">${escapeHtml(state.i18n.t("add.formatLegacy"))}</option>
-            </select>
-          </div>
-          <div id="add-status" class="status-message">${escapeHtml(state.i18n.t("add.pasteHint"))}</div>
-        </div>
-        <div class="add-right">
-          <label class="field-label">${escapeHtml(state.i18n.t("add.portrait"))}</label>
-          <div id="add-portrait" class="portrait add-portrait" tabindex="0">
-            <img id="add-portrait-image" alt="" hidden>
-            <div id="add-portrait-placeholder" class="portrait-placeholder">${escapeHtml(state.i18n.t("add.dropImage"))}</div>
-          </div>
-          <div class="add-image-buttons">
-            <button id="add-choose" class="btn">${escapeHtml(state.i18n.t("add.chooseImage"))}</button>
-            <button id="add-paste" class="btn">${escapeHtml(state.i18n.t("action.pasteImage"))}</button>
-            <button id="add-remove" class="btn danger">${escapeHtml(state.i18n.t("add.removeImage"))}</button>
-          </div>
-        </div>
-      </div>
-      <div class="dialog-footer">
-        <button id="add-cancel" class="btn">${escapeHtml(state.i18n.t("msg.cancel"))}</button>
-        <button id="add-create" class="btn primary" disabled>${escapeHtml(state.i18n.t("add.create"))}</button>
-      </div>
-    </div>`);
-    state.add = {
-      parsed: null,
-      hint: Base64Hint.Auto,
-      portraitDataUrl: "",
-      thumbnailDataUrl: ""
-    };
-    const fileInput = document.createElement("input");
-    fileInput.type = "file";
-    fileInput.accept = "image/*";
-    fileInput.hidden = true;
-    backdrop.appendChild(fileInput);
-    let timer = null;
-    const dna = backdrop.querySelector("#add-dna");
-    const name = backdrop.querySelector("#add-name");
-    const format = backdrop.querySelector("#add-format");
-    const portrait = backdrop.querySelector("#add-portrait");
-    dna.addEventListener("input", () => {
-      if (timer) clearTimeout(timer);
-      timer = setTimeout(validateAdd, 220);
-    });
-    name.addEventListener("input", updateAddCreateButton);
-    format.addEventListener("change", () => {
-      state.add.hint = format.value;
-      validateAdd();
-    });
-    const choose = () => fileInput.click();
-    backdrop.querySelector("#add-choose").addEventListener("click", choose);
-    portrait.addEventListener("click", choose);
-    fileInput.addEventListener("change", async () => {
-      const file = fileInput.files?.[0];
-      fileInput.value = "";
-      if (file) await setAddPortrait(file);
-    });
-    backdrop.querySelector("#add-paste").addEventListener("click", async () => {
-      const blob = await readClipboardImage();
-      if (!blob) {
-        setStatus(state.i18n.t("action.pasteImageHint"), 5e3);
-        return;
-      }
-      await setAddPortrait(blob);
-    });
-    backdrop.querySelector("#add-remove").addEventListener("click", () => {
-      state.add.portraitDataUrl = "";
-      state.add.thumbnailDataUrl = "";
-      renderAddPortrait();
-      updateAddCreateButton();
-    });
-    portrait.addEventListener("dragover", (event) => {
-      event.preventDefault();
-      portrait.classList.add("drag-active");
-    });
-    portrait.addEventListener("dragleave", () => portrait.classList.remove("drag-active"));
-    portrait.addEventListener("drop", async (event) => {
-      event.preventDefault();
-      portrait.classList.remove("drag-active");
-      const file = [...event.dataTransfer?.files || []].find(isImageFile);
-      if (file) await setAddPortrait(file);
-    });
-    const close = () => {
-      if (timer) clearTimeout(timer);
-      state.add = null;
-      closeModal(backdrop);
-    };
-    backdrop.querySelector("#add-cancel").addEventListener("click", close);
-    backdrop.addEventListener("click", (event) => {
-      if (event.target === backdrop) close();
-    });
-    backdrop.querySelector("#add-create").addEventListener("click", async () => {
-      validateAdd();
-      if (!state.add?.parsed) return;
-      const parsed = state.add.parsed;
-      const entryName = name.value.trim() || state.i18n.t("add.nameFallback");
-      try {
-        const record = state.store.insert({
-          name: entryName,
-          notes: "",
-          dna: bytesToBase64(toBytes(parsed.data, state.catalog)),
-          rulerMeta: serializeRulerMetadata(parsed.data),
-          favorite: false,
-          createdAt: Date.now(),
-          updatedAt: Date.now(),
-          hasPortrait: Boolean(state.add.portraitDataUrl)
-        });
-        if (state.add.portraitDataUrl) {
-          try {
-            state.store.setPortrait(record.id, state.add.portraitDataUrl, state.add.thumbnailDataUrl);
-          } catch (error) {
-            try {
-              state.store.update({ ...record, hasPortrait: false });
-            } catch {
-            }
-            await showError(state.i18n.t("msg.databaseError"), error.message);
-          }
-        }
-        close();
-        refreshEntries();
-        loadEntry(record.id);
-        scheduleFolderSync();
-        setStatus(state.i18n.t("msg.saved"));
-      } catch (error) {
-        await showError(state.i18n.t("msg.databaseError"), error.message);
-      }
-    });
-    if (initialImage) {
-      await setAddPortrait(initialImage);
-    }
-    name.focus();
-  }
-  async function importFromFile(file) {
-    if (!file) return;
-    const looksLikeSqlite = /\.(db|sqlite|sqlite3)$/i.test(file.name || "");
-    if (looksLikeSqlite) {
-      await importDatabaseFile(file);
-      return;
-    }
-    try {
-      const header = await file.slice(0, 16).text();
-      if (header.startsWith("SQLite format 3")) {
-        await importDatabaseFile(file);
-        return;
-      }
-    } catch {
-    }
-    setStatus("Importing…", 0);
-    let root;
-    try {
-      const text = await file.text();
-      root = JSON.parse(text);
-    } catch (error) {
-      await showError(state.i18n.t("msg.importTitle"), error.message);
-      setStatus(state.i18n.t("status.ready"));
-      return;
-    }
-    const result = await importLibrary(root, {
-      catalog: state.catalog,
-      legacyCatalog: state.legacyCatalog,
-      makePortraitFromBase64: async (base64) => {
-        const blob = base64ToBlob(base64, "image/png");
-        const image = await loadImage(blob);
-        const portraitBlob = await encodePortrait(image, 1600);
-        const thumbnailBlob = await makeThumbnail(image, 96, 120);
-        if (!portraitBlob || !thumbnailBlob) return null;
-        return {
-          portraitDataUrl: await blobToDataUrl(portraitBlob),
-          thumbnailDataUrl: await blobToDataUrl(thumbnailBlob)
-        };
-      }
-    });
-    if (!result.ok) {
-      await showError(state.i18n.t("msg.importTitle"), result.error);
-      setStatus(state.i18n.t("status.ready"));
-      return;
-    }
-    let firstId = null;
-    for (const entry of result.entries) {
-      try {
-        const record = state.store.insert({
-          name: entry.name,
-          notes: entry.notes,
-          dna: entry.dna,
-          rulerMeta: entry.rulerMeta,
-          favorite: entry.favorite,
-          createdAt: entry.createdAt,
-          updatedAt: entry.updatedAt,
-          hasPortrait: entry.hasPortrait
-        });
-        if (!firstId) firstId = record.id;
-        if (entry.hasPortrait && entry.portraitDataUrl) {
-          try {
-            state.store.setPortrait(record.id, entry.portraitDataUrl, entry.thumbnailDataUrl);
-          } catch (error) {
-            try {
-              state.store.update({ ...record, hasPortrait: false });
-            } catch {
-            }
-            result.warnings.push(`Could not store portrait for "${entry.name}": ${error.message}`);
-          }
-        }
-      } catch (error) {
-        result.warnings.push(`Could not import "${entry.name}": ${error.message}`);
-      }
-    }
-    refreshEntries();
-    if (firstId) loadEntry(firstId);
-    scheduleFolderSync();
-    const summary = state.i18n.t("msg.importSummary", result.imported, result.portraits, result.skipped);
-    await showInfo(state.i18n.t("msg.importTitle"), summary, result.warnings);
-    setStatus(state.i18n.t("status.ready"));
-  }
+
+  // js/ui/events.js
   function setupEvents() {
     $("search").addEventListener("input", () => {
       state.search = $("search").value;
@@ -10751,6 +10963,7 @@ ${state.i18n.t("add.warnings", parsed.warnings.length)}`;
     });
     $("new-button").addEventListener("click", () => void openAddDialog());
     $("welcome-new").addEventListener("click", () => void openAddDialog());
+    $("quick-convert-button").addEventListener("click", openQuickConvertDialog);
     $("import-button").addEventListener("click", () => $("file-input").click());
     $("welcome-import").addEventListener("click", () => $("file-input").click());
     $("file-input").addEventListener("change", () => {
@@ -10912,6 +11125,8 @@ ${state.i18n.t("add.warnings", parsed.warnings.length)}`;
       }
     });
   }
+
+  // js/ui/app.js
   async function boot() {
     const embedded = globalThis.__CK3DNA_ASSETS__;
     const base = new URL("./assets/", document.baseURI);

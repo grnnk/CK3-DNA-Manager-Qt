@@ -8,6 +8,7 @@ import { deleteCurrent, duplicateCurrent, renderCodes, renderHeader, renderMeta,
 import { openAboutDialog } from './dialogs.js';
 import { renderGeneCategories, renderGeneEditor } from './gene-editor.js';
 import { renderList } from './library.js';
+import { openQuickConvertDialog } from './quick-convert.js';
 import { openStorageDialog } from './storage-dialog.js';
 import { exportAll, exportCurrent } from './transfer.js';
 
@@ -21,6 +22,7 @@ export function buildMenus() {
       label: 'menu.file',
       items: [
         { action: 'new', label: 'action.newEntry', shortcut: 'Ctrl+N' },
+        { action: 'quick-convert', label: 'action.quickConvert' },
         { action: 'import', label: 'action.importLegacy', shortcut: 'Ctrl+Shift+O' },
         { separator: true },
         { action: 'export', label: 'action.exportEntry', shortcut: 'Ctrl+E' },
@@ -128,6 +130,7 @@ export function handleAction(action) {
   }
   switch (action) {
     case 'new': void openAddDialog(); break;
+    case 'quick-convert': openQuickConvertDialog(); break;
     case 'import': $('file-input').click(); break;
     case 'export': void exportCurrent(); break;
     case 'export-all': void exportAll(); break;

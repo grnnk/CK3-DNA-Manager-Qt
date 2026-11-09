@@ -9,6 +9,7 @@
 #include "ui/FlowLayout.h"
 #include "ui/GeneEditorWidget.h"
 #include "ui/PortraitWidget.h"
+#include "ui/QuickConvertDialog.h"
 
 #include <QAbstractItemView>
 #include <QAction>
@@ -278,6 +279,11 @@ void MainWindow::setupUi()
     buttonRow->addWidget(m_newButton);
     buttonRow->addWidget(m_importButton);
     sideLayout->addLayout(buttonRow);
+
+    m_quickConvertButton = new QPushButton(sidebar);
+    m_quickConvertButton->setObjectName(QStringLiteral("secondaryButton"));
+    m_quickConvertButton->setIcon(actionIcon(QStringLiteral("convert")));
+    sideLayout->addWidget(m_quickConvertButton);
 
     auto *languageRow = new QHBoxLayout();
     languageRow->setSpacing(8);
@@ -560,6 +566,7 @@ void MainWindow::setupUi()
 
     connect(m_newButton, &QPushButton::clicked, this, &MainWindow::newEntry);
     connect(m_importButton, &QPushButton::clicked, this, &MainWindow::importLegacy);
+    connect(m_quickConvertButton, &QPushButton::clicked, this, &MainWindow::quickConvert);
     connect(m_welcomeNewButton, &QPushButton::clicked, this, &MainWindow::newEntry);
     connect(m_welcomeImportButton, &QPushButton::clicked, this, &MainWindow::importLegacy);
     connect(m_favoriteButton, &QToolButton::toggled, this, &MainWindow::toggleFavorite);
@@ -619,6 +626,9 @@ void MainWindow::setupMenus()
     m_newAction = m_fileMenu->addAction(actionIcon(QStringLiteral("add")), QString());
     m_newAction->setShortcut(QKeySequence::New);
     connect(m_newAction, &QAction::triggered, this, &MainWindow::newEntry);
+
+    m_quickConvertAction = m_fileMenu->addAction(actionIcon(QStringLiteral("convert")), QString());
+    connect(m_quickConvertAction, &QAction::triggered, this, &MainWindow::quickConvert);
 
     m_importLegacyAction = m_fileMenu->addAction(actionIcon(QStringLiteral("import")), QString());
     m_importLegacyAction->setShortcut(QKeySequence(QStringLiteral("Ctrl+Shift+O")));
@@ -726,6 +736,7 @@ void MainWindow::retranslateUi()
     m_languageMenu->setTitle(m_i18n.t(QStringLiteral("app.language")));
 
     m_newAction->setText(m_i18n.t(QStringLiteral("action.newEntry")));
+    m_quickConvertAction->setText(m_i18n.t(QStringLiteral("action.quickConvert")));
     m_importLegacyAction->setText(m_i18n.t(QStringLiteral("action.importLegacy")));
     m_exportAction->setText(m_i18n.t(QStringLiteral("action.exportEntry")));
     m_exportAllAction->setText(m_i18n.t(QStringLiteral("action.exportAll")));
@@ -750,6 +761,7 @@ void MainWindow::retranslateUi()
     m_sortLabel->setText(m_i18n.t(QStringLiteral("library.sort")));
     m_newButton->setText(m_i18n.t(QStringLiteral("library.new")));
     m_importButton->setText(m_i18n.t(QStringLiteral("library.import")));
+    m_quickConvertButton->setText(m_i18n.t(QStringLiteral("quick.title")));
     m_languageLabel->setText(m_i18n.t(QStringLiteral("app.language")));
 
     {
@@ -1312,6 +1324,12 @@ bool MainWindow::maybeSaveBeforeLeave()
 void MainWindow::newEntry()
 {
     newEntryWithImage(QImage());
+}
+
+void MainWindow::quickConvert()
+{
+    QuickConvertDialog dialog(m_catalog, m_legacyCatalog, m_i18n, this);
+    dialog.exec();
 }
 
 void MainWindow::newEntryWithImage(const QImage &image)

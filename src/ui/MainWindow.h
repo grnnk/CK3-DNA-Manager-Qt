@@ -79,6 +79,7 @@ private:
 
     void newEntry();
     void newEntryWithImage(const QImage &image);
+    void quickConvert();
     void importLegacy();
     void exportCurrent();
     void exportAll();
@@ -139,6 +140,7 @@ private:
     QLabel *m_listEmptyHint = nullptr;
     QPushButton *m_newButton = nullptr;
     QPushButton *m_importButton = nullptr;
+    QPushButton *m_quickConvertButton = nullptr;
     QLabel *m_languageLabel = nullptr;
     QComboBox *m_languageCombo = nullptr;
 
@@ -187,6 +189,7 @@ private:
     QHash<QString, QAction *> m_languageActions;
 
     QAction *m_newAction = nullptr;
+    QAction *m_quickConvertAction = nullptr;
     QAction *m_importLegacyAction = nullptr;
     QAction *m_exportAction = nullptr;
     QAction *m_exportAllAction = nullptr;

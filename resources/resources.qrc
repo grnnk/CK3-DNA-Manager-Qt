@@ -8,6 +8,7 @@
         <file alias="icons/app.ico">icons/app.ico</file>
         <file alias="icons/add.svg">icons/add.svg</file>
         <file alias="icons/chevron.svg">icons/chevron.svg</file>
+        <file alias="icons/convert.svg">icons/convert.svg</file>
         <file alias="icons/copy.svg">icons/copy.svg</file>
         <file alias="icons/delete.svg">icons/delete.svg</file>
         <file alias="icons/duplicate.svg">icons/duplicate.svg</file>

@@ -179,7 +179,11 @@
       "about.original": "Inspired by CK3 DNA Manager by Welshtokki:",
       "about.qt": "Built with Qt 6 and SQLite:",
       "msg.importUnsupported": "This file is not a supported CK3 DNA Manager library or character export.",
-      "msg.importEmpty": "The selected file contains no characters."
+      "msg.importEmpty": "The selected file contains no characters.",
+      "action.quickConvert": "Quick DNA conversion…",
+      "quick.title": "Quick DNA conversion",
+      "quick.hint": "Paste a DNA code to convert it.",
+      "quick.output": "Converted output"
     },
     "de": {
       "app.title": "CK3 DNA Manager",
@@ -345,7 +349,11 @@
       "about.original": "Inspiriert von CK3 DNA Manager von Welshtokki:",
       "about.qt": "Erstellt mit Qt 6 und SQLite:",
       "msg.importUnsupported": "Diese Datei ist kein unterstützter CK3 DNA Manager-Bibliotheks- oder Charakterexport.",
-      "msg.importEmpty": "Die ausgewählte Datei enthält keine Charaktere."
+      "msg.importEmpty": "Die ausgewählte Datei enthält keine Charaktere.",
+      "action.quickConvert": "Schnelle DNA-Konvertierung…",
+      "quick.title": "Schnelle DNA-Konvertierung",
+      "quick.hint": "Füge einen DNA-Code ein, um ihn zu konvertieren.",
+      "quick.output": "Konvertierte Ausgabe"
     },
     "fr": {
       "app.title": "CK3 DNA Manager",
@@ -511,7 +519,11 @@
       "about.original": "Inspiré par CK3 DNA Manager de Welshtokki :",
       "about.qt": "Développé avec Qt 6 et SQLite :",
       "msg.importUnsupported": "Ce fichier n’est pas un export de bibliothèque ou de personnage CK3 DNA Manager pris en charge.",
-      "msg.importEmpty": "Le fichier sélectionné ne contient aucun personnage."
+      "msg.importEmpty": "Le fichier sélectionné ne contient aucun personnage.",
+      "action.quickConvert": "Conversion rapide de l'ADN…",
+      "quick.title": "Conversion rapide de l'ADN",
+      "quick.hint": "Collez un code ADN pour le convertir.",
+      "quick.output": "Résultat converti"
     },
     "zh": {
       "app.title": "CK3 DNA Manager",
@@ -677,7 +689,11 @@
       "about.original": "灵感来自 Welshtokki 的 CK3 DNA Manager：",
       "about.qt": "使用 Qt 6 和 SQLite 构建：",
       "msg.importUnsupported": "此文件不是受支持的 CK3 DNA Manager 库或角色导出文件。",
-      "msg.importEmpty": "所选文件不包含任何角色。"
+      "msg.importEmpty": "所选文件不包含任何角色。",
+      "action.quickConvert": "快速 DNA 转换…",
+      "quick.title": "快速 DNA 转换",
+      "quick.hint": "粘贴 DNA 代码即可转换。",
+      "quick.output": "转换结果"
     },
     "ru": {
       "app.title": "CK3 DNA Manager",
@@ -843,7 +859,11 @@
       "about.original": "Вдохновлено CK3 DNA Manager от Welshtokki:",
       "about.qt": "Создано с помощью Qt 6 и SQLite:",
       "msg.importUnsupported": "Этот файл не является поддерживаемым экспортом библиотеки или персонажа CK3 DNA Manager.",
-      "msg.importEmpty": "Выбранный файл не содержит персонажей."
+      "msg.importEmpty": "Выбранный файл не содержит персонажей.",
+      "action.quickConvert": "Быстрое преобразование ДНК…",
+      "quick.title": "Быстрое преобразование ДНК",
+      "quick.hint": "Вставьте код ДНК, чтобы преобразовать его.",
+      "quick.output": "Результат преобразования"
     },
     "es": {
       "app.title": "CK3 DNA Manager",
@@ -1009,7 +1029,11 @@
       "about.original": "Inspirado en CK3 DNA Manager de Welshtokki:",
       "about.qt": "Creado con Qt 6 y SQLite:",
       "msg.importUnsupported": "Este archivo no es una exportación compatible de biblioteca o personaje de CK3 DNA Manager.",
-      "msg.importEmpty": "El archivo seleccionado no contiene personajes."
+      "msg.importEmpty": "El archivo seleccionado no contiene personajes.",
+      "action.quickConvert": "Conversión rápida de ADN…",
+      "quick.title": "Conversión rápida de ADN",
+      "quick.hint": "Pega un código de ADN para convertirlo.",
+      "quick.output": "Resultado convertido"
     },
     "pt": {
       "app.title": "CK3 DNA Manager",
@@ -1175,7 +1199,11 @@
       "about.original": "Inspirado no CK3 DNA Manager de Welshtokki:",
       "about.qt": "Criado com Qt 6 e SQLite:",
       "msg.importUnsupported": "Este ficheiro não é uma exportação compatível de biblioteca ou personagem do CK3 DNA Manager.",
-      "msg.importEmpty": "O ficheiro selecionado não contém personagens."
+      "msg.importEmpty": "O ficheiro selecionado não contém personagens.",
+      "action.quickConvert": "Conversão rápida de ADN…",
+      "quick.title": "Conversão rápida de ADN",
+      "quick.hint": "Cole um código de DNA para convertê-lo.",
+      "quick.output": "Resultado convertido"
     },
     "pl": {
       "app.title": "CK3 DNA Manager",
@@ -1341,7 +1369,11 @@
       "about.original": "Inspirowane CK3 DNA Manager autorstwa Welshtokki:",
       "about.qt": "Zbudowano z Qt 6 i SQLite:",
       "msg.importUnsupported": "Ten plik nie jest obsługiwanym eksportem biblioteki lub postaci CK3 DNA Manager.",
-      "msg.importEmpty": "Wybrany plik nie zawiera żadnych postaci."
+      "msg.importEmpty": "Wybrany plik nie zawiera żadnych postaci.",
+      "action.quickConvert": "Szybka konwersja DNA…",
+      "quick.title": "Szybka konwersja DNA",
+      "quick.hint": "Wklej kod DNA, aby go przekonwertować.",
+      "quick.output": "Przekonwertowany wynik"
     },
     "ja": {
       "app.title": "CK3 DNA Manager",
@@ -1507,7 +1539,11 @@
       "about.original": "Welshtokki氏のCK3 DNA Managerにインスパイアされました：",
       "about.qt": "Qt 6とSQLiteで構築:",
       "msg.importUnsupported": "このファイルはサポートされているCK3 DNA Managerのライブラリまたはキャラクターのエクスポートではありません。",
-      "msg.importEmpty": "選択したファイルにはキャラクターがありません。"
+      "msg.importEmpty": "選択したファイルにはキャラクターがありません。",
+      "action.quickConvert": "DNA のクイック変換…",
+      "quick.title": "DNA のクイック変換",
+      "quick.hint": "DNA コードを貼り付けると変換できます。",
+      "quick.output": "変換結果"
     },
     "ko": {
       "app.title": "CK3 DNA Manager",
@@ -1673,7 +1709,11 @@
       "about.original": "Welshtokki의 CK3 DNA Manager에서 영감을 받았습니다:",
       "about.qt": "Qt 6 및 SQLite로 제작:",
       "msg.importUnsupported": "이 파일은 지원되는 CK3 DNA Manager 라이브러리 또는 캐릭터 내보내기 파일이 아닙니다.",
-      "msg.importEmpty": "선택한 파일에 캐릭터가 없습니다."
+      "msg.importEmpty": "선택한 파일에 캐릭터가 없습니다.",
+      "action.quickConvert": "빠른 DNA 변환…",
+      "quick.title": "빠른 DNA 변환",
+      "quick.hint": "DNA 코드를 붙여넣으면 변환됩니다.",
+      "quick.output": "변환 결과"
     },
     "it": {
       "app.title": "CK3 DNA Manager",
@@ -1839,7 +1879,11 @@
       "about.original": "Ispirato a CK3 DNA Manager di Welshtokki:",
       "about.qt": "Realizzato con Qt 6 e SQLite:",
       "msg.importUnsupported": "Questo file non è una libreria o un'esportazione di personaggi supportata da CK3 DNA Manager.",
-      "msg.importEmpty": "Il file selezionato non contiene personaggi."
+      "msg.importEmpty": "Il file selezionato non contiene personaggi.",
+      "action.quickConvert": "Conversione rapida del DNA…",
+      "quick.title": "Conversione rapida del DNA",
+      "quick.hint": "Incolla un codice DNA per convertirlo.",
+      "quick.output": "Risultato convertito"
     },
     "sv": {
       "app.title": "CK3 DNA Manager",
@@ -2005,7 +2049,11 @@
       "about.original": "Inspirerad av CK3 DNA Manager av Welshtokki:",
       "about.qt": "Byggt med Qt 6 och SQLite:",
       "msg.importUnsupported": "Den här filen är inte ett CK3 DNA Manager-bibliotek eller en karaktärsexport som stöds.",
-      "msg.importEmpty": "Den valda filen innehåller inga karaktärer."
+      "msg.importEmpty": "Den valda filen innehåller inga karaktärer.",
+      "action.quickConvert": "Snabb DNA-konvertering…",
+      "quick.title": "Snabb DNA-konvertering",
+      "quick.hint": "Klistra in en DNA-kod för att konvertera den.",
+      "quick.output": "Konverterat resultat"
     },
     "tr": {
       "app.title": "CK3 DNA Manager",
@@ -2171,7 +2219,11 @@
       "about.original": "Welshtokki'nin CK3 DNA Manager uygulamasından esinlenmiştir:",
       "about.qt": "Qt 6 ve SQLite ile geliştirilmiştir:",
       "msg.importUnsupported": "Bu dosya desteklenen bir CK3 DNA Manager kütüphanesi veya karakter dışa aktarımı değil.",
-      "msg.importEmpty": "Seçilen dosyada hiç karakter yok."
+      "msg.importEmpty": "Seçilen dosyada hiç karakter yok.",
+      "action.quickConvert": "Hızlı DNA dönüştürme…",
+      "quick.title": "Hızlı DNA dönüştürme",
+      "quick.hint": "Dönüştürmek için bir DNA kodu yapıştırın.",
+      "quick.output": "Dönüştürülen çıktı"
     }
   }
 }

@@ -398,6 +398,10 @@ input[type="search"]::-webkit-search-cancel-button {
   flex: 1;
 }
 
+.quick-convert {
+  width: 100%;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -1103,6 +1107,64 @@ input[type="search"]::-webkit-search-cancel-button {
   gap: 8px;
 }
 
+.quick-dialog {
+  width: 940px;
+  height: 640px;
+  min-width: 760px;
+  min-height: 560px;
+}
+
+.quick-body {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  min-height: 0;
+  padding: 0 20px;
+}
+
+.quick-input-column,
+.quick-output-column {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quick-input {
+  flex: 1;
+  min-height: 220px;
+  font-family: "Cascadia Mono", "Consolas", "DejaVu Sans Mono", monospace;
+  font-size: 12px;
+  resize: none;
+}
+
+.quick-output-block {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.quick-output-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quick-output-header .field-label {
+  flex: 1;
+}
+
+.quick-output {
+  flex: 1;
+  min-height: 120px;
+  font-family: "Cascadia Mono", "Consolas", "DejaVu Sans Mono", monospace;
+  font-size: 12px;
+  resize: none;
+}
+
 .about-dialog {
   width: 600px;
   min-width: 560px;
@@ -1259,5 +1321,20 @@ input[type="search"]::-webkit-search-cancel-button {
   .add-right {
     flex-basis: auto;
     width: 100%;
+  }
+
+  .quick-dialog {
+    width: 95vw;
+    min-width: 0;
+    height: 90vh;
+  }
+
+  .quick-body {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .quick-input {
+    min-height: 200px;
   }
 }

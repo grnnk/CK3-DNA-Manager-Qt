@@ -11,6 +11,7 @@ import { handleGeneChange, renderGeneEditor, revertGenes, saveGenes } from './ge
 import { renderList } from './library.js';
 import { changeLanguage } from './menus.js';
 import { pastePortrait, removePortrait, setPortraitFromBlob } from './portraits.js';
+import { openQuickConvertDialog } from './quick-convert.js';
 import { exportAll, exportCurrent, importFromFile } from './transfer.js';
 
 export function setupEvents() {
@@ -39,6 +40,7 @@ export function setupEvents() {
 
   $('new-button').addEventListener('click', () => void openAddDialog());
   $('welcome-new').addEventListener('click', () => void openAddDialog());
+  $('quick-convert-button').addEventListener('click', openQuickConvertDialog);
   $('import-button').addEventListener('click', () => $('file-input').click());
   $('welcome-import').addEventListener('click', () => $('file-input').click());
   $('file-input').addEventListener('change', () => {
